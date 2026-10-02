@@ -1,0 +1,5683 @@
+{
+  "threshold": 7.0,
+  "events": [
+    {
+      "label": "cyber_operational (impact 7.3)",
+      "scenario": {
+        "event_type": "cyber_operational",
+        "impact": 7.253,
+        "equity_shock": -0.05077100000000001,
+        "rate_shock_bps": 0.0,
+        "spread_shock_bps": 36.265,
+        "pd_multiplier": 1.108795,
+        "tickers": [
+          "TATAMOTORS"
+        ],
+        "sectors": [
+          "auto"
+        ],
+        "trigger_article_id": "news-0003",
+        "headline": "Tata Motors hit by cyber breach, systems shutdown for hours",
+        "triggered_at": "2026-09-28T05:33:00Z"
+      },
+      "trigger_ids": [
+        "news-0003"
+      ],
+      "value_before": 602345127.0,
+      "value_after": 601718340.7595183,
+      "pnl": -626786.2404817549,
+      "pnl_pct": -0.001040576593693859,
+      "pnl_by_asset_type": {
+        "loan": -215896.06185,
+        "bond": -410890.1786317549,
+        "derivative": 0.0,
+        "equity": 0.0
+      },
+      "by_asset": [
+        {
+          "asset_id": "LN001",
+          "asset_type": "loan",
+          "counterparty": "Reliance Industries",
+          "value_before": 77120000.0,
+          "value_after": 77120000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN002",
+          "asset_type": "loan",
+          "counterparty": "HDFC Bank",
+          "value_before": 34685000.0,
+          "value_after": 34685000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN003",
+          "asset_type": "loan",
+          "counterparty": "Tata Consultancy",
+          "value_before": 79280000.0,
+          "value_after": 79280000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN004",
+          "asset_type": "loan",
+          "counterparty": "Tata Motors",
+          "value_before": 49550000.0,
+          "value_after": 49334103.93815,
+          "pnl": -215896.06185
+        },
+        {
+          "asset_id": "LN005",
+          "asset_type": "loan",
+          "counterparty": "JP Morgan",
+          "value_before": 19280000.0,
+          "value_after": 19280000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN006",
+          "asset_type": "loan",
+          "counterparty": "Exxon Mobil",
+          "value_before": 34842500.0,
+          "value_after": 34842500.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN007",
+          "asset_type": "loan",
+          "counterparty": "Boeing",
+          "value_before": 19910000.0,
+          "value_after": 19910000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN008",
+          "asset_type": "loan",
+          "counterparty": "Pfizer",
+          "value_before": 34842500.0,
+          "value_after": 34842500.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN009",
+          "asset_type": "loan",
+          "counterparty": "Apple",
+          "value_before": 48200000.0,
+          "value_after": 48200000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN010",
+          "asset_type": "loan",
+          "counterparty": "Walmart",
+          "value_before": 34685000.0,
+          "value_after": 34685000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD011",
+          "asset_type": "bond",
+          "counterparty": "Reliance Industries",
+          "value_before": 24550327.0,
+          "value_after": 24550327.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD012",
+          "asset_type": "bond",
+          "counterparty": "HDFC Bank",
+          "value_before": 25492460.0,
+          "value_after": 25492460.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD013",
+          "asset_type": "bond",
+          "counterparty": "Tata Consultancy",
+          "value_before": 10030593.0,
+          "value_after": 10030593.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD014",
+          "asset_type": "bond",
+          "counterparty": "Tata Motors",
+          "value_before": 39576798.0,
+          "value_after": 39165907.82136825,
+          "pnl": -410890.1786317549
+        },
+        {
+          "asset_id": "BD015",
+          "asset_type": "bond",
+          "counterparty": "JP Morgan",
+          "value_before": 9770559.0,
+          "value_after": 9770559.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD016",
+          "asset_type": "bond",
+          "counterparty": "Exxon Mobil",
+          "value_before": 9649451.0,
+          "value_after": 9649451.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD017",
+          "asset_type": "bond",
+          "counterparty": "Boeing",
+          "value_before": 9778197.0,
+          "value_after": 9778197.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD018",
+          "asset_type": "bond",
+          "counterparty": "Pfizer",
+          "value_before": 10044958.0,
+          "value_after": 10044958.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV019",
+          "asset_type": "derivative",
+          "counterparty": "JP Morgan",
+          "value_before": 895101.0,
+          "value_after": 895101.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV020",
+          "asset_type": "derivative",
+          "counterparty": "Exxon Mobil",
+          "value_before": -972612.0,
+          "value_after": -972612.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV021",
+          "asset_type": "derivative",
+          "counterparty": "HDFC Bank",
+          "value_before": 398238.0,
+          "value_after": 398238.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV022",
+          "asset_type": "derivative",
+          "counterparty": "Tata Consultancy",
+          "value_before": 923805.0,
+          "value_after": 923805.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV023",
+          "asset_type": "derivative",
+          "counterparty": "Boeing",
+          "value_before": 51889.0,
+          "value_after": 51889.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV024",
+          "asset_type": "derivative",
+          "counterparty": "Reliance Industries",
+          "value_before": -239637.0,
+          "value_after": -239637.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "EQ025",
+          "asset_type": "equity",
+          "counterparty": "Boeing",
+          "value_before": 5000000.0,
+          "value_after": 5000000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "EQ026",
+          "asset_type": "equity",
+          "counterparty": "HDFC Bank",
+          "value_before": 10000000.0,
+          "value_after": 10000000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "EQ027",
+          "asset_type": "equity",
+          "counterparty": "Reliance Industries",
+          "value_before": 10000000.0,
+          "value_after": 10000000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "EQ028",
+          "asset_type": "equity",
+          "counterparty": "Apple",
+          "value_before": 5000000.0,
+          "value_after": 5000000.0,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "label": "regulatory (impact 7.0)",
+      "scenario": {
+        "event_type": "regulatory",
+        "impact": 7.047,
+        "equity_shock": -0.042282,
+        "rate_shock_bps": 17.6175,
+        "spread_shock_bps": 42.282,
+        "pd_multiplier": 1.14094,
+        "tickers": [
+          "PFE"
+        ],
+        "sectors": [
+          "pharma"
+        ],
+        "trigger_article_id": "news-0004",
+        "headline": "Regulator opens probe into Pfizer, fine possible",
+        "triggered_at": "2026-09-28T06:10:00Z"
+      },
+      "trigger_ids": [
+        "news-0004"
+      ],
+      "value_before": 602345127.0,
+      "value_after": 601275895.3544296,
+      "pnl": -1069231.645570383,
+      "pnl_pct": -0.0017751146272166703,
+      "pnl_by_asset_type": {
+        "loan": -636546.84219,
+        "bond": -432684.803380383,
+        "derivative": 0.0,
+        "equity": 0.0
+      },
+      "by_asset": [
+        {
+          "asset_id": "LN001",
+          "asset_type": "loan",
+          "counterparty": "Reliance Industries",
+          "value_before": 77120000.0,
+          "value_after": 77120000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN002",
+          "asset_type": "loan",
+          "counterparty": "HDFC Bank",
+          "value_before": 34685000.0,
+          "value_after": 34685000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN003",
+          "asset_type": "loan",
+          "counterparty": "Tata Consultancy",
+          "value_before": 79280000.0,
+          "value_after": 79280000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN004",
+          "asset_type": "loan",
+          "counterparty": "Tata Motors",
+          "value_before": 49550000.0,
+          "value_after": 49550000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN005",
+          "asset_type": "loan",
+          "counterparty": "JP Morgan",
+          "value_before": 19280000.0,
+          "value_after": 19280000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN006",
+          "asset_type": "loan",
+          "counterparty": "Exxon Mobil",
+          "value_before": 34842500.0,
+          "value_after": 34842500.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN007",
+          "asset_type": "loan",
+          "counterparty": "Boeing",
+          "value_before": 19910000.0,
+          "value_after": 19910000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN008",
+          "asset_type": "loan",
+          "counterparty": "Pfizer",
+          "value_before": 34842500.0,
+          "value_after": 34205953.15781,
+          "pnl": -636546.84219
+        },
+        {
+          "asset_id": "LN009",
+          "asset_type": "loan",
+          "counterparty": "Apple",
+          "value_before": 48200000.0,
+          "value_after": 48200000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN010",
+          "asset_type": "loan",
+          "counterparty": "Walmart",
+          "value_before": 34685000.0,
+          "value_after": 34685000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD011",
+          "asset_type": "bond",
+          "counterparty": "Reliance Industries",
+          "value_before": 24550327.0,
+          "value_after": 24550327.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD012",
+          "asset_type": "bond",
+          "counterparty": "HDFC Bank",
+          "value_before": 25492460.0,
+          "value_after": 25492460.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD013",
+          "asset_type": "bond",
+          "counterparty": "Tata Consultancy",
+          "value_before": 10030593.0,
+          "value_after": 10030593.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD014",
+          "asset_type": "bond",
+          "counterparty": "Tata Motors",
+          "value_before": 39576798.0,
+          "value_after": 39576798.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD015",
+          "asset_type": "bond",
+          "counterparty": "JP Morgan",
+          "value_before": 9770559.0,
+          "value_after": 9770559.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD016",
+          "asset_type": "bond",
+          "counterparty": "Exxon Mobil",
+          "value_before": 9649451.0,
+          "value_after": 9649451.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD017",
+          "asset_type": "bond",
+          "counterparty": "Boeing",
+          "value_before": 9778197.0,
+          "value_after": 9778197.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD018",
+          "asset_type": "bond",
+          "counterparty": "Pfizer",
+          "value_before": 10044958.0,
+          "value_after": 9612273.196619617,
+          "pnl": -432684.803380383
+        },
+        {
+          "asset_id": "DV019",
+          "asset_type": "derivative",
+          "counterparty": "JP Morgan",
+          "value_before": 895101.0,
+          "value_after": 895101.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV020",
+          "asset_type": "derivative",
+          "counterparty": "Exxon Mobil",
+          "value_before": -972612.0,
+          "value_after": -972612.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV021",
+          "asset_type": "derivative",
+          "counterparty": "HDFC Bank",
+          "value_before": 398238.0,
+          "value_after": 398238.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV022",
+          "asset_type": "derivative",
+          "counterparty": "Tata Consultancy",
+          "value_before": 923805.0,
+          "value_after": 923805.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV023",
+          "asset_type": "derivative",
+          "counterparty": "Boeing",
+          "value_before": 51889.0,
+          "value_after": 51889.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV024",
+          "asset_type": "derivative",
+          "counterparty": "Reliance Industries",
+          "value_before": -239637.0,
+          "value_after": -239637.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "EQ025",
+          "asset_type": "equity",
+          "counterparty": "Boeing",
+          "value_before": 5000000.0,
+          "value_after": 5000000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "EQ026",
+          "asset_type": "equity",
+          "counterparty": "HDFC Bank",
+          "value_before": 10000000.0,
+          "value_after": 10000000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "EQ027",
+          "asset_type": "equity",
+          "counterparty": "Reliance Industries",
+          "value_before": 10000000.0,
+          "value_after": 10000000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "EQ028",
+          "asset_type": "equity",
+          "counterparty": "Apple",
+          "value_before": 5000000.0,
+          "value_after": 5000000.0,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "label": "geopolitical (impact 7.3)",
+      "scenario": {
+        "event_type": "geopolitical",
+        "impact": 7.334,
+        "equity_shock": -0.11000999999999998,
+        "rate_shock_bps": 55.004999999999995,
+        "spread_shock_bps": 110.00999999999999,
+        "pd_multiplier": 1.44004,
+        "tickers": [],
+        "sectors": [],
+        "trigger_article_id": "news-0005",
+        "headline": "Missile conflict and new sanctions threaten oil supply; markets slump",
+        "triggered_at": "2026-09-28T06:50:00Z"
+      },
+      "trigger_ids": [
+        "news-0005"
+      ],
+      "value_before": 602345127.0,
+      "value_after": 547577253.0875462,
+      "pnl": -54767873.9124538,
+      "pnl_pct": -0.09092440771493748,
+      "pnl_by_asset_type": {
+        "loan": -15388055.9795175,
+        "bond": -11533756.702936303,
+        "derivative": -24490756.229999997,
+        "equity": -3355304.9999999995
+      },
+      "by_asset": [
+        {
+          "asset_id": "LN001",
+          "asset_type": "loan",
+          "counterparty": "Reliance Industries",
+          "value_before": 77120000.0,
+          "value_after": 72571820.48672,
+          "pnl": -4548179.513280001
+        },
+        {
+          "asset_id": "LN002",
+          "asset_type": "loan",
+          "counterparty": "HDFC Bank",
+          "value_before": 34685000.0,
+          "value_after": 33207077.80565,
+          "pnl": -1477922.19435
+        },
+        {
+          "asset_id": "LN003",
+          "asset_type": "loan",
+          "counterparty": "Tata Consultancy",
+          "value_before": 79280000.0,
+          "value_after": 78179368.43168,
+          "pnl": -1100631.5683199998
+        },
+        {
+          "asset_id": "LN004",
+          "asset_type": "loan",
+          "counterparty": "Tata Motors",
+          "value_before": 49550000.0,
+          "value_after": 48523063.80065,
+          "pnl": -1026936.19935
+        },
+        {
+          "asset_id": "LN005",
+          "asset_type": "loan",
+          "counterparty": "JP Morgan",
+          "value_before": 19280000.0,
+          "value_after": 18133863.0152,
+          "pnl": -1146136.9848
+        },
+        {
+          "asset_id": "LN006",
+          "asset_type": "loan",
+          "counterparty": "Exxon Mobil",
+          "value_before": 34842500.0,
+          "value_after": 32968512.708005,
+          "pnl": -1873987.2919949999
+        },
+        {
+          "asset_id": "LN007",
+          "asset_type": "loan",
+          "counterparty": "Boeing",
+          "value_before": 19910000.0,
+          "value_after": 19560924.95879,
+          "pnl": -349075.04120999994
+        },
+        {
+          "asset_id": "LN008",
+          "asset_type": "loan",
+          "counterparty": "Pfizer",
+          "value_before": 34842500.0,
+          "value_after": 33589970.5565375,
+          "pnl": -1252529.4434624999
+        },
+        {
+          "asset_id": "LN009",
+          "asset_type": "loan",
+          "counterparty": "Apple",
+          "value_before": 48200000.0,
+          "value_after": 46776673.0184,
+          "pnl": -1423326.9816
+        },
+        {
+          "asset_id": "LN010",
+          "asset_type": "loan",
+          "counterparty": "Walmart",
+          "value_before": 34685000.0,
+          "value_after": 33495669.23885,
+          "pnl": -1189330.76115
+        },
+        {
+          "asset_id": "BD011",
+          "asset_type": "bond",
+          "counterparty": "Reliance Industries",
+          "value_before": 24550327.0,
+          "value_after": 23093660.219007157,
+          "pnl": -1456666.7809928423
+        },
+        {
+          "asset_id": "BD012",
+          "asset_type": "bond",
+          "counterparty": "HDFC Bank",
+          "value_before": 25492460.0,
+          "value_after": 23168544.262199804,
+          "pnl": -2323915.737800196
+        },
+        {
+          "asset_id": "BD013",
+          "asset_type": "bond",
+          "counterparty": "Tata Consultancy",
+          "value_before": 10030593.0,
+          "value_after": 9181125.776070774,
+          "pnl": -849467.2239292273
+        },
+        {
+          "asset_id": "BD014",
+          "asset_type": "bond",
+          "counterparty": "Tata Motors",
+          "value_before": 39576798.0,
+          "value_after": 36773743.45855491,
+          "pnl": -2803054.5414450895
+        },
+        {
+          "asset_id": "BD015",
+          "asset_type": "bond",
+          "counterparty": "JP Morgan",
+          "value_before": 9770559.0,
+          "value_after": 8922822.571128188,
+          "pnl": -847736.4288718117
+        },
+        {
+          "asset_id": "BD016",
+          "asset_type": "bond",
+          "counterparty": "Exxon Mobil",
+          "value_before": 9649451.0,
+          "value_after": 8228666.41019398,
+          "pnl": -1420784.58980602
+        },
+        {
+          "asset_id": "BD017",
+          "asset_type": "bond",
+          "counterparty": "Boeing",
+          "value_before": 9778197.0,
+          "value_after": 8891462.999813553,
+          "pnl": -886734.0001864475
+        },
+        {
+          "asset_id": "BD018",
+          "asset_type": "bond",
+          "counterparty": "Pfizer",
+          "value_before": 10044958.0,
+          "value_after": 9099560.60009533,
+          "pnl": -945397.3999046702
+        },
+        {
+          "asset_id": "DV019",
+          "asset_type": "derivative",
+          "counterparty": "JP Morgan",
+          "value_before": 895101.0,
+          "value_after": -1041240.0149999997,
+          "pnl": -1936341.0149999997
+        },
+        {
+          "asset_id": "DV020",
+          "asset_type": "derivative",
+          "counterparty": "Exxon Mobil",
+          "value_before": -972612.0,
+          "value_after": -3504437.144999999,
+          "pnl": -2531825.144999999
+        },
+        {
+          "asset_id": "DV021",
+          "asset_type": "derivative",
+          "counterparty": "HDFC Bank",
+          "value_before": 398238.0,
+          "value_after": -4468549.395,
+          "pnl": -4866787.395
+        },
+        {
+          "asset_id": "DV022",
+          "asset_type": "derivative",
+          "counterparty": "Tata Consultancy",
+          "value_before": 923805.0,
+          "value_after": -2133867.944999999,
+          "pnl": -3057672.944999999
+        },
+        {
+          "asset_id": "DV023",
+          "asset_type": "derivative",
+          "counterparty": "Boeing",
+          "value_before": 51889.0,
+          "value_after": -2132194.5349999997,
+          "pnl": -2184083.5349999997
+        },
+        {
+          "asset_id": "DV024",
+          "asset_type": "derivative",
+          "counterparty": "Reliance Industries",
+          "value_before": -239637.0,
+          "value_after": -10153683.194999998,
+          "pnl": -9914046.194999998
+        },
+        {
+          "asset_id": "EQ025",
+          "asset_type": "equity",
+          "counterparty": "Boeing",
+          "value_before": 5000000.0,
+          "value_after": 4504955.0,
+          "pnl": -495044.99999999994
+        },
+        {
+          "asset_id": "EQ026",
+          "asset_type": "equity",
+          "counterparty": "HDFC Bank",
+          "value_before": 10000000.0,
+          "value_after": 8899900.0,
+          "pnl": -1100099.9999999998
+        },
+        {
+          "asset_id": "EQ027",
+          "asset_type": "equity",
+          "counterparty": "Reliance Industries",
+          "value_before": 10000000.0,
+          "value_after": 8569870.0,
+          "pnl": -1430129.9999999998
+        },
+        {
+          "asset_id": "EQ028",
+          "asset_type": "equity",
+          "counterparty": "Apple",
+          "value_before": 5000000.0,
+          "value_after": 4669970.0,
+          "pnl": -330029.9999999999
+        }
+      ]
+    },
+    {
+      "label": "geopolitical (impact 7.1)",
+      "scenario": {
+        "event_type": "geopolitical",
+        "impact": 7.08,
+        "equity_shock": -0.10619999999999999,
+        "rate_shock_bps": 53.099999999999994,
+        "spread_shock_bps": 106.19999999999999,
+        "pd_multiplier": 1.4248,
+        "tickers": [
+          "RELIANCE"
+        ],
+        "sectors": [
+          "energy"
+        ],
+        "trigger_article_id": "news-0008",
+        "headline": "Missile conflict and new sanctions threaten oil supply; markets slump",
+        "triggered_at": "2026-09-28T08:54:00Z"
+      },
+      "trigger_ids": [
+        "news-0008"
+      ],
+      "value_before": 602345127.0,
+      "value_after": 549454141.2410583,
+      "pnl": -52890985.758941665,
+      "pnl_pct": -0.08780843969364703,
+      "pnl_by_asset_type": {
+        "loan": -14855118.125850001,
+        "bond": -11154205.03309166,
+        "derivative": -23642562.6,
+        "equity": -3239100.0
+      },
+      "by_asset": [
+        {
+          "asset_id": "LN001",
+          "asset_type": "loan",
+          "counterparty": "Reliance Industries",
+          "value_before": 77120000.0,
+          "value_after": 72729338.5664,
+          "pnl": -4390661.4336
+        },
+        {
+          "asset_id": "LN002",
+          "asset_type": "loan",
+          "counterparty": "HDFC Bank",
+          "value_before": 34685000.0,
+          "value_after": 33258263.003,
+          "pnl": -1426736.997
+        },
+        {
+          "asset_id": "LN003",
+          "asset_type": "loan",
+          "counterparty": "Tata Consultancy",
+          "value_before": 79280000.0,
+          "value_after": 78217486.8416,
+          "pnl": -1062513.1583999998
+        },
+        {
+          "asset_id": "LN004",
+          "asset_type": "loan",
+          "counterparty": "Tata Motors",
+          "value_before": 49550000.0,
+          "value_after": 48558629.903,
+          "pnl": -991370.097
+        },
+        {
+          "asset_id": "LN005",
+          "asset_type": "loan",
+          "counterparty": "JP Morgan",
+          "value_before": 19280000.0,
+          "value_after": 18173557.424,
+          "pnl": -1106442.576
+        },
+        {
+          "asset_id": "LN006",
+          "asset_type": "loan",
+          "counterparty": "Exxon Mobil",
+          "value_before": 34842500.0,
+          "value_after": 33033414.9131,
+          "pnl": -1809085.0869
+        },
+        {
+          "asset_id": "LN007",
+          "asset_type": "loan",
+          "counterparty": "Boeing",
+          "value_before": 19910000.0,
+          "value_after": 19573014.5498,
+          "pnl": -336985.45019999996
+        },
+        {
+          "asset_id": "LN008",
+          "asset_type": "loan",
+          "counterparty": "Pfizer",
+          "value_before": 34842500.0,
+          "value_after": 33633349.67825,
+          "pnl": -1209150.3217499997
+        },
+        {
+          "asset_id": "LN009",
+          "asset_type": "loan",
+          "counterparty": "Apple",
+          "value_before": 48200000.0,
+          "value_after": 46825967.408,
+          "pnl": -1374032.592
+        },
+        {
+          "asset_id": "LN010",
+          "asset_type": "loan",
+          "counterparty": "Walmart",
+          "value_before": 34685000.0,
+          "value_after": 33536859.587,
+          "pnl": -1148140.413
+        },
+        {
+          "asset_id": "BD011",
+          "asset_type": "bond",
+          "counterparty": "Reliance Industries",
+          "value_before": 24550327.0,
+          "value_after": 23142487.155513626,
+          "pnl": -1407839.8444863746
+        },
+        {
+          "asset_id": "BD012",
+          "asset_type": "bond",
+          "counterparty": "HDFC Bank",
+          "value_before": 25492460.0,
+          "value_after": 23245250.62100801,
+          "pnl": -2247209.378991993
+        },
+        {
+          "asset_id": "BD013",
+          "asset_type": "bond",
+          "counterparty": "Tata Consultancy",
+          "value_before": 10030593.0,
+          "value_after": 9209127.042501315,
+          "pnl": -821465.9574986841
+        },
+        {
+          "asset_id": "BD014",
+          "asset_type": "bond",
+          "counterparty": "Tata Motors",
+          "value_before": 39576798.0,
+          "value_after": 36866953.83382208,
+          "pnl": -2709844.1661779243
+        },
+        {
+          "asset_id": "BD015",
+          "asset_type": "bond",
+          "counterparty": "JP Morgan",
+          "value_before": 9770559.0,
+          "value_after": 8950754.743789645,
+          "pnl": -819804.2562103554
+        },
+        {
+          "asset_id": "BD016",
+          "asset_type": "bond",
+          "counterparty": "Exxon Mobil",
+          "value_before": 9649451.0,
+          "value_after": 8273326.269685423,
+          "pnl": -1376124.7303145772
+        },
+        {
+          "asset_id": "BD017",
+          "asset_type": "bond",
+          "counterparty": "Boeing",
+          "value_before": 9778197.0,
+          "value_after": 8920728.750801917,
+          "pnl": -857468.2491980823
+        },
+        {
+          "asset_id": "BD018",
+          "asset_type": "bond",
+          "counterparty": "Pfizer",
+          "value_before": 10044958.0,
+          "value_after": 9130509.549786331,
+          "pnl": -914448.4502136689
+        },
+        {
+          "asset_id": "DV019",
+          "asset_type": "derivative",
+          "counterparty": "JP Morgan",
+          "value_before": 895101.0,
+          "value_after": -974178.2999999998,
+          "pnl": -1869279.2999999998
+        },
+        {
+          "asset_id": "DV020",
+          "asset_type": "derivative",
+          "counterparty": "Exxon Mobil",
+          "value_before": -972612.0,
+          "value_after": -3416751.8999999994,
+          "pnl": -2444139.8999999994
+        },
+        {
+          "asset_id": "DV021",
+          "asset_type": "derivative",
+          "counterparty": "HDFC Bank",
+          "value_before": 398238.0,
+          "value_after": -4299996.9,
+          "pnl": -4698234.9
+        },
+        {
+          "asset_id": "DV022",
+          "asset_type": "derivative",
+          "counterparty": "Tata Consultancy",
+          "value_before": 923805.0,
+          "value_after": -2027970.8999999994,
+          "pnl": -2951775.8999999994
+        },
+        {
+          "asset_id": "DV023",
+          "asset_type": "derivative",
+          "counterparty": "Boeing",
+          "value_before": 51889.0,
+          "value_after": -2056552.7000000002,
+          "pnl": -2108441.7
+        },
+        {
+          "asset_id": "DV024",
+          "asset_type": "derivative",
+          "counterparty": "Reliance Industries",
+          "value_before": -239637.0,
+          "value_after": -9810327.9,
+          "pnl": -9570690.9
+        },
+        {
+          "asset_id": "EQ025",
+          "asset_type": "equity",
+          "counterparty": "Boeing",
+          "value_before": 5000000.0,
+          "value_after": 4522100.0,
+          "pnl": -477900.0
+        },
+        {
+          "asset_id": "EQ026",
+          "asset_type": "equity",
+          "counterparty": "HDFC Bank",
+          "value_before": 10000000.0,
+          "value_after": 8938000.0,
+          "pnl": -1062000.0
+        },
+        {
+          "asset_id": "EQ027",
+          "asset_type": "equity",
+          "counterparty": "Reliance Industries",
+          "value_before": 10000000.0,
+          "value_after": 8619400.0,
+          "pnl": -1380599.9999999998
+        },
+        {
+          "asset_id": "EQ028",
+          "asset_type": "equity",
+          "counterparty": "Apple",
+          "value_before": 5000000.0,
+          "value_after": 4681400.0,
+          "pnl": -318599.99999999994
+        }
+      ]
+    },
+    {
+      "label": "macroeconomic (impact 7.1)",
+      "scenario": {
+        "event_type": "macroeconomic",
+        "impact": 7.105,
+        "equity_shock": -0.08526,
+        "rate_shock_bps": 142.1,
+        "spread_shock_bps": 71.05,
+        "pd_multiplier": 1.35525,
+        "tickers": [
+          "PFE"
+        ],
+        "sectors": [
+          "pharma"
+        ],
+        "trigger_article_id": "news-0014",
+        "headline": "RBI rate hike and inflation fears hit Pfizer as GDP slumps",
+        "triggered_at": "2026-09-28T12:52:00Z"
+      },
+      "trigger_ids": [
+        "news-0014"
+      ],
+      "value_before": 602345127.0,
+      "value_after": 550916109.3828387,
+      "pnl": -51429017.617161214,
+      "pnl_pct": -0.08538131265924762,
+      "pnl_by_asset_type": {
+        "loan": -10720800.754124999,
+        "bond": -15096681.263036216,
+        "derivative": -22840585.6,
+        "equity": -2770950.0
+      },
+      "by_asset": [
+        {
+          "asset_id": "LN001",
+          "asset_type": "loan",
+          "counterparty": "Reliance Industries",
+          "value_before": 77120000.0,
+          "value_after": 74655804.112,
+          "pnl": -2464195.888
+        },
+        {
+          "asset_id": "LN002",
+          "asset_type": "loan",
+          "counterparty": "HDFC Bank",
+          "value_before": 34685000.0,
+          "value_after": 33317343.70055,
+          "pnl": -1367656.2994499998
+        },
+        {
+          "asset_id": "LN003",
+          "asset_type": "loan",
+          "counterparty": "Tata Consultancy",
+          "value_before": 79280000.0,
+          "value_after": 78414873.60080001,
+          "pnl": -865126.3991999999
+        },
+        {
+          "asset_id": "LN004",
+          "asset_type": "loan",
+          "counterparty": "Tata Motors",
+          "value_before": 49550000.0,
+          "value_after": 48781086.2425,
+          "pnl": -768913.7575
+        },
+        {
+          "asset_id": "LN005",
+          "asset_type": "loan",
+          "counterparty": "JP Morgan",
+          "value_before": 19280000.0,
+          "value_after": 18172055.3944,
+          "pnl": -1107944.6056
+        },
+        {
+          "asset_id": "LN006",
+          "asset_type": "loan",
+          "counterparty": "Exxon Mobil",
+          "value_before": 34842500.0,
+          "value_after": 33900297.77925,
+          "pnl": -942202.2207499999
+        },
+        {
+          "asset_id": "LN007",
+          "asset_type": "loan",
+          "counterparty": "Boeing",
+          "value_before": 19910000.0,
+          "value_after": 19653105.2255,
+          "pnl": -256894.77449999997
+        },
+        {
+          "asset_id": "LN008",
+          "asset_type": "loan",
+          "counterparty": "Pfizer",
+          "value_before": 34842500.0,
+          "value_after": 33932480.054375,
+          "pnl": -910019.9456249999
+        },
+        {
+          "asset_id": "LN009",
+          "asset_type": "loan",
+          "counterparty": "Apple",
+          "value_before": 48200000.0,
+          "value_after": 47038011.354,
+          "pnl": -1161988.6459999997
+        },
+        {
+          "asset_id": "LN010",
+          "asset_type": "loan",
+          "counterparty": "Walmart",
+          "value_before": 34685000.0,
+          "value_after": 33809141.7825,
+          "pnl": -875858.2174999999
+        },
+        {
+          "asset_id": "BD011",
+          "asset_type": "bond",
+          "counterparty": "Reliance Industries",
+          "value_before": 24550327.0,
+          "value_after": 23000990.63332346,
+          "pnl": -1549336.3666765406
+        },
+        {
+          "asset_id": "BD012",
+          "asset_type": "bond",
+          "counterparty": "HDFC Bank",
+          "value_before": 25492460.0,
+          "value_after": 22216723.93221912,
+          "pnl": -3275736.0677808775
+        },
+        {
+          "asset_id": "BD013",
+          "asset_type": "bond",
+          "counterparty": "Tata Consultancy",
+          "value_before": 10030593.0,
+          "value_after": 8730967.916063404,
+          "pnl": -1299625.0839365968
+        },
+        {
+          "asset_id": "BD014",
+          "asset_type": "bond",
+          "counterparty": "Tata Motors",
+          "value_before": 39576798.0,
+          "value_after": 35776309.24722784,
+          "pnl": -3800488.7527721617
+        },
+        {
+          "asset_id": "BD015",
+          "asset_type": "bond",
+          "counterparty": "JP Morgan",
+          "value_before": 9770559.0,
+          "value_after": 8565142.829385482,
+          "pnl": -1205416.1706145187
+        },
+        {
+          "asset_id": "BD016",
+          "asset_type": "bond",
+          "counterparty": "Exxon Mobil",
+          "value_before": 9649451.0,
+          "value_after": 8137141.198381327,
+          "pnl": -1512309.801618673
+        },
+        {
+          "asset_id": "BD017",
+          "asset_type": "bond",
+          "counterparty": "Boeing",
+          "value_before": 9778197.0,
+          "value_after": 8599984.804087123,
+          "pnl": -1178212.1959128764
+        },
+        {
+          "asset_id": "BD018",
+          "asset_type": "bond",
+          "counterparty": "Pfizer",
+          "value_before": 10044958.0,
+          "value_after": 8769401.176276028,
+          "pnl": -1275556.8237239718
+        },
+        {
+          "asset_id": "DV019",
+          "asset_type": "derivative",
+          "counterparty": "JP Morgan",
+          "value_before": 895101.0,
+          "value_after": -1634705.2999999998,
+          "pnl": -2529806.3
+        },
+        {
+          "asset_id": "DV020",
+          "asset_type": "derivative",
+          "counterparty": "Exxon Mobil",
+          "value_before": -972612.0,
+          "value_after": -3392432.8999999994,
+          "pnl": -2419820.8999999994
+        },
+        {
+          "asset_id": "DV021",
+          "asset_type": "derivative",
+          "counterparty": "HDFC Bank",
+          "value_before": 398238.0,
+          "value_after": -5251515.900000001,
+          "pnl": -5649753.900000001
+        },
+        {
+          "asset_id": "DV022",
+          "asset_type": "derivative",
+          "counterparty": "Tata Consultancy",
+          "value_before": 923805.0,
+          "value_after": -2486452.9,
+          "pnl": -3410257.9
+        },
+        {
+          "asset_id": "DV023",
+          "asset_type": "derivative",
+          "counterparty": "Boeing",
+          "value_before": 51889.0,
+          "value_after": -2350595.7,
+          "pnl": -2402484.7
+        },
+        {
+          "asset_id": "DV024",
+          "asset_type": "derivative",
+          "counterparty": "Reliance Industries",
+          "value_before": -239637.0,
+          "value_after": -6668098.9,
+          "pnl": -6428461.9
+        },
+        {
+          "asset_id": "EQ025",
+          "asset_type": "equity",
+          "counterparty": "Boeing",
+          "value_before": 5000000.0,
+          "value_after": 4573700.0,
+          "pnl": -426300.0
+        },
+        {
+          "asset_id": "EQ026",
+          "asset_type": "equity",
+          "counterparty": "HDFC Bank",
+          "value_before": 10000000.0,
+          "value_after": 8806360.0,
+          "pnl": -1193640.0
+        },
+        {
+          "asset_id": "EQ027",
+          "asset_type": "equity",
+          "counterparty": "Reliance Industries",
+          "value_before": 10000000.0,
+          "value_after": 9147400.0,
+          "pnl": -852600.0
+        },
+        {
+          "asset_id": "EQ028",
+          "asset_type": "equity",
+          "counterparty": "Apple",
+          "value_before": 5000000.0,
+          "value_after": 4701590.0,
+          "pnl": -298410.0
+        }
+      ]
+    },
+    {
+      "label": "geopolitical (impact 7.1)",
+      "scenario": {
+        "event_type": "geopolitical",
+        "impact": 7.08,
+        "equity_shock": -0.10619999999999999,
+        "rate_shock_bps": 53.099999999999994,
+        "spread_shock_bps": 106.19999999999999,
+        "pd_multiplier": 1.4248,
+        "tickers": [],
+        "sectors": [],
+        "trigger_article_id": "news-0016",
+        "headline": "Missile conflict and new sanctions threaten oil supply; markets slump",
+        "triggered_at": "2026-09-28T14:13:00Z"
+      },
+      "trigger_ids": [
+        "news-0016"
+      ],
+      "value_before": 602345127.0,
+      "value_after": 549454141.2410583,
+      "pnl": -52890985.758941665,
+      "pnl_pct": -0.08780843969364703,
+      "pnl_by_asset_type": {
+        "loan": -14855118.125850001,
+        "bond": -11154205.03309166,
+        "derivative": -23642562.6,
+        "equity": -3239100.0
+      },
+      "by_asset": [
+        {
+          "asset_id": "LN001",
+          "asset_type": "loan",
+          "counterparty": "Reliance Industries",
+          "value_before": 77120000.0,
+          "value_after": 72729338.5664,
+          "pnl": -4390661.4336
+        },
+        {
+          "asset_id": "LN002",
+          "asset_type": "loan",
+          "counterparty": "HDFC Bank",
+          "value_before": 34685000.0,
+          "value_after": 33258263.003,
+          "pnl": -1426736.997
+        },
+        {
+          "asset_id": "LN003",
+          "asset_type": "loan",
+          "counterparty": "Tata Consultancy",
+          "value_before": 79280000.0,
+          "value_after": 78217486.8416,
+          "pnl": -1062513.1583999998
+        },
+        {
+          "asset_id": "LN004",
+          "asset_type": "loan",
+          "counterparty": "Tata Motors",
+          "value_before": 49550000.0,
+          "value_after": 48558629.903,
+          "pnl": -991370.097
+        },
+        {
+          "asset_id": "LN005",
+          "asset_type": "loan",
+          "counterparty": "JP Morgan",
+          "value_before": 19280000.0,
+          "value_after": 18173557.424,
+          "pnl": -1106442.576
+        },
+        {
+          "asset_id": "LN006",
+          "asset_type": "loan",
+          "counterparty": "Exxon Mobil",
+          "value_before": 34842500.0,
+          "value_after": 33033414.9131,
+          "pnl": -1809085.0869
+        },
+        {
+          "asset_id": "LN007",
+          "asset_type": "loan",
+          "counterparty": "Boeing",
+          "value_before": 19910000.0,
+          "value_after": 19573014.5498,
+          "pnl": -336985.45019999996
+        },
+        {
+          "asset_id": "LN008",
+          "asset_type": "loan",
+          "counterparty": "Pfizer",
+          "value_before": 34842500.0,
+          "value_after": 33633349.67825,
+          "pnl": -1209150.3217499997
+        },
+        {
+          "asset_id": "LN009",
+          "asset_type": "loan",
+          "counterparty": "Apple",
+          "value_before": 48200000.0,
+          "value_after": 46825967.408,
+          "pnl": -1374032.592
+        },
+        {
+          "asset_id": "LN010",
+          "asset_type": "loan",
+          "counterparty": "Walmart",
+          "value_before": 34685000.0,
+          "value_after": 33536859.587,
+          "pnl": -1148140.413
+        },
+        {
+          "asset_id": "BD011",
+          "asset_type": "bond",
+          "counterparty": "Reliance Industries",
+          "value_before": 24550327.0,
+          "value_after": 23142487.155513626,
+          "pnl": -1407839.8444863746
+        },
+        {
+          "asset_id": "BD012",
+          "asset_type": "bond",
+          "counterparty": "HDFC Bank",
+          "value_before": 25492460.0,
+          "value_after": 23245250.62100801,
+          "pnl": -2247209.378991993
+        },
+        {
+          "asset_id": "BD013",
+          "asset_type": "bond",
+          "counterparty": "Tata Consultancy",
+          "value_before": 10030593.0,
+          "value_after": 9209127.042501315,
+          "pnl": -821465.9574986841
+        },
+        {
+          "asset_id": "BD014",
+          "asset_type": "bond",
+          "counterparty": "Tata Motors",
+          "value_before": 39576798.0,
+          "value_after": 36866953.83382208,
+          "pnl": -2709844.1661779243
+        },
+        {
+          "asset_id": "BD015",
+          "asset_type": "bond",
+          "counterparty": "JP Morgan",
+          "value_before": 9770559.0,
+          "value_after": 8950754.743789645,
+          "pnl": -819804.2562103554
+        },
+        {
+          "asset_id": "BD016",
+          "asset_type": "bond",
+          "counterparty": "Exxon Mobil",
+          "value_before": 9649451.0,
+          "value_after": 8273326.269685423,
+          "pnl": -1376124.7303145772
+        },
+        {
+          "asset_id": "BD017",
+          "asset_type": "bond",
+          "counterparty": "Boeing",
+          "value_before": 9778197.0,
+          "value_after": 8920728.750801917,
+          "pnl": -857468.2491980823
+        },
+        {
+          "asset_id": "BD018",
+          "asset_type": "bond",
+          "counterparty": "Pfizer",
+          "value_before": 10044958.0,
+          "value_after": 9130509.549786331,
+          "pnl": -914448.4502136689
+        },
+        {
+          "asset_id": "DV019",
+          "asset_type": "derivative",
+          "counterparty": "JP Morgan",
+          "value_before": 895101.0,
+          "value_after": -974178.2999999998,
+          "pnl": -1869279.2999999998
+        },
+        {
+          "asset_id": "DV020",
+          "asset_type": "derivative",
+          "counterparty": "Exxon Mobil",
+          "value_before": -972612.0,
+          "value_after": -3416751.8999999994,
+          "pnl": -2444139.8999999994
+        },
+        {
+          "asset_id": "DV021",
+          "asset_type": "derivative",
+          "counterparty": "HDFC Bank",
+          "value_before": 398238.0,
+          "value_after": -4299996.9,
+          "pnl": -4698234.9
+        },
+        {
+          "asset_id": "DV022",
+          "asset_type": "derivative",
+          "counterparty": "Tata Consultancy",
+          "value_before": 923805.0,
+          "value_after": -2027970.8999999994,
+          "pnl": -2951775.8999999994
+        },
+        {
+          "asset_id": "DV023",
+          "asset_type": "derivative",
+          "counterparty": "Boeing",
+          "value_before": 51889.0,
+          "value_after": -2056552.7000000002,
+          "pnl": -2108441.7
+        },
+        {
+          "asset_id": "DV024",
+          "asset_type": "derivative",
+          "counterparty": "Reliance Industries",
+          "value_before": -239637.0,
+          "value_after": -9810327.9,
+          "pnl": -9570690.9
+        },
+        {
+          "asset_id": "EQ025",
+          "asset_type": "equity",
+          "counterparty": "Boeing",
+          "value_before": 5000000.0,
+          "value_after": 4522100.0,
+          "pnl": -477900.0
+        },
+        {
+          "asset_id": "EQ026",
+          "asset_type": "equity",
+          "counterparty": "HDFC Bank",
+          "value_before": 10000000.0,
+          "value_after": 8938000.0,
+          "pnl": -1062000.0
+        },
+        {
+          "asset_id": "EQ027",
+          "asset_type": "equity",
+          "counterparty": "Reliance Industries",
+          "value_before": 10000000.0,
+          "value_after": 8619400.0,
+          "pnl": -1380599.9999999998
+        },
+        {
+          "asset_id": "EQ028",
+          "asset_type": "equity",
+          "counterparty": "Apple",
+          "value_before": 5000000.0,
+          "value_after": 4681400.0,
+          "pnl": -318599.99999999994
+        }
+      ]
+    },
+    {
+      "label": "geopolitical (impact 7.8)",
+      "scenario": {
+        "event_type": "geopolitical",
+        "impact": 7.764,
+        "equity_shock": -0.11646,
+        "rate_shock_bps": 58.23,
+        "spread_shock_bps": 116.46,
+        "pd_multiplier": 1.46584,
+        "tickers": [
+          "HDFCBANK"
+        ],
+        "sectors": [
+          "banking"
+        ],
+        "trigger_article_id": "news-0017",
+        "headline": "War escalates as sanctions and border tensions spark market crash fears",
+        "triggered_at": "2026-09-28T14:51:00Z"
+      },
+      "trigger_ids": [
+        "news-0017"
+      ],
+      "value_before": 602345127.0,
+      "value_after": 544403098.6096077,
+      "pnl": -57942028.39039228,
+      "pnl_pct": -0.09619406847196471,
+      "pnl_by_asset_type": {
+        "loan": -16290273.605805002,
+        "bond": -12173050.204587286,
+        "derivative": -25926674.58,
+        "equity": -3552030.0
+      },
+      "by_asset": [
+        {
+          "asset_id": "LN001",
+          "asset_type": "loan",
+          "counterparty": "Reliance Industries",
+          "value_before": 77120000.0,
+          "value_after": 72305156.02112,
+          "pnl": -4814843.97888
+        },
+        {
+          "asset_id": "LN002",
+          "asset_type": "loan",
+          "counterparty": "HDFC Bank",
+          "value_before": 34685000.0,
+          "value_after": 33120425.6999,
+          "pnl": -1564574.3001
+        },
+        {
+          "asset_id": "LN003",
+          "asset_type": "loan",
+          "counterparty": "Tata Consultancy",
+          "value_before": 79280000.0,
+          "value_after": 78114837.26528,
+          "pnl": -1165162.73472
+        },
+        {
+          "asset_id": "LN004",
+          "asset_type": "loan",
+          "counterparty": "Tata Motors",
+          "value_before": 49550000.0,
+          "value_after": 48462853.4699,
+          "pnl": -1087146.5301
+        },
+        {
+          "asset_id": "LN005",
+          "asset_type": "loan",
+          "counterparty": "JP Morgan",
+          "value_before": 19280000.0,
+          "value_after": 18066663.8192,
+          "pnl": -1213336.1808
+        },
+        {
+          "asset_id": "LN006",
+          "asset_type": "loan",
+          "counterparty": "Exxon Mobil",
+          "value_before": 34842500.0,
+          "value_after": 32858638.89623,
+          "pnl": -1983861.10377
+        },
+        {
+          "asset_id": "LN007",
+          "asset_type": "loan",
+          "counterparty": "Boeing",
+          "value_before": 19910000.0,
+          "value_after": 19540458.32834,
+          "pnl": -369541.67166000005
+        },
+        {
+          "asset_id": "LN008",
+          "asset_type": "loan",
+          "counterparty": "Pfizer",
+          "value_before": 34842500.0,
+          "value_after": 33516533.460725,
+          "pnl": -1325966.539275
+        },
+        {
+          "asset_id": "LN009",
+          "asset_type": "loan",
+          "counterparty": "Apple",
+          "value_before": 48200000.0,
+          "value_after": 46693221.8864,
+          "pnl": -1506778.1136
+        },
+        {
+          "asset_id": "LN010",
+          "asset_type": "loan",
+          "counterparty": "Walmart",
+          "value_before": 34685000.0,
+          "value_after": 33425937.5471,
+          "pnl": -1259062.4529000001
+        },
+        {
+          "asset_id": "BD011",
+          "asset_type": "bond",
+          "counterparty": "Reliance Industries",
+          "value_before": 24550327.0,
+          "value_after": 23011265.746227223,
+          "pnl": -1539061.2537727763
+        },
+        {
+          "asset_id": "BD012",
+          "asset_type": "bond",
+          "counterparty": "HDFC Bank",
+          "value_before": 25492460.0,
+          "value_after": 23039304.99401603,
+          "pnl": -2453155.005983972
+        },
+        {
+          "asset_id": "BD013",
+          "asset_type": "bond",
+          "counterparty": "Tata Consultancy",
+          "value_before": 10030593.0,
+          "value_after": 9133954.059148917,
+          "pnl": -896638.9408510822
+        },
+        {
+          "asset_id": "BD014",
+          "asset_type": "bond",
+          "counterparty": "Tata Motors",
+          "value_before": 39576798.0,
+          "value_after": 36616579.056215696,
+          "pnl": -2960218.9437843054
+        },
+        {
+          "asset_id": "BD015",
+          "asset_type": "bond",
+          "counterparty": "JP Morgan",
+          "value_before": 9770559.0,
+          "value_after": 8875769.320605813,
+          "pnl": -894789.6793941878
+        },
+        {
+          "asset_id": "BD016",
+          "asset_type": "bond",
+          "counterparty": "Exxon Mobil",
+          "value_before": 9649451.0,
+          "value_after": 8153804.724921192,
+          "pnl": -1495646.275078808
+        },
+        {
+          "asset_id": "BD017",
+          "asset_type": "bond",
+          "counterparty": "Boeing",
+          "value_before": 9778197.0,
+          "value_after": 8842154.9024748,
+          "pnl": -936042.0975251992
+        },
+        {
+          "asset_id": "BD018",
+          "asset_type": "bond",
+          "counterparty": "Pfizer",
+          "value_before": 10044958.0,
+          "value_after": 9047459.991803046,
+          "pnl": -997498.0081969545
+        },
+        {
+          "asset_id": "DV019",
+          "asset_type": "derivative",
+          "counterparty": "JP Morgan",
+          "value_before": 895101.0,
+          "value_after": -1154769.69,
+          "pnl": -2049870.69
+        },
+        {
+          "asset_id": "DV020",
+          "asset_type": "derivative",
+          "counterparty": "Exxon Mobil",
+          "value_before": -972612.0,
+          "value_after": -3652880.67,
+          "pnl": -2680268.67
+        },
+        {
+          "asset_id": "DV021",
+          "asset_type": "derivative",
+          "counterparty": "HDFC Bank",
+          "value_before": 398238.0,
+          "value_after": -4753894.170000001,
+          "pnl": -5152132.170000001
+        },
+        {
+          "asset_id": "DV022",
+          "asset_type": "derivative",
+          "counterparty": "Tata Consultancy",
+          "value_before": 923805.0,
+          "value_after": -2313142.4699999997,
+          "pnl": -3236947.4699999997
+        },
+        {
+          "asset_id": "DV023",
+          "asset_type": "derivative",
+          "counterparty": "Boeing",
+          "value_before": 51889.0,
+          "value_after": -2260249.61,
+          "pnl": -2312138.61
+        },
+        {
+          "asset_id": "DV024",
+          "asset_type": "derivative",
+          "counterparty": "Reliance Industries",
+          "value_before": -239637.0,
+          "value_after": -10734953.97,
+          "pnl": -10495316.97
+        },
+        {
+          "asset_id": "EQ025",
+          "asset_type": "equity",
+          "counterparty": "Boeing",
+          "value_before": 5000000.0,
+          "value_after": 4475930.0,
+          "pnl": -524069.99999999994
+        },
+        {
+          "asset_id": "EQ026",
+          "asset_type": "equity",
+          "counterparty": "HDFC Bank",
+          "value_before": 10000000.0,
+          "value_after": 8835400.0,
+          "pnl": -1164600.0
+        },
+        {
+          "asset_id": "EQ027",
+          "asset_type": "equity",
+          "counterparty": "Reliance Industries",
+          "value_before": 10000000.0,
+          "value_after": 8486020.0,
+          "pnl": -1513980.0
+        },
+        {
+          "asset_id": "EQ028",
+          "asset_type": "equity",
+          "counterparty": "Apple",
+          "value_before": 5000000.0,
+          "value_after": 4650620.0,
+          "pnl": -349379.99999999994
+        }
+      ]
+    },
+    {
+      "label": "cyber_operational (impact 7.0)",
+      "scenario": {
+        "event_type": "cyber_operational",
+        "impact": 7.003,
+        "equity_shock": -0.04902100000000001,
+        "rate_shock_bps": 0.0,
+        "spread_shock_bps": 35.015,
+        "pd_multiplier": 1.105045,
+        "tickers": [
+          "AAPL"
+        ],
+        "sectors": [
+          "it"
+        ],
+        "trigger_article_id": "news-0019",
+        "headline": "Apple hit by cyber breach, systems shutdown for hours",
+        "triggered_at": "2026-09-28T16:13:00Z"
+      },
+      "trigger_ids": [
+        "news-0019"
+      ],
+      "value_before": 602345127.0,
+      "value_after": 598680826.415731,
+      "pnl": -3664300.584269076,
+      "pnl_pct": -0.006083390435179989,
+      "pnl_by_asset_type": {
+        "loan": -1438101.2330720006,
+        "bond": -215357.9311970754,
+        "derivative": -1667694.4200000002,
+        "equity": -343147.00000000006
+      },
+      "by_asset": [
+        {
+          "asset_id": "LN001",
+          "asset_type": "loan",
+          "counterparty": "Reliance Industries",
+          "value_before": 77120000.0,
+          "value_after": 77120000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN002",
+          "asset_type": "loan",
+          "counterparty": "HDFC Bank",
+          "value_before": 34685000.0,
+          "value_after": 34685000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN003",
+          "asset_type": "loan",
+          "counterparty": "Tata Consultancy",
+          "value_before": 79280000.0,
+          "value_after": 78810730.202528,
+          "pnl": -469269.797472
+        },
+        {
+          "asset_id": "LN004",
+          "asset_type": "loan",
+          "counterparty": "Tata Motors",
+          "value_before": 49550000.0,
+          "value_after": 49550000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN005",
+          "asset_type": "loan",
+          "counterparty": "JP Morgan",
+          "value_before": 19280000.0,
+          "value_after": 19280000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN006",
+          "asset_type": "loan",
+          "counterparty": "Exxon Mobil",
+          "value_before": 34842500.0,
+          "value_after": 34842500.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN007",
+          "asset_type": "loan",
+          "counterparty": "Boeing",
+          "value_before": 19910000.0,
+          "value_after": 19910000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN008",
+          "asset_type": "loan",
+          "counterparty": "Pfizer",
+          "value_before": 34842500.0,
+          "value_after": 34842500.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN009",
+          "asset_type": "loan",
+          "counterparty": "Apple",
+          "value_before": 48200000.0,
+          "value_after": 47231168.5644,
+          "pnl": -968831.4356000004
+        },
+        {
+          "asset_id": "LN010",
+          "asset_type": "loan",
+          "counterparty": "Walmart",
+          "value_before": 34685000.0,
+          "value_after": 34685000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD011",
+          "asset_type": "bond",
+          "counterparty": "Reliance Industries",
+          "value_before": 24550327.0,
+          "value_after": 24550327.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD012",
+          "asset_type": "bond",
+          "counterparty": "HDFC Bank",
+          "value_before": 25492460.0,
+          "value_after": 25492460.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD013",
+          "asset_type": "bond",
+          "counterparty": "Tata Consultancy",
+          "value_before": 10030593.0,
+          "value_after": 9815235.068802925,
+          "pnl": -215357.9311970754
+        },
+        {
+          "asset_id": "BD014",
+          "asset_type": "bond",
+          "counterparty": "Tata Motors",
+          "value_before": 39576798.0,
+          "value_after": 39576798.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD015",
+          "asset_type": "bond",
+          "counterparty": "JP Morgan",
+          "value_before": 9770559.0,
+          "value_after": 9770559.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD016",
+          "asset_type": "bond",
+          "counterparty": "Exxon Mobil",
+          "value_before": 9649451.0,
+          "value_after": 9649451.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD017",
+          "asset_type": "bond",
+          "counterparty": "Boeing",
+          "value_before": 9778197.0,
+          "value_after": 9778197.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD018",
+          "asset_type": "bond",
+          "counterparty": "Pfizer",
+          "value_before": 10044958.0,
+          "value_after": 10044958.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV019",
+          "asset_type": "derivative",
+          "counterparty": "JP Morgan",
+          "value_before": 895101.0,
+          "value_after": 895101.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV020",
+          "asset_type": "derivative",
+          "counterparty": "Exxon Mobil",
+          "value_before": -972612.0,
+          "value_after": -972612.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV021",
+          "asset_type": "derivative",
+          "counterparty": "HDFC Bank",
+          "value_before": 398238.0,
+          "value_after": 398238.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV022",
+          "asset_type": "derivative",
+          "counterparty": "Tata Consultancy",
+          "value_before": 923805.0,
+          "value_after": -743889.4200000002,
+          "pnl": -1667694.4200000002
+        },
+        {
+          "asset_id": "DV023",
+          "asset_type": "derivative",
+          "counterparty": "Boeing",
+          "value_before": 51889.0,
+          "value_after": 51889.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV024",
+          "asset_type": "derivative",
+          "counterparty": "Reliance Industries",
+          "value_before": -239637.0,
+          "value_after": -239637.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "EQ025",
+          "asset_type": "equity",
+          "counterparty": "Boeing",
+          "value_before": 5000000.0,
+          "value_after": 5000000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "EQ026",
+          "asset_type": "equity",
+          "counterparty": "HDFC Bank",
+          "value_before": 10000000.0,
+          "value_after": 10000000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "EQ027",
+          "asset_type": "equity",
+          "counterparty": "Reliance Industries",
+          "value_before": 10000000.0,
+          "value_after": 10000000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "EQ028",
+          "asset_type": "equity",
+          "counterparty": "Apple",
+          "value_before": 5000000.0,
+          "value_after": 4656853.0,
+          "pnl": -343147.00000000006
+        }
+      ]
+    },
+    {
+      "label": "geopolitical (impact 7.8)",
+      "scenario": {
+        "event_type": "geopolitical",
+        "impact": 7.764,
+        "equity_shock": -0.11646,
+        "rate_shock_bps": 58.23,
+        "spread_shock_bps": 116.46,
+        "pd_multiplier": 1.46584,
+        "tickers": [
+          "RELIANCE"
+        ],
+        "sectors": [
+          "energy"
+        ],
+        "trigger_article_id": "news-0021",
+        "headline": "War escalates as sanctions and border tensions spark market crash fears",
+        "triggered_at": "2026-09-28T17:31:00Z"
+      },
+      "trigger_ids": [
+        "news-0021"
+      ],
+      "value_before": 602345127.0,
+      "value_after": 544403098.6096077,
+      "pnl": -57942028.39039228,
+      "pnl_pct": -0.09619406847196471,
+      "pnl_by_asset_type": {
+        "loan": -16290273.605805002,
+        "bond": -12173050.204587286,
+        "derivative": -25926674.58,
+        "equity": -3552030.0
+      },
+      "by_asset": [
+        {
+          "asset_id": "LN001",
+          "asset_type": "loan",
+          "counterparty": "Reliance Industries",
+          "value_before": 77120000.0,
+          "value_after": 72305156.02112,
+          "pnl": -4814843.97888
+        },
+        {
+          "asset_id": "LN002",
+          "asset_type": "loan",
+          "counterparty": "HDFC Bank",
+          "value_before": 34685000.0,
+          "value_after": 33120425.6999,
+          "pnl": -1564574.3001
+        },
+        {
+          "asset_id": "LN003",
+          "asset_type": "loan",
+          "counterparty": "Tata Consultancy",
+          "value_before": 79280000.0,
+          "value_after": 78114837.26528,
+          "pnl": -1165162.73472
+        },
+        {
+          "asset_id": "LN004",
+          "asset_type": "loan",
+          "counterparty": "Tata Motors",
+          "value_before": 49550000.0,
+          "value_after": 48462853.4699,
+          "pnl": -1087146.5301
+        },
+        {
+          "asset_id": "LN005",
+          "asset_type": "loan",
+          "counterparty": "JP Morgan",
+          "value_before": 19280000.0,
+          "value_after": 18066663.8192,
+          "pnl": -1213336.1808
+        },
+        {
+          "asset_id": "LN006",
+          "asset_type": "loan",
+          "counterparty": "Exxon Mobil",
+          "value_before": 34842500.0,
+          "value_after": 32858638.89623,
+          "pnl": -1983861.10377
+        },
+        {
+          "asset_id": "LN007",
+          "asset_type": "loan",
+          "counterparty": "Boeing",
+          "value_before": 19910000.0,
+          "value_after": 19540458.32834,
+          "pnl": -369541.67166000005
+        },
+        {
+          "asset_id": "LN008",
+          "asset_type": "loan",
+          "counterparty": "Pfizer",
+          "value_before": 34842500.0,
+          "value_after": 33516533.460725,
+          "pnl": -1325966.539275
+        },
+        {
+          "asset_id": "LN009",
+          "asset_type": "loan",
+          "counterparty": "Apple",
+          "value_before": 48200000.0,
+          "value_after": 46693221.8864,
+          "pnl": -1506778.1136
+        },
+        {
+          "asset_id": "LN010",
+          "asset_type": "loan",
+          "counterparty": "Walmart",
+          "value_before": 34685000.0,
+          "value_after": 33425937.5471,
+          "pnl": -1259062.4529000001
+        },
+        {
+          "asset_id": "BD011",
+          "asset_type": "bond",
+          "counterparty": "Reliance Industries",
+          "value_before": 24550327.0,
+          "value_after": 23011265.746227223,
+          "pnl": -1539061.2537727763
+        },
+        {
+          "asset_id": "BD012",
+          "asset_type": "bond",
+          "counterparty": "HDFC Bank",
+          "value_before": 25492460.0,
+          "value_after": 23039304.99401603,
+          "pnl": -2453155.005983972
+        },
+        {
+          "asset_id": "BD013",
+          "asset_type": "bond",
+          "counterparty": "Tata Consultancy",
+          "value_before": 10030593.0,
+          "value_after": 9133954.059148917,
+          "pnl": -896638.9408510822
+        },
+        {
+          "asset_id": "BD014",
+          "asset_type": "bond",
+          "counterparty": "Tata Motors",
+          "value_before": 39576798.0,
+          "value_after": 36616579.056215696,
+          "pnl": -2960218.9437843054
+        },
+        {
+          "asset_id": "BD015",
+          "asset_type": "bond",
+          "counterparty": "JP Morgan",
+          "value_before": 9770559.0,
+          "value_after": 8875769.320605813,
+          "pnl": -894789.6793941878
+        },
+        {
+          "asset_id": "BD016",
+          "asset_type": "bond",
+          "counterparty": "Exxon Mobil",
+          "value_before": 9649451.0,
+          "value_after": 8153804.724921192,
+          "pnl": -1495646.275078808
+        },
+        {
+          "asset_id": "BD017",
+          "asset_type": "bond",
+          "counterparty": "Boeing",
+          "value_before": 9778197.0,
+          "value_after": 8842154.9024748,
+          "pnl": -936042.0975251992
+        },
+        {
+          "asset_id": "BD018",
+          "asset_type": "bond",
+          "counterparty": "Pfizer",
+          "value_before": 10044958.0,
+          "value_after": 9047459.991803046,
+          "pnl": -997498.0081969545
+        },
+        {
+          "asset_id": "DV019",
+          "asset_type": "derivative",
+          "counterparty": "JP Morgan",
+          "value_before": 895101.0,
+          "value_after": -1154769.69,
+          "pnl": -2049870.69
+        },
+        {
+          "asset_id": "DV020",
+          "asset_type": "derivative",
+          "counterparty": "Exxon Mobil",
+          "value_before": -972612.0,
+          "value_after": -3652880.67,
+          "pnl": -2680268.67
+        },
+        {
+          "asset_id": "DV021",
+          "asset_type": "derivative",
+          "counterparty": "HDFC Bank",
+          "value_before": 398238.0,
+          "value_after": -4753894.170000001,
+          "pnl": -5152132.170000001
+        },
+        {
+          "asset_id": "DV022",
+          "asset_type": "derivative",
+          "counterparty": "Tata Consultancy",
+          "value_before": 923805.0,
+          "value_after": -2313142.4699999997,
+          "pnl": -3236947.4699999997
+        },
+        {
+          "asset_id": "DV023",
+          "asset_type": "derivative",
+          "counterparty": "Boeing",
+          "value_before": 51889.0,
+          "value_after": -2260249.61,
+          "pnl": -2312138.61
+        },
+        {
+          "asset_id": "DV024",
+          "asset_type": "derivative",
+          "counterparty": "Reliance Industries",
+          "value_before": -239637.0,
+          "value_after": -10734953.97,
+          "pnl": -10495316.97
+        },
+        {
+          "asset_id": "EQ025",
+          "asset_type": "equity",
+          "counterparty": "Boeing",
+          "value_before": 5000000.0,
+          "value_after": 4475930.0,
+          "pnl": -524069.99999999994
+        },
+        {
+          "asset_id": "EQ026",
+          "asset_type": "equity",
+          "counterparty": "HDFC Bank",
+          "value_before": 10000000.0,
+          "value_after": 8835400.0,
+          "pnl": -1164600.0
+        },
+        {
+          "asset_id": "EQ027",
+          "asset_type": "equity",
+          "counterparty": "Reliance Industries",
+          "value_before": 10000000.0,
+          "value_after": 8486020.0,
+          "pnl": -1513980.0
+        },
+        {
+          "asset_id": "EQ028",
+          "asset_type": "equity",
+          "counterparty": "Apple",
+          "value_before": 5000000.0,
+          "value_after": 4650620.0,
+          "pnl": -349379.99999999994
+        }
+      ]
+    },
+    {
+      "label": "regulatory (impact 7.0)",
+      "scenario": {
+        "event_type": "regulatory",
+        "impact": 7.047,
+        "equity_shock": -0.042282,
+        "rate_shock_bps": 17.6175,
+        "spread_shock_bps": 42.282,
+        "pd_multiplier": 1.14094,
+        "tickers": [
+          "WMT"
+        ],
+        "sectors": [
+          "retail"
+        ],
+        "trigger_article_id": "news-0022",
+        "headline": "Regulator opens probe into Walmart, fine possible",
+        "triggered_at": "2026-09-28T18:13:00Z"
+      },
+      "trigger_ids": [
+        "news-0022"
+      ],
+      "value_before": 602345127.0,
+      "value_after": 601896002.73357,
+      "pnl": -449124.26643,
+      "pnl_pct": -0.0007456261307647302,
+      "pnl_by_asset_type": {
+        "loan": -449124.26643,
+        "bond": 0.0,
+        "derivative": 0.0,
+        "equity": 0.0
+      },
+      "by_asset": [
+        {
+          "asset_id": "LN001",
+          "asset_type": "loan",
+          "counterparty": "Reliance Industries",
+          "value_before": 77120000.0,
+          "value_after": 77120000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN002",
+          "asset_type": "loan",
+          "counterparty": "HDFC Bank",
+          "value_before": 34685000.0,
+          "value_after": 34685000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN003",
+          "asset_type": "loan",
+          "counterparty": "Tata Consultancy",
+          "value_before": 79280000.0,
+          "value_after": 79280000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN004",
+          "asset_type": "loan",
+          "counterparty": "Tata Motors",
+          "value_before": 49550000.0,
+          "value_after": 49550000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN005",
+          "asset_type": "loan",
+          "counterparty": "JP Morgan",
+          "value_before": 19280000.0,
+          "value_after": 19280000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN006",
+          "asset_type": "loan",
+          "counterparty": "Exxon Mobil",
+          "value_before": 34842500.0,
+          "value_after": 34842500.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN007",
+          "asset_type": "loan",
+          "counterparty": "Boeing",
+          "value_before": 19910000.0,
+          "value_after": 19910000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN008",
+          "asset_type": "loan",
+          "counterparty": "Pfizer",
+          "value_before": 34842500.0,
+          "value_after": 34842500.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN009",
+          "asset_type": "loan",
+          "counterparty": "Apple",
+          "value_before": 48200000.0,
+          "value_after": 48200000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN010",
+          "asset_type": "loan",
+          "counterparty": "Walmart",
+          "value_before": 34685000.0,
+          "value_after": 34235875.73357,
+          "pnl": -449124.26643
+        },
+        {
+          "asset_id": "BD011",
+          "asset_type": "bond",
+          "counterparty": "Reliance Industries",
+          "value_before": 24550327.0,
+          "value_after": 24550327.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD012",
+          "asset_type": "bond",
+          "counterparty": "HDFC Bank",
+          "value_before": 25492460.0,
+          "value_after": 25492460.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD013",
+          "asset_type": "bond",
+          "counterparty": "Tata Consultancy",
+          "value_before": 10030593.0,
+          "value_after": 10030593.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD014",
+          "asset_type": "bond",
+          "counterparty": "Tata Motors",
+          "value_before": 39576798.0,
+          "value_after": 39576798.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD015",
+          "asset_type": "bond",
+          "counterparty": "JP Morgan",
+          "value_before": 9770559.0,
+          "value_after": 9770559.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD016",
+          "asset_type": "bond",
+          "counterparty": "Exxon Mobil",
+          "value_before": 9649451.0,
+          "value_after": 9649451.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD017",
+          "asset_type": "bond",
+          "counterparty": "Boeing",
+          "value_before": 9778197.0,
+          "value_after": 9778197.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD018",
+          "asset_type": "bond",
+          "counterparty": "Pfizer",
+          "value_before": 10044958.0,
+          "value_after": 10044958.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV019",
+          "asset_type": "derivative",
+          "counterparty": "JP Morgan",
+          "value_before": 895101.0,
+          "value_after": 895101.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV020",
+          "asset_type": "derivative",
+          "counterparty": "Exxon Mobil",
+          "value_before": -972612.0,
+          "value_after": -972612.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV021",
+          "asset_type": "derivative",
+          "counterparty": "HDFC Bank",
+          "value_before": 398238.0,
+          "value_after": 398238.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV022",
+          "asset_type": "derivative",
+          "counterparty": "Tata Consultancy",
+          "value_before": 923805.0,
+          "value_after": 923805.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV023",
+          "asset_type": "derivative",
+          "counterparty": "Boeing",
+          "value_before": 51889.0,
+          "value_after": 51889.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV024",
+          "asset_type": "derivative",
+          "counterparty": "Reliance Industries",
+          "value_before": -239637.0,
+          "value_after": -239637.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "EQ025",
+          "asset_type": "equity",
+          "counterparty": "Boeing",
+          "value_before": 5000000.0,
+          "value_after": 5000000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "EQ026",
+          "asset_type": "equity",
+          "counterparty": "HDFC Bank",
+          "value_before": 10000000.0,
+          "value_after": 10000000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "EQ027",
+          "asset_type": "equity",
+          "counterparty": "Reliance Industries",
+          "value_before": 10000000.0,
+          "value_after": 10000000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "EQ028",
+          "asset_type": "equity",
+          "counterparty": "Apple",
+          "value_before": 5000000.0,
+          "value_after": 5000000.0,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "label": "credit_event (impact 7.7)",
+      "scenario": {
+        "event_type": "credit_event",
+        "impact": 7.666,
+        "equity_shock": -0.06132800000000001,
+        "rate_shock_bps": 0.0,
+        "spread_shock_bps": 191.65,
+        "pd_multiplier": 2.1499,
+        "tickers": [
+          "JPM"
+        ],
+        "sectors": [
+          "banking"
+        ],
+        "trigger_article_id": "news-0026",
+        "headline": "JP Morgan credit rating downgraded after missed payment, default fears grow",
+        "triggered_at": "2026-09-28T20:52:00Z"
+      },
+      "trigger_ids": [
+        "news-0026"
+      ],
+      "value_before": 602345127.0,
+      "value_after": 592843866.6457143,
+      "pnl": -9501260.354285754,
+      "pnl_pct": -0.015773781389428844,
+      "pnl_by_asset_type": {
+        "loan": -3889947.07265,
+        "bond": -2777959.681635755,
+        "derivative": -2465385.6000000006,
+        "equity": -367968.00000000006
+      },
+      "by_asset": [
+        {
+          "asset_id": "LN001",
+          "asset_type": "loan",
+          "counterparty": "Reliance Industries",
+          "value_before": 77120000.0,
+          "value_after": 77120000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN002",
+          "asset_type": "loan",
+          "counterparty": "HDFC Bank",
+          "value_before": 34685000.0,
+          "value_after": 33067730.61935,
+          "pnl": -1617269.3806500002
+        },
+        {
+          "asset_id": "LN003",
+          "asset_type": "loan",
+          "counterparty": "Tata Consultancy",
+          "value_before": 79280000.0,
+          "value_after": 79280000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN004",
+          "asset_type": "loan",
+          "counterparty": "Tata Motors",
+          "value_before": 49550000.0,
+          "value_after": 49550000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN005",
+          "asset_type": "loan",
+          "counterparty": "JP Morgan",
+          "value_before": 19280000.0,
+          "value_after": 17007322.308,
+          "pnl": -2272677.692
+        },
+        {
+          "asset_id": "LN006",
+          "asset_type": "loan",
+          "counterparty": "Exxon Mobil",
+          "value_before": 34842500.0,
+          "value_after": 34842500.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN007",
+          "asset_type": "loan",
+          "counterparty": "Boeing",
+          "value_before": 19910000.0,
+          "value_after": 19910000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN008",
+          "asset_type": "loan",
+          "counterparty": "Pfizer",
+          "value_before": 34842500.0,
+          "value_after": 34842500.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN009",
+          "asset_type": "loan",
+          "counterparty": "Apple",
+          "value_before": 48200000.0,
+          "value_after": 48200000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN010",
+          "asset_type": "loan",
+          "counterparty": "Walmart",
+          "value_before": 34685000.0,
+          "value_after": 34685000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD011",
+          "asset_type": "bond",
+          "counterparty": "Reliance Industries",
+          "value_before": 24550327.0,
+          "value_after": 24550327.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD012",
+          "asset_type": "bond",
+          "counterparty": "HDFC Bank",
+          "value_before": 25492460.0,
+          "value_after": 23719812.117554493,
+          "pnl": -1772647.8824455054
+        },
+        {
+          "asset_id": "BD013",
+          "asset_type": "bond",
+          "counterparty": "Tata Consultancy",
+          "value_before": 10030593.0,
+          "value_after": 10030593.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD014",
+          "asset_type": "bond",
+          "counterparty": "Tata Motors",
+          "value_before": 39576798.0,
+          "value_after": 39576798.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD015",
+          "asset_type": "bond",
+          "counterparty": "JP Morgan",
+          "value_before": 9770559.0,
+          "value_after": 8765247.20080975,
+          "pnl": -1005311.7991902498
+        },
+        {
+          "asset_id": "BD016",
+          "asset_type": "bond",
+          "counterparty": "Exxon Mobil",
+          "value_before": 9649451.0,
+          "value_after": 9649451.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD017",
+          "asset_type": "bond",
+          "counterparty": "Boeing",
+          "value_before": 9778197.0,
+          "value_after": 9778197.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD018",
+          "asset_type": "bond",
+          "counterparty": "Pfizer",
+          "value_before": 10044958.0,
+          "value_after": 10044958.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV019",
+          "asset_type": "derivative",
+          "counterparty": "JP Morgan",
+          "value_before": 895101.0,
+          "value_after": -24819.000000000116,
+          "pnl": -919920.0000000001
+        },
+        {
+          "asset_id": "DV020",
+          "asset_type": "derivative",
+          "counterparty": "Exxon Mobil",
+          "value_before": -972612.0,
+          "value_after": -972612.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV021",
+          "asset_type": "derivative",
+          "counterparty": "HDFC Bank",
+          "value_before": 398238.0,
+          "value_after": -1147227.6000000006,
+          "pnl": -1545465.6000000006
+        },
+        {
+          "asset_id": "DV022",
+          "asset_type": "derivative",
+          "counterparty": "Tata Consultancy",
+          "value_before": 923805.0,
+          "value_after": 923805.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV023",
+          "asset_type": "derivative",
+          "counterparty": "Boeing",
+          "value_before": 51889.0,
+          "value_after": 51889.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV024",
+          "asset_type": "derivative",
+          "counterparty": "Reliance Industries",
+          "value_before": -239637.0,
+          "value_after": -239637.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "EQ025",
+          "asset_type": "equity",
+          "counterparty": "Boeing",
+          "value_before": 5000000.0,
+          "value_after": 5000000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "EQ026",
+          "asset_type": "equity",
+          "counterparty": "HDFC Bank",
+          "value_before": 10000000.0,
+          "value_after": 9632032.0,
+          "pnl": -367968.00000000006
+        },
+        {
+          "asset_id": "EQ027",
+          "asset_type": "equity",
+          "counterparty": "Reliance Industries",
+          "value_before": 10000000.0,
+          "value_after": 10000000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "EQ028",
+          "asset_type": "equity",
+          "counterparty": "Apple",
+          "value_before": 5000000.0,
+          "value_after": 5000000.0,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "label": "credit_event (impact 7.9)",
+      "scenario": {
+        "event_type": "credit_event",
+        "impact": 7.944,
+        "equity_shock": -0.063552,
+        "rate_shock_bps": 0.0,
+        "spread_shock_bps": 198.6,
+        "pd_multiplier": 2.1916,
+        "tickers": [
+          "TATAMOTORS"
+        ],
+        "sectors": [
+          "auto"
+        ],
+        "trigger_article_id": "news-0027",
+        "headline": "Tata Motors credit rating downgraded after missed payment, default fears grow",
+        "triggered_at": "2026-09-28T21:31:00Z"
+      },
+      "trigger_ids": [
+        "news-0027"
+      ],
+      "value_before": 602345127.0,
+      "value_after": 596473868.2589447,
+      "pnl": -5871258.741055267,
+      "pnl_pct": -0.009747333344086747,
+      "pnl_by_asset_type": {
+        "loan": -2238648.99,
+        "bond": -3632609.751055267,
+        "derivative": 0.0,
+        "equity": 0.0
+      },
+      "by_asset": [
+        {
+          "asset_id": "LN001",
+          "asset_type": "loan",
+          "counterparty": "Reliance Industries",
+          "value_before": 77120000.0,
+          "value_after": 77120000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN002",
+          "asset_type": "loan",
+          "counterparty": "HDFC Bank",
+          "value_before": 34685000.0,
+          "value_after": 34685000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN003",
+          "asset_type": "loan",
+          "counterparty": "Tata Consultancy",
+          "value_before": 79280000.0,
+          "value_after": 79280000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN004",
+          "asset_type": "loan",
+          "counterparty": "Tata Motors",
+          "value_before": 49550000.0,
+          "value_after": 47311351.01,
+          "pnl": -2238648.99
+        },
+        {
+          "asset_id": "LN005",
+          "asset_type": "loan",
+          "counterparty": "JP Morgan",
+          "value_before": 19280000.0,
+          "value_after": 19280000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN006",
+          "asset_type": "loan",
+          "counterparty": "Exxon Mobil",
+          "value_before": 34842500.0,
+          "value_after": 34842500.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN007",
+          "asset_type": "loan",
+          "counterparty": "Boeing",
+          "value_before": 19910000.0,
+          "value_after": 19910000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN008",
+          "asset_type": "loan",
+          "counterparty": "Pfizer",
+          "value_before": 34842500.0,
+          "value_after": 34842500.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN009",
+          "asset_type": "loan",
+          "counterparty": "Apple",
+          "value_before": 48200000.0,
+          "value_after": 48200000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN010",
+          "asset_type": "loan",
+          "counterparty": "Walmart",
+          "value_before": 34685000.0,
+          "value_after": 34685000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD011",
+          "asset_type": "bond",
+          "counterparty": "Reliance Industries",
+          "value_before": 24550327.0,
+          "value_after": 24550327.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD012",
+          "asset_type": "bond",
+          "counterparty": "HDFC Bank",
+          "value_before": 25492460.0,
+          "value_after": 25492460.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD013",
+          "asset_type": "bond",
+          "counterparty": "Tata Consultancy",
+          "value_before": 10030593.0,
+          "value_after": 10030593.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD014",
+          "asset_type": "bond",
+          "counterparty": "Tata Motors",
+          "value_before": 39576798.0,
+          "value_after": 35944188.24894473,
+          "pnl": -3632609.751055267
+        },
+        {
+          "asset_id": "BD015",
+          "asset_type": "bond",
+          "counterparty": "JP Morgan",
+          "value_before": 9770559.0,
+          "value_after": 9770559.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD016",
+          "asset_type": "bond",
+          "counterparty": "Exxon Mobil",
+          "value_before": 9649451.0,
+          "value_after": 9649451.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD017",
+          "asset_type": "bond",
+          "counterparty": "Boeing",
+          "value_before": 9778197.0,
+          "value_after": 9778197.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD018",
+          "asset_type": "bond",
+          "counterparty": "Pfizer",
+          "value_before": 10044958.0,
+          "value_after": 10044958.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV019",
+          "asset_type": "derivative",
+          "counterparty": "JP Morgan",
+          "value_before": 895101.0,
+          "value_after": 895101.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV020",
+          "asset_type": "derivative",
+          "counterparty": "Exxon Mobil",
+          "value_before": -972612.0,
+          "value_after": -972612.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV021",
+          "asset_type": "derivative",
+          "counterparty": "HDFC Bank",
+          "value_before": 398238.0,
+          "value_after": 398238.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV022",
+          "asset_type": "derivative",
+          "counterparty": "Tata Consultancy",
+          "value_before": 923805.0,
+          "value_after": 923805.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV023",
+          "asset_type": "derivative",
+          "counterparty": "Boeing",
+          "value_before": 51889.0,
+          "value_after": 51889.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV024",
+          "asset_type": "derivative",
+          "counterparty": "Reliance Industries",
+          "value_before": -239637.0,
+          "value_after": -239637.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "EQ025",
+          "asset_type": "equity",
+          "counterparty": "Boeing",
+          "value_before": 5000000.0,
+          "value_after": 5000000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "EQ026",
+          "asset_type": "equity",
+          "counterparty": "HDFC Bank",
+          "value_before": 10000000.0,
+          "value_after": 10000000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "EQ027",
+          "asset_type": "equity",
+          "counterparty": "Reliance Industries",
+          "value_before": 10000000.0,
+          "value_after": 10000000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "EQ028",
+          "asset_type": "equity",
+          "counterparty": "Apple",
+          "value_before": 5000000.0,
+          "value_after": 5000000.0,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "label": "macroeconomic (impact 7.1)",
+      "scenario": {
+        "event_type": "macroeconomic",
+        "impact": 7.105,
+        "equity_shock": -0.08526,
+        "rate_shock_bps": 142.1,
+        "spread_shock_bps": 71.05,
+        "pd_multiplier": 1.35525,
+        "tickers": [],
+        "sectors": [],
+        "trigger_article_id": "news-0028",
+        "headline": "RBI rate hike and inflation fears hit Exxon Mobil as GDP slumps",
+        "triggered_at": "2026-09-28T22:14:00Z"
+      },
+      "trigger_ids": [
+        "news-0028"
+      ],
+      "value_before": 602345127.0,
+      "value_after": 550916109.3828387,
+      "pnl": -51429017.617161214,
+      "pnl_pct": -0.08538131265924762,
+      "pnl_by_asset_type": {
+        "loan": -10720800.754124999,
+        "bond": -15096681.263036216,
+        "derivative": -22840585.6,
+        "equity": -2770950.0
+      },
+      "by_asset": [
+        {
+          "asset_id": "LN001",
+          "asset_type": "loan",
+          "counterparty": "Reliance Industries",
+          "value_before": 77120000.0,
+          "value_after": 74655804.112,
+          "pnl": -2464195.888
+        },
+        {
+          "asset_id": "LN002",
+          "asset_type": "loan",
+          "counterparty": "HDFC Bank",
+          "value_before": 34685000.0,
+          "value_after": 33317343.70055,
+          "pnl": -1367656.2994499998
+        },
+        {
+          "asset_id": "LN003",
+          "asset_type": "loan",
+          "counterparty": "Tata Consultancy",
+          "value_before": 79280000.0,
+          "value_after": 78414873.60080001,
+          "pnl": -865126.3991999999
+        },
+        {
+          "asset_id": "LN004",
+          "asset_type": "loan",
+          "counterparty": "Tata Motors",
+          "value_before": 49550000.0,
+          "value_after": 48781086.2425,
+          "pnl": -768913.7575
+        },
+        {
+          "asset_id": "LN005",
+          "asset_type": "loan",
+          "counterparty": "JP Morgan",
+          "value_before": 19280000.0,
+          "value_after": 18172055.3944,
+          "pnl": -1107944.6056
+        },
+        {
+          "asset_id": "LN006",
+          "asset_type": "loan",
+          "counterparty": "Exxon Mobil",
+          "value_before": 34842500.0,
+          "value_after": 33900297.77925,
+          "pnl": -942202.2207499999
+        },
+        {
+          "asset_id": "LN007",
+          "asset_type": "loan",
+          "counterparty": "Boeing",
+          "value_before": 19910000.0,
+          "value_after": 19653105.2255,
+          "pnl": -256894.77449999997
+        },
+        {
+          "asset_id": "LN008",
+          "asset_type": "loan",
+          "counterparty": "Pfizer",
+          "value_before": 34842500.0,
+          "value_after": 33932480.054375,
+          "pnl": -910019.9456249999
+        },
+        {
+          "asset_id": "LN009",
+          "asset_type": "loan",
+          "counterparty": "Apple",
+          "value_before": 48200000.0,
+          "value_after": 47038011.354,
+          "pnl": -1161988.6459999997
+        },
+        {
+          "asset_id": "LN010",
+          "asset_type": "loan",
+          "counterparty": "Walmart",
+          "value_before": 34685000.0,
+          "value_after": 33809141.7825,
+          "pnl": -875858.2174999999
+        },
+        {
+          "asset_id": "BD011",
+          "asset_type": "bond",
+          "counterparty": "Reliance Industries",
+          "value_before": 24550327.0,
+          "value_after": 23000990.63332346,
+          "pnl": -1549336.3666765406
+        },
+        {
+          "asset_id": "BD012",
+          "asset_type": "bond",
+          "counterparty": "HDFC Bank",
+          "value_before": 25492460.0,
+          "value_after": 22216723.93221912,
+          "pnl": -3275736.0677808775
+        },
+        {
+          "asset_id": "BD013",
+          "asset_type": "bond",
+          "counterparty": "Tata Consultancy",
+          "value_before": 10030593.0,
+          "value_after": 8730967.916063404,
+          "pnl": -1299625.0839365968
+        },
+        {
+          "asset_id": "BD014",
+          "asset_type": "bond",
+          "counterparty": "Tata Motors",
+          "value_before": 39576798.0,
+          "value_after": 35776309.24722784,
+          "pnl": -3800488.7527721617
+        },
+        {
+          "asset_id": "BD015",
+          "asset_type": "bond",
+          "counterparty": "JP Morgan",
+          "value_before": 9770559.0,
+          "value_after": 8565142.829385482,
+          "pnl": -1205416.1706145187
+        },
+        {
+          "asset_id": "BD016",
+          "asset_type": "bond",
+          "counterparty": "Exxon Mobil",
+          "value_before": 9649451.0,
+          "value_after": 8137141.198381327,
+          "pnl": -1512309.801618673
+        },
+        {
+          "asset_id": "BD017",
+          "asset_type": "bond",
+          "counterparty": "Boeing",
+          "value_before": 9778197.0,
+          "value_after": 8599984.804087123,
+          "pnl": -1178212.1959128764
+        },
+        {
+          "asset_id": "BD018",
+          "asset_type": "bond",
+          "counterparty": "Pfizer",
+          "value_before": 10044958.0,
+          "value_after": 8769401.176276028,
+          "pnl": -1275556.8237239718
+        },
+        {
+          "asset_id": "DV019",
+          "asset_type": "derivative",
+          "counterparty": "JP Morgan",
+          "value_before": 895101.0,
+          "value_after": -1634705.2999999998,
+          "pnl": -2529806.3
+        },
+        {
+          "asset_id": "DV020",
+          "asset_type": "derivative",
+          "counterparty": "Exxon Mobil",
+          "value_before": -972612.0,
+          "value_after": -3392432.8999999994,
+          "pnl": -2419820.8999999994
+        },
+        {
+          "asset_id": "DV021",
+          "asset_type": "derivative",
+          "counterparty": "HDFC Bank",
+          "value_before": 398238.0,
+          "value_after": -5251515.900000001,
+          "pnl": -5649753.900000001
+        },
+        {
+          "asset_id": "DV022",
+          "asset_type": "derivative",
+          "counterparty": "Tata Consultancy",
+          "value_before": 923805.0,
+          "value_after": -2486452.9,
+          "pnl": -3410257.9
+        },
+        {
+          "asset_id": "DV023",
+          "asset_type": "derivative",
+          "counterparty": "Boeing",
+          "value_before": 51889.0,
+          "value_after": -2350595.7,
+          "pnl": -2402484.7
+        },
+        {
+          "asset_id": "DV024",
+          "asset_type": "derivative",
+          "counterparty": "Reliance Industries",
+          "value_before": -239637.0,
+          "value_after": -6668098.9,
+          "pnl": -6428461.9
+        },
+        {
+          "asset_id": "EQ025",
+          "asset_type": "equity",
+          "counterparty": "Boeing",
+          "value_before": 5000000.0,
+          "value_after": 4573700.0,
+          "pnl": -426300.0
+        },
+        {
+          "asset_id": "EQ026",
+          "asset_type": "equity",
+          "counterparty": "HDFC Bank",
+          "value_before": 10000000.0,
+          "value_after": 8806360.0,
+          "pnl": -1193640.0
+        },
+        {
+          "asset_id": "EQ027",
+          "asset_type": "equity",
+          "counterparty": "Reliance Industries",
+          "value_before": 10000000.0,
+          "value_after": 9147400.0,
+          "pnl": -852600.0
+        },
+        {
+          "asset_id": "EQ028",
+          "asset_type": "equity",
+          "counterparty": "Apple",
+          "value_before": 5000000.0,
+          "value_after": 4701590.0,
+          "pnl": -298410.0
+        }
+      ]
+    },
+    {
+      "label": "credit_event (impact 7.9)",
+      "scenario": {
+        "event_type": "credit_event",
+        "impact": 7.944,
+        "equity_shock": -0.063552,
+        "rate_shock_bps": 0.0,
+        "spread_shock_bps": 198.6,
+        "pd_multiplier": 2.1916,
+        "tickers": [
+          "RELIANCE"
+        ],
+        "sectors": [
+          "energy"
+        ],
+        "trigger_article_id": "news-0029",
+        "headline": "Reliance Industries credit rating downgraded after missed payment, default fears grow",
+        "triggered_at": "2026-09-28T22:51:00Z"
+      },
+      "trigger_ids": [
+        "news-0029"
+      ],
+      "value_before": 602345127.0,
+      "value_after": 585416592.5139173,
+      "pnl": -16928534.486082695,
+      "pnl_pct": -0.02810437692157622,
+      "pnl_by_asset_type": {
+        "loan": -9058886.5794,
+        "bond": -2391465.506682695,
+        "derivative": -4842662.4,
+        "equity": -635520.0
+      },
+      "by_asset": [
+        {
+          "asset_id": "LN001",
+          "asset_type": "loan",
+          "counterparty": "Reliance Industries",
+          "value_before": 77120000.0,
+          "value_after": 69660075.584,
+          "pnl": -7459924.416
+        },
+        {
+          "asset_id": "LN002",
+          "asset_type": "loan",
+          "counterparty": "HDFC Bank",
+          "value_before": 34685000.0,
+          "value_after": 34685000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN003",
+          "asset_type": "loan",
+          "counterparty": "Tata Consultancy",
+          "value_before": 79280000.0,
+          "value_after": 79280000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN004",
+          "asset_type": "loan",
+          "counterparty": "Tata Motors",
+          "value_before": 49550000.0,
+          "value_after": 49550000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN005",
+          "asset_type": "loan",
+          "counterparty": "JP Morgan",
+          "value_before": 19280000.0,
+          "value_after": 19280000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN006",
+          "asset_type": "loan",
+          "counterparty": "Exxon Mobil",
+          "value_before": 34842500.0,
+          "value_after": 33243537.8366,
+          "pnl": -1598962.1634
+        },
+        {
+          "asset_id": "LN007",
+          "asset_type": "loan",
+          "counterparty": "Boeing",
+          "value_before": 19910000.0,
+          "value_after": 19910000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN008",
+          "asset_type": "loan",
+          "counterparty": "Pfizer",
+          "value_before": 34842500.0,
+          "value_after": 34842500.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN009",
+          "asset_type": "loan",
+          "counterparty": "Apple",
+          "value_before": 48200000.0,
+          "value_after": 48200000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN010",
+          "asset_type": "loan",
+          "counterparty": "Walmart",
+          "value_before": 34685000.0,
+          "value_after": 34685000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD011",
+          "asset_type": "bond",
+          "counterparty": "Reliance Industries",
+          "value_before": 24550327.0,
+          "value_after": 23054766.908495653,
+          "pnl": -1495560.0915043456
+        },
+        {
+          "asset_id": "BD012",
+          "asset_type": "bond",
+          "counterparty": "HDFC Bank",
+          "value_before": 25492460.0,
+          "value_after": 25492460.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD013",
+          "asset_type": "bond",
+          "counterparty": "Tata Consultancy",
+          "value_before": 10030593.0,
+          "value_after": 10030593.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD014",
+          "asset_type": "bond",
+          "counterparty": "Tata Motors",
+          "value_before": 39576798.0,
+          "value_after": 39576798.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD015",
+          "asset_type": "bond",
+          "counterparty": "JP Morgan",
+          "value_before": 9770559.0,
+          "value_after": 9770559.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD016",
+          "asset_type": "bond",
+          "counterparty": "Exxon Mobil",
+          "value_before": 9649451.0,
+          "value_after": 8753545.58482165,
+          "pnl": -895905.4151783494
+        },
+        {
+          "asset_id": "BD017",
+          "asset_type": "bond",
+          "counterparty": "Boeing",
+          "value_before": 9778197.0,
+          "value_after": 9778197.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD018",
+          "asset_type": "bond",
+          "counterparty": "Pfizer",
+          "value_before": 10044958.0,
+          "value_after": 10044958.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV019",
+          "asset_type": "derivative",
+          "counterparty": "JP Morgan",
+          "value_before": 895101.0,
+          "value_after": 895101.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV020",
+          "asset_type": "derivative",
+          "counterparty": "Exxon Mobil",
+          "value_before": -972612.0,
+          "value_after": -1525514.4,
+          "pnl": -552902.3999999999
+        },
+        {
+          "asset_id": "DV021",
+          "asset_type": "derivative",
+          "counterparty": "HDFC Bank",
+          "value_before": 398238.0,
+          "value_after": 398238.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV022",
+          "asset_type": "derivative",
+          "counterparty": "Tata Consultancy",
+          "value_before": 923805.0,
+          "value_after": 923805.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV023",
+          "asset_type": "derivative",
+          "counterparty": "Boeing",
+          "value_before": 51889.0,
+          "value_after": 51889.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV024",
+          "asset_type": "derivative",
+          "counterparty": "Reliance Industries",
+          "value_before": -239637.0,
+          "value_after": -4529397.0,
+          "pnl": -4289760.0
+        },
+        {
+          "asset_id": "EQ025",
+          "asset_type": "equity",
+          "counterparty": "Boeing",
+          "value_before": 5000000.0,
+          "value_after": 5000000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "EQ026",
+          "asset_type": "equity",
+          "counterparty": "HDFC Bank",
+          "value_before": 10000000.0,
+          "value_after": 10000000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "EQ027",
+          "asset_type": "equity",
+          "counterparty": "Reliance Industries",
+          "value_before": 10000000.0,
+          "value_after": 9364480.0,
+          "pnl": -635520.0
+        },
+        {
+          "asset_id": "EQ028",
+          "asset_type": "equity",
+          "counterparty": "Apple",
+          "value_before": 5000000.0,
+          "value_after": 5000000.0,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "label": "regulatory (impact 7.0)",
+      "scenario": {
+        "event_type": "regulatory",
+        "impact": 7.047,
+        "equity_shock": -0.042282,
+        "rate_shock_bps": 17.6175,
+        "spread_shock_bps": 42.282,
+        "pd_multiplier": 1.14094,
+        "tickers": [
+          "XOM"
+        ],
+        "sectors": [
+          "energy"
+        ],
+        "trigger_article_id": "news-0032",
+        "headline": "Regulator opens probe into Exxon Mobil, fine possible",
+        "triggered_at": "2026-09-29T00:51:00Z"
+      },
+      "trigger_ids": [
+        "news-0032"
+      ],
+      "value_before": 602345127.0,
+      "value_after": 597972545.1614885,
+      "pnl": -4372581.838511424,
+      "pnl_pct": -0.0072592632404767906,
+      "pnl_by_asset_type": {
+        "loan": -1176933.6725238003,
+        "bond": -677536.6089876241,
+        "derivative": -2289788.7569999998,
+        "equity": -228322.8
+      },
+      "by_asset": [
+        {
+          "asset_id": "LN001",
+          "asset_type": "loan",
+          "counterparty": "Reliance Industries",
+          "value_before": 77120000.0,
+          "value_after": 76437713.0229632,
+          "pnl": -682286.9770368002
+        },
+        {
+          "asset_id": "LN002",
+          "asset_type": "loan",
+          "counterparty": "HDFC Bank",
+          "value_before": 34685000.0,
+          "value_after": 34685000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN003",
+          "asset_type": "loan",
+          "counterparty": "Tata Consultancy",
+          "value_before": 79280000.0,
+          "value_after": 79280000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN004",
+          "asset_type": "loan",
+          "counterparty": "Tata Motors",
+          "value_before": 49550000.0,
+          "value_after": 49550000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN005",
+          "asset_type": "loan",
+          "counterparty": "JP Morgan",
+          "value_before": 19280000.0,
+          "value_after": 19280000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN006",
+          "asset_type": "loan",
+          "counterparty": "Exxon Mobil",
+          "value_before": 34842500.0,
+          "value_after": 34347853.304513,
+          "pnl": -494646.69548699993
+        },
+        {
+          "asset_id": "LN007",
+          "asset_type": "loan",
+          "counterparty": "Boeing",
+          "value_before": 19910000.0,
+          "value_after": 19910000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN008",
+          "asset_type": "loan",
+          "counterparty": "Pfizer",
+          "value_before": 34842500.0,
+          "value_after": 34842500.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN009",
+          "asset_type": "loan",
+          "counterparty": "Apple",
+          "value_before": 48200000.0,
+          "value_after": 48200000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN010",
+          "asset_type": "loan",
+          "counterparty": "Walmart",
+          "value_before": 34685000.0,
+          "value_after": 34685000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD011",
+          "asset_type": "bond",
+          "counterparty": "Reliance Industries",
+          "value_before": 24550327.0,
+          "value_after": 24298951.601344574,
+          "pnl": -251375.3986554274
+        },
+        {
+          "asset_id": "BD012",
+          "asset_type": "bond",
+          "counterparty": "HDFC Bank",
+          "value_before": 25492460.0,
+          "value_after": 25492460.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD013",
+          "asset_type": "bond",
+          "counterparty": "Tata Consultancy",
+          "value_before": 10030593.0,
+          "value_after": 10030593.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD014",
+          "asset_type": "bond",
+          "counterparty": "Tata Motors",
+          "value_before": 39576798.0,
+          "value_after": 39576798.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD015",
+          "asset_type": "bond",
+          "counterparty": "JP Morgan",
+          "value_before": 9770559.0,
+          "value_after": 9770559.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD016",
+          "asset_type": "bond",
+          "counterparty": "Exxon Mobil",
+          "value_before": 9649451.0,
+          "value_after": 9223289.789667804,
+          "pnl": -426161.21033219673
+        },
+        {
+          "asset_id": "BD017",
+          "asset_type": "bond",
+          "counterparty": "Boeing",
+          "value_before": 9778197.0,
+          "value_after": 9778197.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD018",
+          "asset_type": "bond",
+          "counterparty": "Pfizer",
+          "value_before": 10044958.0,
+          "value_after": 10044958.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV019",
+          "asset_type": "derivative",
+          "counterparty": "JP Morgan",
+          "value_before": 895101.0,
+          "value_after": 895101.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV020",
+          "asset_type": "derivative",
+          "counterparty": "Exxon Mobil",
+          "value_before": -972612.0,
+          "value_after": -1671128.2574999998,
+          "pnl": -698516.2574999998
+        },
+        {
+          "asset_id": "DV021",
+          "asset_type": "derivative",
+          "counterparty": "HDFC Bank",
+          "value_before": 398238.0,
+          "value_after": 398238.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV022",
+          "asset_type": "derivative",
+          "counterparty": "Tata Consultancy",
+          "value_before": 923805.0,
+          "value_after": 923805.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV023",
+          "asset_type": "derivative",
+          "counterparty": "Boeing",
+          "value_before": 51889.0,
+          "value_after": 51889.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV024",
+          "asset_type": "derivative",
+          "counterparty": "Reliance Industries",
+          "value_before": -239637.0,
+          "value_after": -1830909.4995,
+          "pnl": -1591272.4995
+        },
+        {
+          "asset_id": "EQ025",
+          "asset_type": "equity",
+          "counterparty": "Boeing",
+          "value_before": 5000000.0,
+          "value_after": 5000000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "EQ026",
+          "asset_type": "equity",
+          "counterparty": "HDFC Bank",
+          "value_before": 10000000.0,
+          "value_after": 10000000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "EQ027",
+          "asset_type": "equity",
+          "counterparty": "Reliance Industries",
+          "value_before": 10000000.0,
+          "value_after": 9771677.2,
+          "pnl": -228322.8
+        },
+        {
+          "asset_id": "EQ028",
+          "asset_type": "equity",
+          "counterparty": "Apple",
+          "value_before": 5000000.0,
+          "value_after": 5000000.0,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "label": "geopolitical (impact 7.3)",
+      "scenario": {
+        "event_type": "geopolitical",
+        "impact": 7.334,
+        "equity_shock": -0.11000999999999998,
+        "rate_shock_bps": 55.004999999999995,
+        "spread_shock_bps": 110.00999999999999,
+        "pd_multiplier": 1.44004,
+        "tickers": [
+          "RELIANCE"
+        ],
+        "sectors": [
+          "energy"
+        ],
+        "trigger_article_id": "news-0033",
+        "headline": "Missile conflict and new sanctions threaten oil supply; markets slump",
+        "triggered_at": "2026-09-29T01:35:00Z"
+      },
+      "trigger_ids": [
+        "news-0033"
+      ],
+      "value_before": 602345127.0,
+      "value_after": 547577253.0875462,
+      "pnl": -54767873.9124538,
+      "pnl_pct": -0.09092440771493748,
+      "pnl_by_asset_type": {
+        "loan": -15388055.9795175,
+        "bond": -11533756.702936303,
+        "derivative": -24490756.229999997,
+        "equity": -3355304.9999999995
+      },
+      "by_asset": [
+        {
+          "asset_id": "LN001",
+          "asset_type": "loan",
+          "counterparty": "Reliance Industries",
+          "value_before": 77120000.0,
+          "value_after": 72571820.48672,
+          "pnl": -4548179.513280001
+        },
+        {
+          "asset_id": "LN002",
+          "asset_type": "loan",
+          "counterparty": "HDFC Bank",
+          "value_before": 34685000.0,
+          "value_after": 33207077.80565,
+          "pnl": -1477922.19435
+        },
+        {
+          "asset_id": "LN003",
+          "asset_type": "loan",
+          "counterparty": "Tata Consultancy",
+          "value_before": 79280000.0,
+          "value_after": 78179368.43168,
+          "pnl": -1100631.5683199998
+        },
+        {
+          "asset_id": "LN004",
+          "asset_type": "loan",
+          "counterparty": "Tata Motors",
+          "value_before": 49550000.0,
+          "value_after": 48523063.80065,
+          "pnl": -1026936.19935
+        },
+        {
+          "asset_id": "LN005",
+          "asset_type": "loan",
+          "counterparty": "JP Morgan",
+          "value_before": 19280000.0,
+          "value_after": 18133863.0152,
+          "pnl": -1146136.9848
+        },
+        {
+          "asset_id": "LN006",
+          "asset_type": "loan",
+          "counterparty": "Exxon Mobil",
+          "value_before": 34842500.0,
+          "value_after": 32968512.708005,
+          "pnl": -1873987.2919949999
+        },
+        {
+          "asset_id": "LN007",
+          "asset_type": "loan",
+          "counterparty": "Boeing",
+          "value_before": 19910000.0,
+          "value_after": 19560924.95879,
+          "pnl": -349075.04120999994
+        },
+        {
+          "asset_id": "LN008",
+          "asset_type": "loan",
+          "counterparty": "Pfizer",
+          "value_before": 34842500.0,
+          "value_after": 33589970.5565375,
+          "pnl": -1252529.4434624999
+        },
+        {
+          "asset_id": "LN009",
+          "asset_type": "loan",
+          "counterparty": "Apple",
+          "value_before": 48200000.0,
+          "value_after": 46776673.0184,
+          "pnl": -1423326.9816
+        },
+        {
+          "asset_id": "LN010",
+          "asset_type": "loan",
+          "counterparty": "Walmart",
+          "value_before": 34685000.0,
+          "value_after": 33495669.23885,
+          "pnl": -1189330.76115
+        },
+        {
+          "asset_id": "BD011",
+          "asset_type": "bond",
+          "counterparty": "Reliance Industries",
+          "value_before": 24550327.0,
+          "value_after": 23093660.219007157,
+          "pnl": -1456666.7809928423
+        },
+        {
+          "asset_id": "BD012",
+          "asset_type": "bond",
+          "counterparty": "HDFC Bank",
+          "value_before": 25492460.0,
+          "value_after": 23168544.262199804,
+          "pnl": -2323915.737800196
+        },
+        {
+          "asset_id": "BD013",
+          "asset_type": "bond",
+          "counterparty": "Tata Consultancy",
+          "value_before": 10030593.0,
+          "value_after": 9181125.776070774,
+          "pnl": -849467.2239292273
+        },
+        {
+          "asset_id": "BD014",
+          "asset_type": "bond",
+          "counterparty": "Tata Motors",
+          "value_before": 39576798.0,
+          "value_after": 36773743.45855491,
+          "pnl": -2803054.5414450895
+        },
+        {
+          "asset_id": "BD015",
+          "asset_type": "bond",
+          "counterparty": "JP Morgan",
+          "value_before": 9770559.0,
+          "value_after": 8922822.571128188,
+          "pnl": -847736.4288718117
+        },
+        {
+          "asset_id": "BD016",
+          "asset_type": "bond",
+          "counterparty": "Exxon Mobil",
+          "value_before": 9649451.0,
+          "value_after": 8228666.41019398,
+          "pnl": -1420784.58980602
+        },
+        {
+          "asset_id": "BD017",
+          "asset_type": "bond",
+          "counterparty": "Boeing",
+          "value_before": 9778197.0,
+          "value_after": 8891462.999813553,
+          "pnl": -886734.0001864475
+        },
+        {
+          "asset_id": "BD018",
+          "asset_type": "bond",
+          "counterparty": "Pfizer",
+          "value_before": 10044958.0,
+          "value_after": 9099560.60009533,
+          "pnl": -945397.3999046702
+        },
+        {
+          "asset_id": "DV019",
+          "asset_type": "derivative",
+          "counterparty": "JP Morgan",
+          "value_before": 895101.0,
+          "value_after": -1041240.0149999997,
+          "pnl": -1936341.0149999997
+        },
+        {
+          "asset_id": "DV020",
+          "asset_type": "derivative",
+          "counterparty": "Exxon Mobil",
+          "value_before": -972612.0,
+          "value_after": -3504437.144999999,
+          "pnl": -2531825.144999999
+        },
+        {
+          "asset_id": "DV021",
+          "asset_type": "derivative",
+          "counterparty": "HDFC Bank",
+          "value_before": 398238.0,
+          "value_after": -4468549.395,
+          "pnl": -4866787.395
+        },
+        {
+          "asset_id": "DV022",
+          "asset_type": "derivative",
+          "counterparty": "Tata Consultancy",
+          "value_before": 923805.0,
+          "value_after": -2133867.944999999,
+          "pnl": -3057672.944999999
+        },
+        {
+          "asset_id": "DV023",
+          "asset_type": "derivative",
+          "counterparty": "Boeing",
+          "value_before": 51889.0,
+          "value_after": -2132194.5349999997,
+          "pnl": -2184083.5349999997
+        },
+        {
+          "asset_id": "DV024",
+          "asset_type": "derivative",
+          "counterparty": "Reliance Industries",
+          "value_before": -239637.0,
+          "value_after": -10153683.194999998,
+          "pnl": -9914046.194999998
+        },
+        {
+          "asset_id": "EQ025",
+          "asset_type": "equity",
+          "counterparty": "Boeing",
+          "value_before": 5000000.0,
+          "value_after": 4504955.0,
+          "pnl": -495044.99999999994
+        },
+        {
+          "asset_id": "EQ026",
+          "asset_type": "equity",
+          "counterparty": "HDFC Bank",
+          "value_before": 10000000.0,
+          "value_after": 8899900.0,
+          "pnl": -1100099.9999999998
+        },
+        {
+          "asset_id": "EQ027",
+          "asset_type": "equity",
+          "counterparty": "Reliance Industries",
+          "value_before": 10000000.0,
+          "value_after": 8569870.0,
+          "pnl": -1430129.9999999998
+        },
+        {
+          "asset_id": "EQ028",
+          "asset_type": "equity",
+          "counterparty": "Apple",
+          "value_before": 5000000.0,
+          "value_after": 4669970.0,
+          "pnl": -330029.9999999999
+        }
+      ]
+    },
+    {
+      "label": "geopolitical (impact 7.8)",
+      "scenario": {
+        "event_type": "geopolitical",
+        "impact": 7.764,
+        "equity_shock": -0.11646,
+        "rate_shock_bps": 58.23,
+        "spread_shock_bps": 116.46,
+        "pd_multiplier": 1.46584,
+        "tickers": [],
+        "sectors": [],
+        "trigger_article_id": "news-0036",
+        "headline": "War escalates as sanctions and border tensions spark market crash fears",
+        "triggered_at": "2026-09-29T03:31:00Z"
+      },
+      "trigger_ids": [
+        "news-0036"
+      ],
+      "value_before": 602345127.0,
+      "value_after": 544403098.6096077,
+      "pnl": -57942028.39039228,
+      "pnl_pct": -0.09619406847196471,
+      "pnl_by_asset_type": {
+        "loan": -16290273.605805002,
+        "bond": -12173050.204587286,
+        "derivative": -25926674.58,
+        "equity": -3552030.0
+      },
+      "by_asset": [
+        {
+          "asset_id": "LN001",
+          "asset_type": "loan",
+          "counterparty": "Reliance Industries",
+          "value_before": 77120000.0,
+          "value_after": 72305156.02112,
+          "pnl": -4814843.97888
+        },
+        {
+          "asset_id": "LN002",
+          "asset_type": "loan",
+          "counterparty": "HDFC Bank",
+          "value_before": 34685000.0,
+          "value_after": 33120425.6999,
+          "pnl": -1564574.3001
+        },
+        {
+          "asset_id": "LN003",
+          "asset_type": "loan",
+          "counterparty": "Tata Consultancy",
+          "value_before": 79280000.0,
+          "value_after": 78114837.26528,
+          "pnl": -1165162.73472
+        },
+        {
+          "asset_id": "LN004",
+          "asset_type": "loan",
+          "counterparty": "Tata Motors",
+          "value_before": 49550000.0,
+          "value_after": 48462853.4699,
+          "pnl": -1087146.5301
+        },
+        {
+          "asset_id": "LN005",
+          "asset_type": "loan",
+          "counterparty": "JP Morgan",
+          "value_before": 19280000.0,
+          "value_after": 18066663.8192,
+          "pnl": -1213336.1808
+        },
+        {
+          "asset_id": "LN006",
+          "asset_type": "loan",
+          "counterparty": "Exxon Mobil",
+          "value_before": 34842500.0,
+          "value_after": 32858638.89623,
+          "pnl": -1983861.10377
+        },
+        {
+          "asset_id": "LN007",
+          "asset_type": "loan",
+          "counterparty": "Boeing",
+          "value_before": 19910000.0,
+          "value_after": 19540458.32834,
+          "pnl": -369541.67166000005
+        },
+        {
+          "asset_id": "LN008",
+          "asset_type": "loan",
+          "counterparty": "Pfizer",
+          "value_before": 34842500.0,
+          "value_after": 33516533.460725,
+          "pnl": -1325966.539275
+        },
+        {
+          "asset_id": "LN009",
+          "asset_type": "loan",
+          "counterparty": "Apple",
+          "value_before": 48200000.0,
+          "value_after": 46693221.8864,
+          "pnl": -1506778.1136
+        },
+        {
+          "asset_id": "LN010",
+          "asset_type": "loan",
+          "counterparty": "Walmart",
+          "value_before": 34685000.0,
+          "value_after": 33425937.5471,
+          "pnl": -1259062.4529000001
+        },
+        {
+          "asset_id": "BD011",
+          "asset_type": "bond",
+          "counterparty": "Reliance Industries",
+          "value_before": 24550327.0,
+          "value_after": 23011265.746227223,
+          "pnl": -1539061.2537727763
+        },
+        {
+          "asset_id": "BD012",
+          "asset_type": "bond",
+          "counterparty": "HDFC Bank",
+          "value_before": 25492460.0,
+          "value_after": 23039304.99401603,
+          "pnl": -2453155.005983972
+        },
+        {
+          "asset_id": "BD013",
+          "asset_type": "bond",
+          "counterparty": "Tata Consultancy",
+          "value_before": 10030593.0,
+          "value_after": 9133954.059148917,
+          "pnl": -896638.9408510822
+        },
+        {
+          "asset_id": "BD014",
+          "asset_type": "bond",
+          "counterparty": "Tata Motors",
+          "value_before": 39576798.0,
+          "value_after": 36616579.056215696,
+          "pnl": -2960218.9437843054
+        },
+        {
+          "asset_id": "BD015",
+          "asset_type": "bond",
+          "counterparty": "JP Morgan",
+          "value_before": 9770559.0,
+          "value_after": 8875769.320605813,
+          "pnl": -894789.6793941878
+        },
+        {
+          "asset_id": "BD016",
+          "asset_type": "bond",
+          "counterparty": "Exxon Mobil",
+          "value_before": 9649451.0,
+          "value_after": 8153804.724921192,
+          "pnl": -1495646.275078808
+        },
+        {
+          "asset_id": "BD017",
+          "asset_type": "bond",
+          "counterparty": "Boeing",
+          "value_before": 9778197.0,
+          "value_after": 8842154.9024748,
+          "pnl": -936042.0975251992
+        },
+        {
+          "asset_id": "BD018",
+          "asset_type": "bond",
+          "counterparty": "Pfizer",
+          "value_before": 10044958.0,
+          "value_after": 9047459.991803046,
+          "pnl": -997498.0081969545
+        },
+        {
+          "asset_id": "DV019",
+          "asset_type": "derivative",
+          "counterparty": "JP Morgan",
+          "value_before": 895101.0,
+          "value_after": -1154769.69,
+          "pnl": -2049870.69
+        },
+        {
+          "asset_id": "DV020",
+          "asset_type": "derivative",
+          "counterparty": "Exxon Mobil",
+          "value_before": -972612.0,
+          "value_after": -3652880.67,
+          "pnl": -2680268.67
+        },
+        {
+          "asset_id": "DV021",
+          "asset_type": "derivative",
+          "counterparty": "HDFC Bank",
+          "value_before": 398238.0,
+          "value_after": -4753894.170000001,
+          "pnl": -5152132.170000001
+        },
+        {
+          "asset_id": "DV022",
+          "asset_type": "derivative",
+          "counterparty": "Tata Consultancy",
+          "value_before": 923805.0,
+          "value_after": -2313142.4699999997,
+          "pnl": -3236947.4699999997
+        },
+        {
+          "asset_id": "DV023",
+          "asset_type": "derivative",
+          "counterparty": "Boeing",
+          "value_before": 51889.0,
+          "value_after": -2260249.61,
+          "pnl": -2312138.61
+        },
+        {
+          "asset_id": "DV024",
+          "asset_type": "derivative",
+          "counterparty": "Reliance Industries",
+          "value_before": -239637.0,
+          "value_after": -10734953.97,
+          "pnl": -10495316.97
+        },
+        {
+          "asset_id": "EQ025",
+          "asset_type": "equity",
+          "counterparty": "Boeing",
+          "value_before": 5000000.0,
+          "value_after": 4475930.0,
+          "pnl": -524069.99999999994
+        },
+        {
+          "asset_id": "EQ026",
+          "asset_type": "equity",
+          "counterparty": "HDFC Bank",
+          "value_before": 10000000.0,
+          "value_after": 8835400.0,
+          "pnl": -1164600.0
+        },
+        {
+          "asset_id": "EQ027",
+          "asset_type": "equity",
+          "counterparty": "Reliance Industries",
+          "value_before": 10000000.0,
+          "value_after": 8486020.0,
+          "pnl": -1513980.0
+        },
+        {
+          "asset_id": "EQ028",
+          "asset_type": "equity",
+          "counterparty": "Apple",
+          "value_before": 5000000.0,
+          "value_after": 4650620.0,
+          "pnl": -349379.99999999994
+        }
+      ]
+    },
+    {
+      "label": "macroeconomic (impact 7.1)",
+      "scenario": {
+        "event_type": "macroeconomic",
+        "impact": 7.105,
+        "equity_shock": -0.08526,
+        "rate_shock_bps": 142.1,
+        "spread_shock_bps": 71.05,
+        "pd_multiplier": 1.35525,
+        "tickers": [
+          "TCS"
+        ],
+        "sectors": [
+          "it"
+        ],
+        "trigger_article_id": "news-0037",
+        "headline": "RBI rate hike and inflation fears hit Tata Consultancy as GDP slumps",
+        "triggered_at": "2026-09-29T04:15:00Z"
+      },
+      "trigger_ids": [
+        "news-0037"
+      ],
+      "value_before": 602345127.0,
+      "value_after": 550916109.3828387,
+      "pnl": -51429017.617161214,
+      "pnl_pct": -0.08538131265924762,
+      "pnl_by_asset_type": {
+        "loan": -10720800.754124999,
+        "bond": -15096681.263036216,
+        "derivative": -22840585.6,
+        "equity": -2770950.0
+      },
+      "by_asset": [
+        {
+          "asset_id": "LN001",
+          "asset_type": "loan",
+          "counterparty": "Reliance Industries",
+          "value_before": 77120000.0,
+          "value_after": 74655804.112,
+          "pnl": -2464195.888
+        },
+        {
+          "asset_id": "LN002",
+          "asset_type": "loan",
+          "counterparty": "HDFC Bank",
+          "value_before": 34685000.0,
+          "value_after": 33317343.70055,
+          "pnl": -1367656.2994499998
+        },
+        {
+          "asset_id": "LN003",
+          "asset_type": "loan",
+          "counterparty": "Tata Consultancy",
+          "value_before": 79280000.0,
+          "value_after": 78414873.60080001,
+          "pnl": -865126.3991999999
+        },
+        {
+          "asset_id": "LN004",
+          "asset_type": "loan",
+          "counterparty": "Tata Motors",
+          "value_before": 49550000.0,
+          "value_after": 48781086.2425,
+          "pnl": -768913.7575
+        },
+        {
+          "asset_id": "LN005",
+          "asset_type": "loan",
+          "counterparty": "JP Morgan",
+          "value_before": 19280000.0,
+          "value_after": 18172055.3944,
+          "pnl": -1107944.6056
+        },
+        {
+          "asset_id": "LN006",
+          "asset_type": "loan",
+          "counterparty": "Exxon Mobil",
+          "value_before": 34842500.0,
+          "value_after": 33900297.77925,
+          "pnl": -942202.2207499999
+        },
+        {
+          "asset_id": "LN007",
+          "asset_type": "loan",
+          "counterparty": "Boeing",
+          "value_before": 19910000.0,
+          "value_after": 19653105.2255,
+          "pnl": -256894.77449999997
+        },
+        {
+          "asset_id": "LN008",
+          "asset_type": "loan",
+          "counterparty": "Pfizer",
+          "value_before": 34842500.0,
+          "value_after": 33932480.054375,
+          "pnl": -910019.9456249999
+        },
+        {
+          "asset_id": "LN009",
+          "asset_type": "loan",
+          "counterparty": "Apple",
+          "value_before": 48200000.0,
+          "value_after": 47038011.354,
+          "pnl": -1161988.6459999997
+        },
+        {
+          "asset_id": "LN010",
+          "asset_type": "loan",
+          "counterparty": "Walmart",
+          "value_before": 34685000.0,
+          "value_after": 33809141.7825,
+          "pnl": -875858.2174999999
+        },
+        {
+          "asset_id": "BD011",
+          "asset_type": "bond",
+          "counterparty": "Reliance Industries",
+          "value_before": 24550327.0,
+          "value_after": 23000990.63332346,
+          "pnl": -1549336.3666765406
+        },
+        {
+          "asset_id": "BD012",
+          "asset_type": "bond",
+          "counterparty": "HDFC Bank",
+          "value_before": 25492460.0,
+          "value_after": 22216723.93221912,
+          "pnl": -3275736.0677808775
+        },
+        {
+          "asset_id": "BD013",
+          "asset_type": "bond",
+          "counterparty": "Tata Consultancy",
+          "value_before": 10030593.0,
+          "value_after": 8730967.916063404,
+          "pnl": -1299625.0839365968
+        },
+        {
+          "asset_id": "BD014",
+          "asset_type": "bond",
+          "counterparty": "Tata Motors",
+          "value_before": 39576798.0,
+          "value_after": 35776309.24722784,
+          "pnl": -3800488.7527721617
+        },
+        {
+          "asset_id": "BD015",
+          "asset_type": "bond",
+          "counterparty": "JP Morgan",
+          "value_before": 9770559.0,
+          "value_after": 8565142.829385482,
+          "pnl": -1205416.1706145187
+        },
+        {
+          "asset_id": "BD016",
+          "asset_type": "bond",
+          "counterparty": "Exxon Mobil",
+          "value_before": 9649451.0,
+          "value_after": 8137141.198381327,
+          "pnl": -1512309.801618673
+        },
+        {
+          "asset_id": "BD017",
+          "asset_type": "bond",
+          "counterparty": "Boeing",
+          "value_before": 9778197.0,
+          "value_after": 8599984.804087123,
+          "pnl": -1178212.1959128764
+        },
+        {
+          "asset_id": "BD018",
+          "asset_type": "bond",
+          "counterparty": "Pfizer",
+          "value_before": 10044958.0,
+          "value_after": 8769401.176276028,
+          "pnl": -1275556.8237239718
+        },
+        {
+          "asset_id": "DV019",
+          "asset_type": "derivative",
+          "counterparty": "JP Morgan",
+          "value_before": 895101.0,
+          "value_after": -1634705.2999999998,
+          "pnl": -2529806.3
+        },
+        {
+          "asset_id": "DV020",
+          "asset_type": "derivative",
+          "counterparty": "Exxon Mobil",
+          "value_before": -972612.0,
+          "value_after": -3392432.8999999994,
+          "pnl": -2419820.8999999994
+        },
+        {
+          "asset_id": "DV021",
+          "asset_type": "derivative",
+          "counterparty": "HDFC Bank",
+          "value_before": 398238.0,
+          "value_after": -5251515.900000001,
+          "pnl": -5649753.900000001
+        },
+        {
+          "asset_id": "DV022",
+          "asset_type": "derivative",
+          "counterparty": "Tata Consultancy",
+          "value_before": 923805.0,
+          "value_after": -2486452.9,
+          "pnl": -3410257.9
+        },
+        {
+          "asset_id": "DV023",
+          "asset_type": "derivative",
+          "counterparty": "Boeing",
+          "value_before": 51889.0,
+          "value_after": -2350595.7,
+          "pnl": -2402484.7
+        },
+        {
+          "asset_id": "DV024",
+          "asset_type": "derivative",
+          "counterparty": "Reliance Industries",
+          "value_before": -239637.0,
+          "value_after": -6668098.9,
+          "pnl": -6428461.9
+        },
+        {
+          "asset_id": "EQ025",
+          "asset_type": "equity",
+          "counterparty": "Boeing",
+          "value_before": 5000000.0,
+          "value_after": 4573700.0,
+          "pnl": -426300.0
+        },
+        {
+          "asset_id": "EQ026",
+          "asset_type": "equity",
+          "counterparty": "HDFC Bank",
+          "value_before": 10000000.0,
+          "value_after": 8806360.0,
+          "pnl": -1193640.0
+        },
+        {
+          "asset_id": "EQ027",
+          "asset_type": "equity",
+          "counterparty": "Reliance Industries",
+          "value_before": 10000000.0,
+          "value_after": 9147400.0,
+          "pnl": -852600.0
+        },
+        {
+          "asset_id": "EQ028",
+          "asset_type": "equity",
+          "counterparty": "Apple",
+          "value_before": 5000000.0,
+          "value_after": 4701590.0,
+          "pnl": -298410.0
+        }
+      ]
+    },
+    {
+      "label": "credit_event (impact 7.5)",
+      "scenario": {
+        "event_type": "credit_event",
+        "impact": 7.459,
+        "equity_shock": -0.059672,
+        "rate_shock_bps": 0.0,
+        "spread_shock_bps": 186.475,
+        "pd_multiplier": 2.11885,
+        "tickers": [
+          "AAPL"
+        ],
+        "sectors": [
+          "it"
+        ],
+        "trigger_article_id": "news-0038",
+        "headline": "Apple faces insolvency risk; lenders weigh bankruptcy filing",
+        "triggered_at": "2026-09-29T04:53:00Z"
+      },
+      "trigger_ids": [
+        "news-0038"
+      ],
+      "value_before": 602345127.0,
+      "value_after": 593070002.4374822,
+      "pnl": -9275124.562517708,
+      "pnl_pct": -0.015398355771072268,
+      "pnl_by_asset_type": {
+        "loan": -6719147.757200001,
+        "bond": -807587.2053177068,
+        "derivative": -1450029.6,
+        "equity": -298360.0
+      },
+      "by_asset": [
+        {
+          "asset_id": "LN001",
+          "asset_type": "loan",
+          "counterparty": "Reliance Industries",
+          "value_before": 77120000.0,
+          "value_after": 77120000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN002",
+          "asset_type": "loan",
+          "counterparty": "HDFC Bank",
+          "value_before": 34685000.0,
+          "value_after": 34685000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN003",
+          "asset_type": "loan",
+          "counterparty": "Tata Consultancy",
+          "value_before": 79280000.0,
+          "value_after": 77253234.5528,
+          "pnl": -2026765.4472000003
+        },
+        {
+          "asset_id": "LN004",
+          "asset_type": "loan",
+          "counterparty": "Tata Motors",
+          "value_before": 49550000.0,
+          "value_after": 49550000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN005",
+          "asset_type": "loan",
+          "counterparty": "JP Morgan",
+          "value_before": 19280000.0,
+          "value_after": 19280000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN006",
+          "asset_type": "loan",
+          "counterparty": "Exxon Mobil",
+          "value_before": 34842500.0,
+          "value_after": 34842500.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN007",
+          "asset_type": "loan",
+          "counterparty": "Boeing",
+          "value_before": 19910000.0,
+          "value_after": 19910000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN008",
+          "asset_type": "loan",
+          "counterparty": "Pfizer",
+          "value_before": 34842500.0,
+          "value_after": 34842500.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "LN009",
+          "asset_type": "loan",
+          "counterparty": "Apple",
+          "value_before": 48200000.0,
+          "value_after": 43507617.69,
+          "pnl": -4692382.3100000005
+        },
+        {
+          "asset_id": "LN010",
+          "asset_type": "loan",
+          "counterparty": "Walmart",
+          "value_before": 34685000.0,
+          "value_after": 34685000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD011",
+          "asset_type": "bond",
+          "counterparty": "Reliance Industries",
+          "value_before": 24550327.0,
+          "value_after": 24550327.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD012",
+          "asset_type": "bond",
+          "counterparty": "HDFC Bank",
+          "value_before": 25492460.0,
+          "value_after": 25492460.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD013",
+          "asset_type": "bond",
+          "counterparty": "Tata Consultancy",
+          "value_before": 10030593.0,
+          "value_after": 9223005.794682294,
+          "pnl": -807587.2053177068
+        },
+        {
+          "asset_id": "BD014",
+          "asset_type": "bond",
+          "counterparty": "Tata Motors",
+          "value_before": 39576798.0,
+          "value_after": 39576798.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD015",
+          "asset_type": "bond",
+          "counterparty": "JP Morgan",
+          "value_before": 9770559.0,
+          "value_after": 9770559.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD016",
+          "asset_type": "bond",
+          "counterparty": "Exxon Mobil",
+          "value_before": 9649451.0,
+          "value_after": 9649451.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD017",
+          "asset_type": "bond",
+          "counterparty": "Boeing",
+          "value_before": 9778197.0,
+          "value_after": 9778197.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "BD018",
+          "asset_type": "bond",
+          "counterparty": "Pfizer",
+          "value_before": 10044958.0,
+          "value_after": 10044958.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV019",
+          "asset_type": "derivative",
+          "counterparty": "JP Morgan",
+          "value_before": 895101.0,
+          "value_after": 895101.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV020",
+          "asset_type": "derivative",
+          "counterparty": "Exxon Mobil",
+          "value_before": -972612.0,
+          "value_after": -972612.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV021",
+          "asset_type": "derivative",
+          "counterparty": "HDFC Bank",
+          "value_before": 398238.0,
+          "value_after": 398238.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV022",
+          "asset_type": "derivative",
+          "counterparty": "Tata Consultancy",
+          "value_before": 923805.0,
+          "value_after": -526224.6000000001,
+          "pnl": -1450029.6
+        },
+        {
+          "asset_id": "DV023",
+          "asset_type": "derivative",
+          "counterparty": "Boeing",
+          "value_before": 51889.0,
+          "value_after": 51889.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "DV024",
+          "asset_type": "derivative",
+          "counterparty": "Reliance Industries",
+          "value_before": -239637.0,
+          "value_after": -239637.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "EQ025",
+          "asset_type": "equity",
+          "counterparty": "Boeing",
+          "value_before": 5000000.0,
+          "value_after": 5000000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "EQ026",
+          "asset_type": "equity",
+          "counterparty": "HDFC Bank",
+          "value_before": 10000000.0,
+          "value_after": 10000000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "EQ027",
+          "asset_type": "equity",
+          "counterparty": "Reliance Industries",
+          "value_before": 10000000.0,
+          "value_after": 10000000.0,
+          "pnl": 0.0
+        },
+        {
+          "asset_id": "EQ028",
+          "asset_type": "equity",
+          "counterparty": "Apple",
+          "value_before": 5000000.0,
+          "value_after": 4701640.0,
+          "pnl": -298360.0
+        }
+      ]
+    },
+    {
+      "label": "geopolitical (impact 7.3)",
+      "scenario": {
+        "event_type": "geopolitical",
+        "impact": 7.334,
+        "equity_shock": -0.11000999999999998,
+        "rate_shock_bps": 55.004999999999995,
+        "spread_shock_bps": 110.00999999999999,
+        "pd_multiplier": 1.44004,
+        "tickers": [],
+        "sectors": [],
+        "trigger_article_id": "news-0040",
+        "headline": "Missile conflict and new sanctions threaten oil supply; markets slump",
+        "triggered_at": "2026-09-29T06:14:00Z"
+      },
+      "trigger_ids": [
+        "news-0040"
+      ],
+      "value_before": 602345127.0,
+      "value_after": 547577253.0875462,
+      "pnl": -54767873.9124538,
+      "pnl_pct": -0.09092440771493748,
+      "pnl_by_asset_type": {
+        "loan": -15388055.9795175,
+        "bond": -11533756.702936303,
+        "derivative": -24490756.229999997,
+        "equity": -3355304.9999999995
+      },
+      "by_asset": [
+        {
+          "asset_id": "LN001",
+          "asset_type": "loan",
+          "counterparty": "Reliance Industries",
+          "value_before": 77120000.0,
+          "value_after": 72571820.48672,
+          "pnl": -4548179.513280001
+        },
+        {
+          "asset_id": "LN002",
+          "asset_type": "loan",
+          "counterparty": "HDFC Bank",
+          "value_before": 34685000.0,
+          "value_after": 33207077.80565,
+          "pnl": -1477922.19435
+        },
+        {
+          "asset_id": "LN003",
+          "asset_type": "loan",
+          "counterparty": "Tata Consultancy",
+          "value_before": 79280000.0,
+          "value_after": 78179368.43168,
+          "pnl": -1100631.5683199998
+        },
+        {
+          "asset_id": "LN004",
+          "asset_type": "loan",
+          "counterparty": "Tata Motors",
+          "value_before": 49550000.0,
+          "value_after": 48523063.80065,
+          "pnl": -1026936.19935
+        },
+        {
+          "asset_id": "LN005",
+          "asset_type": "loan",
+          "counterparty": "JP Morgan",
+          "value_before": 19280000.0,
+          "value_after": 18133863.0152,
+          "pnl": -1146136.9848
+        },
+        {
+          "asset_id": "LN006",
+          "asset_type": "loan",
+          "counterparty": "Exxon Mobil",
+          "value_before": 34842500.0,
+          "value_after": 32968512.708005,
+          "pnl": -1873987.2919949999
+        },
+        {
+          "asset_id": "LN007",
+          "asset_type": "loan",
+          "counterparty": "Boeing",
+          "value_before": 19910000.0,
+          "value_after": 19560924.95879,
+          "pnl": -349075.04120999994
+        },
+        {
+          "asset_id": "LN008",
+          "asset_type": "loan",
+          "counterparty": "Pfizer",
+          "value_before": 34842500.0,
+          "value_after": 33589970.5565375,
+          "pnl": -1252529.4434624999
+        },
+        {
+          "asset_id": "LN009",
+          "asset_type": "loan",
+          "counterparty": "Apple",
+          "value_before": 48200000.0,
+          "value_after": 46776673.0184,
+          "pnl": -1423326.9816
+        },
+        {
+          "asset_id": "LN010",
+          "asset_type": "loan",
+          "counterparty": "Walmart",
+          "value_before": 34685000.0,
+          "value_after": 33495669.23885,
+          "pnl": -1189330.76115
+        },
+        {
+          "asset_id": "BD011",
+          "asset_type": "bond",
+          "counterparty": "Reliance Industries",
+          "value_before": 24550327.0,
+          "value_after": 23093660.219007157,
+          "pnl": -1456666.7809928423
+        },
+        {
+          "asset_id": "BD012",
+          "asset_type": "bond",
+          "counterparty": "HDFC Bank",
+          "value_before": 25492460.0,
+          "value_after": 23168544.262199804,
+          "pnl": -2323915.737800196
+        },
+        {
+          "asset_id": "BD013",
+          "asset_type": "bond",
+          "counterparty": "Tata Consultancy",
+          "value_before": 10030593.0,
+          "value_after": 9181125.776070774,
+          "pnl": -849467.2239292273
+        },
+        {
+          "asset_id": "BD014",
+          "asset_type": "bond",
+          "counterparty": "Tata Motors",
+          "value_before": 39576798.0,
+          "value_after": 36773743.45855491,
+          "pnl": -2803054.5414450895
+        },
+        {
+          "asset_id": "BD015",
+          "asset_type": "bond",
+          "counterparty": "JP Morgan",
+          "value_before": 9770559.0,
+          "value_after": 8922822.571128188,
+          "pnl": -847736.4288718117
+        },
+        {
+          "asset_id": "BD016",
+          "asset_type": "bond",
+          "counterparty": "Exxon Mobil",
+          "value_before": 9649451.0,
+          "value_after": 8228666.41019398,
+          "pnl": -1420784.58980602
+        },
+        {
+          "asset_id": "BD017",
+          "asset_type": "bond",
+          "counterparty": "Boeing",
+          "value_before": 9778197.0,
+          "value_after": 8891462.999813553,
+          "pnl": -886734.0001864475
+        },
+        {
+          "asset_id": "BD018",
+          "asset_type": "bond",
+          "counterparty": "Pfizer",
+          "value_before": 10044958.0,
+          "value_after": 9099560.60009533,
+          "pnl": -945397.3999046702
+        },
+        {
+          "asset_id": "DV019",
+          "asset_type": "derivative",
+          "counterparty": "JP Morgan",
+          "value_before": 895101.0,
+          "value_after": -1041240.0149999997,
+          "pnl": -1936341.0149999997
+        },
+        {
+          "asset_id": "DV020",
+          "asset_type": "derivative",
+          "counterparty": "Exxon Mobil",
+          "value_before": -972612.0,
+          "value_after": -3504437.144999999,
+          "pnl": -2531825.144999999
+        },
+        {
+          "asset_id": "DV021",
+          "asset_type": "derivative",
+          "counterparty": "HDFC Bank",
+          "value_before": 398238.0,
+          "value_after": -4468549.395,
+          "pnl": -4866787.395
+        },
+        {
+          "asset_id": "DV022",
+          "asset_type": "derivative",
+          "counterparty": "Tata Consultancy",
+          "value_before": 923805.0,
+          "value_after": -2133867.944999999,
+          "pnl": -3057672.944999999
+        },
+        {
+          "asset_id": "DV023",
+          "asset_type": "derivative",
+          "counterparty": "Boeing",
+          "value_before": 51889.0,
+          "value_after": -2132194.5349999997,
+          "pnl": -2184083.5349999997
+        },
+        {
+          "asset_id": "DV024",
+          "asset_type": "derivative",
+          "counterparty": "Reliance Industries",
+          "value_before": -239637.0,
+          "value_after": -10153683.194999998,
+          "pnl": -9914046.194999998
+        },
+        {
+          "asset_id": "EQ025",
+          "asset_type": "equity",
+          "counterparty": "Boeing",
+          "value_before": 5000000.0,
+          "value_after": 4504955.0,
+          "pnl": -495044.99999999994
+        },
+        {
+          "asset_id": "EQ026",
+          "asset_type": "equity",
+          "counterparty": "HDFC Bank",
+          "value_before": 10000000.0,
+          "value_after": 8899900.0,
+          "pnl": -1100099.9999999998
+        },
+        {
+          "asset_id": "EQ027",
+          "asset_type": "equity",
+          "counterparty": "Reliance Industries",
+          "value_before": 10000000.0,
+          "value_after": 8569870.0,
+          "pnl": -1430129.9999999998
+        },
+        {
+          "asset_id": "EQ028",
+          "asset_type": "equity",
+          "counterparty": "Apple",
+          "value_before": 5000000.0,
+          "value_after": 4669970.0,
+          "pnl": -330029.9999999999
+        }
+      ]
+    },
+    {
+      "label": "geopolitical (impact 7.1)",
+      "scenario": {
+        "event_type": "geopolitical",
+        "impact": 7.08,
+        "equity_shock": -0.10619999999999999,
+        "rate_shock_bps": 53.099999999999994,
+        "spread_shock_bps": 106.19999999999999,
+        "pd_multiplier": 1.4248,
+        "tickers": [],
+        "sectors": [],
+        "trigger_article_id": "news-0041",
+        "headline": "Missile conflict and new sanctions threaten oil supply; markets slump",
+        "triggered_at": "2026-09-29T06:50:00Z"
+      },
+      "trigger_ids": [
+        "news-0041"
+      ],
+      "value_before": 602345127.0,
+      "value_after": 549454141.2410583,
+      "pnl": -52890985.758941665,
+      "pnl_pct": -0.08780843969364703,
+      "pnl_by_asset_type": {
+        "loan": -14855118.125850001,
+        "bond": -11154205.03309166,
+        "derivative": -23642562.6,
+        "equity": -3239100.0
+      },
+      "by_asset": [
+        {
+          "asset_id": "LN001",
+          "asset_type": "loan",
+          "counterparty": "Reliance Industries",
+          "value_before": 77120000.0,
+          "value_after": 72729338.5664,
+          "pnl": -4390661.4336
+        },
+        {
+          "asset_id": "LN002",
+          "asset_type": "loan",
+          "counterparty": "HDFC Bank",
+          "value_before": 34685000.0,
+          "value_after": 33258263.003,
+          "pnl": -1426736.997
+        },
+        {
+          "asset_id": "LN003",
+          "asset_type": "loan",
+          "counterparty": "Tata Consultancy",
+          "value_before": 79280000.0,
+          "value_after": 78217486.8416,
+          "pnl": -1062513.1583999998
+        },
+        {
+          "asset_id": "LN004",
+          "asset_type": "loan",
+          "counterparty": "Tata Motors",
+          "value_before": 49550000.0,
+          "value_after": 48558629.903,
+          "pnl": -991370.097
+        },
+        {
+          "asset_id": "LN005",
+          "asset_type": "loan",
+          "counterparty": "JP Morgan",
+          "value_before": 19280000.0,
+          "value_after": 18173557.424,
+          "pnl": -1106442.576
+        },
+        {
+          "asset_id": "LN006",
+          "asset_type": "loan",
+          "counterparty": "Exxon Mobil",
+          "value_before": 34842500.0,
+          "value_after": 33033414.9131,
+          "pnl": -1809085.0869
+        },
+        {
+          "asset_id": "LN007",
+          "asset_type": "loan",
+          "counterparty": "Boeing",
+          "value_before": 19910000.0,
+          "value_after": 19573014.5498,
+          "pnl": -336985.45019999996
+        },
+        {
+          "asset_id": "LN008",
+          "asset_type": "loan",
+          "counterparty": "Pfizer",
+          "value_before": 34842500.0,
+          "value_after": 33633349.67825,
+          "pnl": -1209150.3217499997
+        },
+        {
+          "asset_id": "LN009",
+          "asset_type": "loan",
+          "counterparty": "Apple",
+          "value_before": 48200000.0,
+          "value_after": 46825967.408,
+          "pnl": -1374032.592
+        },
+        {
+          "asset_id": "LN010",
+          "asset_type": "loan",
+          "counterparty": "Walmart",
+          "value_before": 34685000.0,
+          "value_after": 33536859.587,
+          "pnl": -1148140.413
+        },
+        {
+          "asset_id": "BD011",
+          "asset_type": "bond",
+          "counterparty": "Reliance Industries",
+          "value_before": 24550327.0,
+          "value_after": 23142487.155513626,
+          "pnl": -1407839.8444863746
+        },
+        {
+          "asset_id": "BD012",
+          "asset_type": "bond",
+          "counterparty": "HDFC Bank",
+          "value_before": 25492460.0,
+          "value_after": 23245250.62100801,
+          "pnl": -2247209.378991993
+        },
+        {
+          "asset_id": "BD013",
+          "asset_type": "bond",
+          "counterparty": "Tata Consultancy",
+          "value_before": 10030593.0,
+          "value_after": 9209127.042501315,
+          "pnl": -821465.9574986841
+        },
+        {
+          "asset_id": "BD014",
+          "asset_type": "bond",
+          "counterparty": "Tata Motors",
+          "value_before": 39576798.0,
+          "value_after": 36866953.83382208,
+          "pnl": -2709844.1661779243
+        },
+        {
+          "asset_id": "BD015",
+          "asset_type": "bond",
+          "counterparty": "JP Morgan",
+          "value_before": 9770559.0,
+          "value_after": 8950754.743789645,
+          "pnl": -819804.2562103554
+        },
+        {
+          "asset_id": "BD016",
+          "asset_type": "bond",
+          "counterparty": "Exxon Mobil",
+          "value_before": 9649451.0,
+          "value_after": 8273326.269685423,
+          "pnl": -1376124.7303145772
+        },
+        {
+          "asset_id": "BD017",
+          "asset_type": "bond",
+          "counterparty": "Boeing",
+          "value_before": 9778197.0,
+          "value_after": 8920728.750801917,
+          "pnl": -857468.2491980823
+        },
+        {
+          "asset_id": "BD018",
+          "asset_type": "bond",
+          "counterparty": "Pfizer",
+          "value_before": 10044958.0,
+          "value_after": 9130509.549786331,
+          "pnl": -914448.4502136689
+        },
+        {
+          "asset_id": "DV019",
+          "asset_type": "derivative",
+          "counterparty": "JP Morgan",
+          "value_before": 895101.0,
+          "value_after": -974178.2999999998,
+          "pnl": -1869279.2999999998
+        },
+        {
+          "asset_id": "DV020",
+          "asset_type": "derivative",
+          "counterparty": "Exxon Mobil",
+          "value_before": -972612.0,
+          "value_after": -3416751.8999999994,
+          "pnl": -2444139.8999999994
+        },
+        {
+          "asset_id": "DV021",
+          "asset_type": "derivative",
+          "counterparty": "HDFC Bank",
+          "value_before": 398238.0,
+          "value_after": -4299996.9,
+          "pnl": -4698234.9
+        },
+        {
+          "asset_id": "DV022",
+          "asset_type": "derivative",
+          "counterparty": "Tata Consultancy",
+          "value_before": 923805.0,
+          "value_after": -2027970.8999999994,
+          "pnl": -2951775.8999999994
+        },
+        {
+          "asset_id": "DV023",
+          "asset_type": "derivative",
+          "counterparty": "Boeing",
+          "value_before": 51889.0,
+          "value_after": -2056552.7000000002,
+          "pnl": -2108441.7
+        },
+        {
+          "asset_id": "DV024",
+          "asset_type": "derivative",
+          "counterparty": "Reliance Industries",
+          "value_before": -239637.0,
+          "value_after": -9810327.9,
+          "pnl": -9570690.9
+        },
+        {
+          "asset_id": "EQ025",
+          "asset_type": "equity",
+          "counterparty": "Boeing",
+          "value_before": 5000000.0,
+          "value_after": 4522100.0,
+          "pnl": -477900.0
+        },
+        {
+          "asset_id": "EQ026",
+          "asset_type": "equity",
+          "counterparty": "HDFC Bank",
+          "value_before": 10000000.0,
+          "value_after": 8938000.0,
+          "pnl": -1062000.0
+        },
+        {
+          "asset_id": "EQ027",
+          "asset_type": "equity",
+          "counterparty": "Reliance Industries",
+          "value_before": 10000000.0,
+          "value_after": 8619400.0,
+          "pnl": -1380599.9999999998
+        },
+        {
+          "asset_id": "EQ028",
+          "asset_type": "equity",
+          "counterparty": "Apple",
+          "value_before": 5000000.0,
+          "value_after": 4681400.0,
+          "pnl": -318599.99999999994
+        }
+      ]
+    }
+  ],
+  "combined": {
+    "label": "Combined worst-case (21 triggers)",
+    "scenario": null,
+    "trigger_ids": [
+      "news-0003",
+      "news-0004",
+      "news-0005",
+      "news-0008",
+      "news-0014",
+      "news-0016",
+      "news-0017",
+      "news-0019",
+      "news-0021",
+      "news-0022",
+      "news-0026",
+      "news-0027",
+      "news-0028",
+      "news-0029",
+      "news-0032",
+      "news-0033",
+      "news-0036",
+      "news-0037",
+      "news-0038",
+      "news-0040",
+      "news-0041"
+    ],
+    "value_before": 602345127.0,
+    "value_after": 531253387.29350877,
+    "pnl": -71091739.70649122,
+    "pnl_pct": -0.1180249271054387,
+    "pnl_by_asset_type": {
+      "loan": -25246100.003454998,
+      "bond": -15096681.263036216,
+      "derivative": -27167888.440000005,
+      "equity": -3581070.0
+    },
+    "by_asset": [
+      {
+        "asset_id": "LN001",
+        "asset_type": "loan",
+        "counterparty": "Reliance Industries",
+        "value_before": 77120000.0,
+        "value_after": 69660075.584,
+        "pnl": -7459924.416
+      },
+      {
+        "asset_id": "LN002",
+        "asset_type": "loan",
+        "counterparty": "HDFC Bank",
+        "value_before": 34685000.0,
+        "value_after": 33067730.61935,
+        "pnl": -1617269.3806500002
+      },
+      {
+        "asset_id": "LN003",
+        "asset_type": "loan",
+        "counterparty": "Tata Consultancy",
+        "value_before": 79280000.0,
+        "value_after": 77253234.5528,
+        "pnl": -2026765.4472000003
+      },
+      {
+        "asset_id": "LN004",
+        "asset_type": "loan",
+        "counterparty": "Tata Motors",
+        "value_before": 49550000.0,
+        "value_after": 47311351.01,
+        "pnl": -2238648.99
+      },
+      {
+        "asset_id": "LN005",
+        "asset_type": "loan",
+        "counterparty": "JP Morgan",
+        "value_before": 19280000.0,
+        "value_after": 17007322.308,
+        "pnl": -2272677.692
+      },
+      {
+        "asset_id": "LN006",
+        "asset_type": "loan",
+        "counterparty": "Exxon Mobil",
+        "value_before": 34842500.0,
+        "value_after": 32858638.89623,
+        "pnl": -1983861.10377
+      },
+      {
+        "asset_id": "LN007",
+        "asset_type": "loan",
+        "counterparty": "Boeing",
+        "value_before": 19910000.0,
+        "value_after": 19540458.32834,
+        "pnl": -369541.67166000005
+      },
+      {
+        "asset_id": "LN008",
+        "asset_type": "loan",
+        "counterparty": "Pfizer",
+        "value_before": 34842500.0,
+        "value_after": 33516533.460725,
+        "pnl": -1325966.539275
+      },
+      {
+        "asset_id": "LN009",
+        "asset_type": "loan",
+        "counterparty": "Apple",
+        "value_before": 48200000.0,
+        "value_after": 43507617.69,
+        "pnl": -4692382.3100000005
+      },
+      {
+        "asset_id": "LN010",
+        "asset_type": "loan",
+        "counterparty": "Walmart",
+        "value_before": 34685000.0,
+        "value_after": 33425937.5471,
+        "pnl": -1259062.4529000001
+      },
+      {
+        "asset_id": "BD011",
+        "asset_type": "bond",
+        "counterparty": "Reliance Industries",
+        "value_before": 24550327.0,
+        "value_after": 23000990.63332346,
+        "pnl": -1549336.3666765406
+      },
+      {
+        "asset_id": "BD012",
+        "asset_type": "bond",
+        "counterparty": "HDFC Bank",
+        "value_before": 25492460.0,
+        "value_after": 22216723.93221912,
+        "pnl": -3275736.0677808775
+      },
+      {
+        "asset_id": "BD013",
+        "asset_type": "bond",
+        "counterparty": "Tata Consultancy",
+        "value_before": 10030593.0,
+        "value_after": 8730967.916063404,
+        "pnl": -1299625.0839365968
+      },
+      {
+        "asset_id": "BD014",
+        "asset_type": "bond",
+        "counterparty": "Tata Motors",
+        "value_before": 39576798.0,
+        "value_after": 35776309.24722784,
+        "pnl": -3800488.7527721617
+      },
+      {
+        "asset_id": "BD015",
+        "asset_type": "bond",
+        "counterparty": "JP Morgan",
+        "value_before": 9770559.0,
+        "value_after": 8565142.829385482,
+        "pnl": -1205416.1706145187
+      },
+      {
+        "asset_id": "BD016",
+        "asset_type": "bond",
+        "counterparty": "Exxon Mobil",
+        "value_before": 9649451.0,
+        "value_after": 8137141.198381327,
+        "pnl": -1512309.801618673
+      },
+      {
+        "asset_id": "BD017",
+        "asset_type": "bond",
+        "counterparty": "Boeing",
+        "value_before": 9778197.0,
+        "value_after": 8599984.804087123,
+        "pnl": -1178212.1959128764
+      },
+      {
+        "asset_id": "BD018",
+        "asset_type": "bond",
+        "counterparty": "Pfizer",
+        "value_before": 10044958.0,
+        "value_after": 8769401.176276028,
+        "pnl": -1275556.8237239718
+      },
+      {
+        "asset_id": "DV019",
+        "asset_type": "derivative",
+        "counterparty": "JP Morgan",
+        "value_before": 895101.0,
+        "value_after": -1634705.2999999998,
+        "pnl": -2529806.3
+      },
+      {
+        "asset_id": "DV020",
+        "asset_type": "derivative",
+        "counterparty": "Exxon Mobil",
+        "value_before": -972612.0,
+        "value_after": -3652880.67,
+        "pnl": -2680268.67
+      },
+      {
+        "asset_id": "DV021",
+        "asset_type": "derivative",
+        "counterparty": "HDFC Bank",
+        "value_before": 398238.0,
+        "value_after": -5251515.900000001,
+        "pnl": -5649753.900000001
+      },
+      {
+        "asset_id": "DV022",
+        "asset_type": "derivative",
+        "counterparty": "Tata Consultancy",
+        "value_before": 923805.0,
+        "value_after": -2486452.9,
+        "pnl": -3410257.9
+      },
+      {
+        "asset_id": "DV023",
+        "asset_type": "derivative",
+        "counterparty": "Boeing",
+        "value_before": 51889.0,
+        "value_after": -2350595.7,
+        "pnl": -2402484.7
+      },
+      {
+        "asset_id": "DV024",
+        "asset_type": "derivative",
+        "counterparty": "Reliance Industries",
+        "value_before": -239637.0,
+        "value_after": -10734953.97,
+        "pnl": -10495316.97
+      },
+      {
+        "asset_id": "EQ025",
+        "asset_type": "equity",
+        "counterparty": "Boeing",
+        "value_before": 5000000.0,
+        "value_after": 4475930.0,
+        "pnl": -524069.99999999994
+      },
+      {
+        "asset_id": "EQ026",
+        "asset_type": "equity",
+        "counterparty": "HDFC Bank",
+        "value_before": 10000000.0,
+        "value_after": 8806360.0,
+        "pnl": -1193640.0
+      },
+      {
+        "asset_id": "EQ027",
+        "asset_type": "equity",
+        "counterparty": "Reliance Industries",
+        "value_before": 10000000.0,
+        "value_after": 8486020.0,
+        "pnl": -1513980.0
+      },
+      {
+        "asset_id": "EQ028",
+        "asset_type": "equity",
+        "counterparty": "Apple",
+        "value_before": 5000000.0,
+        "value_after": 4650620.0,
+        "pnl": -349379.99999999994
+      }
+    ]
+  }
+}

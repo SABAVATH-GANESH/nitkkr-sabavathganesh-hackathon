@@ -1,0 +1,29 @@
+asset_id,asset_type,counterparty,ticker,sector,notional,market_value,duration,convexity,pd,lgd,delta,dv01
+LN001,loan,Reliance Industries,RELIANCE,energy,80000000.0,77120000.0,2.63,6.91,0.08,0.45,0,0
+LN002,loan,HDFC Bank,HDFCBANK,banking,35000000.0,34685000.0,3.51,12.32,0.02,0.45,0,0
+LN003,loan,Tata Consultancy,TCS,it,80000000.0,79280000.0,1.74,3.01,0.02,0.45,0,0
+LN004,loan,Tata Motors,TATAMOTORS,auto,50000000.0,49550000.0,1.73,2.98,0.02,0.45,0,0
+LN005,loan,JP Morgan,JPM,banking,20000000.0,19280000.0,3.91,15.3,0.08,0.45,0,0
+LN006,loan,Exxon Mobil,XOM,energy,35000000.0,34842500.0,3.58,12.81,0.01,0.45,0,0
+LN007,loan,Boeing,BA,industrials,20000000.0,19910000.0,1.59,2.53,0.01,0.45,0,0
+LN008,loan,Pfizer,PFE,pharma,35000000.0,34842500.0,3.45,11.87,0.01,0.45,0,0
+LN009,loan,Apple,AAPL,it,50000000.0,48200000.0,2.98,8.86,0.08,0.45,0,0
+LN010,loan,Walmart,WMT,retail,35000000.0,34685000.0,3.1,9.61,0.02,0.45,0,0
+BD011,bond,Reliance Industries,RELIANCE,energy,25000000.0,24550327.0,3.03,10.08,0.005,0.45,0,0
+BD012,bond,HDFC Bank,HDFCBANK,banking,25000000.0,25492460.0,5.44,32.56,0.03,0.45,0,0
+BD013,bond,Tata Consultancy,TCS,it,10000000.0,10030593.0,7.25,57.77,0.01,0.45,0,0
+BD014,bond,Tata Motors,TATAMOTORS,auto,40000000.0,39576798.0,4.73,24.65,0.005,0.45,0,0
+BD015,bond,JP Morgan,JPM,banking,10000000.0,9770559.0,5.4,32.1,0.01,0.45,0,0
+BD016,bond,Exxon Mobil,XOM,energy,10000000.0,9649451.0,8.08,71.88,0.005,0.45,0,0
+BD017,bond,Boeing,BA,industrials,10000000.0,9778197.0,5.82,37.26,0.03,0.45,0,0
+BD018,bond,Pfizer,PFE,pharma,10000000.0,10044958.0,6.4,45.02,0.005,0.45,0,0
+DV019,derivative,JP Morgan,JPM,banking,100000000.0,895101.0,0,0,0.01,0.45,0.15,-5203.0
+DV020,derivative,Exxon Mobil,XOM,energy,50000000.0,-972612.0,0,0,0.01,0.45,0.29,-8329.0
+DV021,derivative,HDFC Bank,HDFCBANK,banking,150000000.0,398238.0,0,0,0.01,0.45,0.28,-4479.0
+DV022,derivative,Tata Consultancy,TCS,it,150000000.0,923805.0,0,0,0.01,0.45,0.27,-6989.0
+DV023,derivative,Boeing,BA,industrials,100000000.0,51889.0,0,0,0.01,0.45,0.19,-5507.0
+DV024,derivative,Reliance Industries,RELIANCE,energy,150000000.0,-239637.0,0,0,0.01,0.45,0.45,-4739.0
+EQ025,equity,Boeing,BA,industrials,5000000.0,5000000.0,0,0,0,0.45,0,0
+EQ026,equity,HDFC Bank,HDFCBANK,banking,10000000.0,10000000.0,0,0,0,0.45,0,0
+EQ027,equity,Reliance Industries,RELIANCE,energy,10000000.0,10000000.0,0,0,0,0.45,0,0
+EQ028,equity,Apple,AAPL,it,5000000.0,5000000.0,0,0,0,0.45,0,0

@@ -1,0 +1,14 @@
+pydantic>=2.5
+pandas>=2.0
+numpy>=1.24
+requests>=2.31
+feedparser>=6.0
+streamlit>=1.37
+plotly>=5.18
+pytest>=7.4
+# Only for scripts/make_docs.py (deck + diagram):
+matplotlib>=3.7
+reportlab>=4.0
+# Optional - FinBERT / zero-shot (pre-cache weights once while online, then it runs offline):
+#   transformers>=4.38
+#   torch>=2.1

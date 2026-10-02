@@ -1,0 +1,56 @@
+article_id,published_at,source,title,body,tickers,sectors
+news-0000,2026-09-28T03:34:00+00:00,Bloomberg,Walmart announces acquisition of rival; merger approved,Deal expected to boost margins and growth.,WMT,retail
+news-0001,2026-09-28T04:12:00+00:00,Reuters,"HDFC Bank beats quarterly earnings, raises guidance on record profit",Strong results; analysts upgrade.,HDFCBANK,banking
+news-0002,2026-09-28T04:52:00+00:00,Bloomberg,"Walmart beats quarterly earnings, raises guidance on record profit",Strong results; analysts upgrade.,WMT,retail
+news-0003,2026-09-28T05:33:00+00:00,Reuters,"Tata Motors hit by cyber breach, systems shutdown for hours",Ransomware attack disrupts operations; data leak feared.,TATAMOTORS,auto
+news-0004,2026-09-28T06:10:00+00:00,Reuters,"Regulator opens probe into Pfizer, fine possible",Compliance failures raise ban risk.,PFE,pharma
+news-0005,2026-09-28T06:50:00+00:00,Reuters,Missile conflict and new sanctions threaten oil supply; markets slump,Border tensions raise default risk for exposed lenders including JP Morgan.,,
+news-0006,2026-09-28T07:30:00+00:00,Economic Times,RBI rate hike and inflation fears hit Tata Consultancy as GDP slumps,"Rupee weakens and recession risk grows, analysts warn.",TCS,it
+news-0007,2026-09-28T08:11:00+00:00,Economic Times,"Apple launches new product line, shares rally",The company unveils a platform expected to boost growth.,AAPL,it
+news-0008,2026-09-28T08:54:00+00:00,Economic Times,Missile conflict and new sanctions threaten oil supply; markets slump,Border tensions raise default risk for exposed lenders including Reliance Industries.,RELIANCE,energy
+news-0009,2026-09-28T09:35:00+00:00,Economic Times,"Port strike halts Reliance Industries shipments, supply chain disruption widens",Factory shortage and logistics delays expected.,RELIANCE,energy
+news-0010,2026-09-28T10:11:00+00:00,Economic Times,"Pfizer launches new product line, shares rally",The company unveils a platform expected to boost growth.,PFE,pharma
+news-0011,2026-09-28T10:50:00+00:00,Reuters,"Port strike halts Tata Consultancy shipments, supply chain disruption widens",Factory shortage and logistics delays expected.,TCS,it
+news-0012,2026-09-28T11:34:00+00:00,Economic Times,"Exxon Mobil misses quarterly earnings, issues profit warning",Revenue and guidance disappoint; analysts downgrade stock.,XOM,energy
+news-0013,2026-09-28T12:12:00+00:00,Bloomberg,"Tata Consultancy launches new product line, shares rally",The company unveils a platform expected to boost growth.,TCS,it
+news-0014,2026-09-28T12:52:00+00:00,Bloomberg,RBI rate hike and inflation fears hit Pfizer as GDP slumps,"Rupee weakens and recession risk grows, analysts warn.",PFE,pharma
+news-0015,2026-09-28T13:34:00+00:00,Economic Times,Reliance Industries to hold annual general meeting next month,Shareholders to meet on routine agenda.,RELIANCE,energy
+news-0016,2026-09-28T14:13:00+00:00,Economic Times,Missile conflict and new sanctions threaten oil supply; markets slump,Border tensions raise default risk for exposed lenders including Boeing.,,
+news-0017,2026-09-28T14:51:00+00:00,Bloomberg,War escalates as sanctions and border tensions spark market crash fears,Supply disruption and recession warning loom over HDFC Bank.,HDFCBANK,banking
+news-0018,2026-09-28T15:34:00+00:00,Bloomberg,"Boeing beats quarterly earnings, raises guidance on record profit",Strong results; analysts upgrade.,BA,industrials
+news-0019,2026-09-28T16:13:00+00:00,Economic Times,"Apple hit by cyber breach, systems shutdown for hours",Ransomware attack disrupts operations; data leak feared.,AAPL,it
+news-0020,2026-09-28T16:54:00+00:00,Economic Times,"Reliance Industries beats quarterly earnings, raises guidance on record profit",Strong results; analysts upgrade.,RELIANCE,energy
+news-0021,2026-09-28T17:31:00+00:00,Reuters,War escalates as sanctions and border tensions spark market crash fears,Supply disruption and recession warning loom over Reliance Industries.,RELIANCE,energy
+news-0022,2026-09-28T18:13:00+00:00,Bloomberg,"Regulator opens probe into Walmart, fine possible",Compliance failures raise ban risk.,WMT,retail
+news-0023,2026-09-28T18:51:00+00:00,Reuters,Exxon Mobil to hold annual general meeting next month,Shareholders to meet on routine agenda.,XOM,energy
+news-0024,2026-09-28T19:35:00+00:00,Bloomberg,"Tata Motors beats quarterly earnings, raises guidance on record profit",Strong results; analysts upgrade.,TATAMOTORS,auto
+news-0025,2026-09-28T20:11:00+00:00,Reuters,"Pfizer beats quarterly earnings, raises guidance on record profit",Strong results; analysts upgrade.,PFE,pharma
+news-0026,2026-09-28T20:52:00+00:00,Economic Times,"JP Morgan credit rating downgraded after missed payment, default fears grow",Debt restructuring talks begin as bondholders brace for losses.,JPM,banking
+news-0027,2026-09-28T21:31:00+00:00,Bloomberg,"Tata Motors credit rating downgraded after missed payment, default fears grow",Debt restructuring talks begin as bondholders brace for losses.,TATAMOTORS,auto
+news-0028,2026-09-28T22:14:00+00:00,Bloomberg,RBI rate hike and inflation fears hit Exxon Mobil as GDP slumps,"Rupee weakens and recession risk grows, analysts warn.",,
+news-0029,2026-09-28T22:51:00+00:00,Bloomberg,"Reliance Industries credit rating downgraded after missed payment, default fears grow",Debt restructuring talks begin as bondholders brace for losses.,RELIANCE,energy
+news-0030,2026-09-28T23:35:00+00:00,Bloomberg,"HDFC Bank launches new product line, shares rally",The company unveils a platform expected to boost growth.,HDFCBANK,banking
+news-0031,2026-09-29T00:11:00+00:00,Economic Times,RBI rate hike and inflation fears hit Tata Motors as GDP slumps,"Rupee weakens and recession risk grows, analysts warn.",,
+news-0032,2026-09-29T00:51:00+00:00,Bloomberg,"Regulator opens probe into Exxon Mobil, fine possible",Compliance failures raise ban risk.,XOM,energy
+news-0033,2026-09-29T01:35:00+00:00,Reuters,Missile conflict and new sanctions threaten oil supply; markets slump,Border tensions raise default risk for exposed lenders including Reliance Industries.,RELIANCE,energy
+news-0034,2026-09-29T02:15:00+00:00,Bloomberg,"JP Morgan beats quarterly earnings, raises guidance on record profit",Strong results; analysts upgrade.,JPM,banking
+news-0035,2026-09-29T02:54:00+00:00,Economic Times,"Walmart beats quarterly earnings, raises guidance on record profit",Strong results; analysts upgrade.,WMT,retail
+news-0036,2026-09-29T03:31:00+00:00,Bloomberg,War escalates as sanctions and border tensions spark market crash fears,Supply disruption and recession warning loom over Pfizer.,,
+news-0037,2026-09-29T04:15:00+00:00,Reuters,RBI rate hike and inflation fears hit Tata Consultancy as GDP slumps,"Rupee weakens and recession risk grows, analysts warn.",TCS,it
+news-0038,2026-09-29T04:53:00+00:00,Reuters,Apple faces insolvency risk; lenders weigh bankruptcy filing,Credit rating downgrade follows debt restructuring request.,AAPL,it
+news-0039,2026-09-29T05:33:00+00:00,Bloomberg,"Tata Motors beats quarterly earnings, raises guidance on record profit",Strong results; analysts upgrade.,TATAMOTORS,auto
+news-0040,2026-09-29T06:14:00+00:00,Reuters,Missile conflict and new sanctions threaten oil supply; markets slump,Border tensions raise default risk for exposed lenders including Reliance Industries.,,
+news-0041,2026-09-29T06:50:00+00:00,Economic Times,Missile conflict and new sanctions threaten oil supply; markets slump,Border tensions raise default risk for exposed lenders including JP Morgan.,,
+news-0042,2026-09-29T07:33:00+00:00,Economic Times,"Tata Consultancy beats quarterly earnings, raises guidance on record profit",Strong results; analysts upgrade.,TCS,it
+news-0043,2026-09-29T08:10:00+00:00,Economic Times,HDFC Bank to hold annual general meeting next month,Shareholders to meet on routine agenda.,HDFCBANK,banking
+news-0044,2026-09-29T08:50:00+00:00,Reuters,Court fines Pfizer in fraud lawsuit,Litigation risk rises after adverse verdict.,PFE,pharma
+news-0045,2026-09-29T09:30:00+00:00,Economic Times,"Reliance Industries beats quarterly earnings, raises guidance on record profit",Strong results; analysts upgrade.,RELIANCE,energy
+news-0046,2026-09-29T10:10:00+00:00,Bloomberg,"Apple beats quarterly earnings, raises guidance on record profit",Strong results; analysts upgrade.,AAPL,it
+news-0047,2026-09-29T10:54:00+00:00,Economic Times,"Port strike halts Tata Motors shipments, supply chain disruption widens",Factory shortage and logistics delays expected.,TATAMOTORS,auto
+news-0048,2026-09-29T11:32:00+00:00,Reuters,HDFC Bank to hold annual general meeting next month,Shareholders to meet on routine agenda.,HDFCBANK,banking
+news-0049,2026-09-29T12:11:00+00:00,Economic Times,HDFC Bank to hold annual general meeting next month,Shareholders to meet on routine agenda.,HDFCBANK,banking
+news-0050,2026-09-29T12:55:00+00:00,Economic Times,Exxon Mobil to hold annual general meeting next month,Shareholders to meet on routine agenda.,XOM,energy
+news-0051,2026-09-29T13:35:00+00:00,Reuters,Exxon Mobil to hold annual general meeting next month,Shareholders to meet on routine agenda.,XOM,energy
+news-0052,2026-09-29T14:13:00+00:00,Bloomberg,"Apple misses quarterly earnings, issues profit warning",Revenue and guidance disappoint; analysts downgrade stock.,AAPL,it
+news-0053,2026-09-29T14:52:00+00:00,Reuters,"Reliance Industries beats quarterly earnings, raises guidance on record profit",Strong results; analysts upgrade.,RELIANCE,energy
+news-0054,2026-09-29T15:33:00+00:00,Economic Times,"Reliance Industries misses quarterly earnings, issues profit warning",Revenue and guidance disappoint; analysts downgrade stock.,RELIANCE,energy

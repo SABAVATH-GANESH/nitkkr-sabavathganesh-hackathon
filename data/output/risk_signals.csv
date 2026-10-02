@@ -1,0 +1,126 @@
+article_id,published_at,source,tickers,sectors,sentiment,sentiment_confidence,event_type,event_confidence,impact,headline
+tw-0000,2026-09-28T03:32:00Z,Reddit,['PFE'],['pharma'],-0.75,0.875,supply_chain,0.9,5.399,"port strike halts $PFE shipments, supply chain disruption again"
+news-0000,2026-09-28T03:34:00Z,Bloomberg,['WMT'],['retail'],0.75,0.875,merger_acquisition,0.8333,6.016,Walmart announces acquisition of rival; merger approved
+tw-0001,2026-09-28T04:07:00Z,Reddit,['BA'],['industrials'],-0.8333,0.9167,macroeconomic,0.7639,5.702,"RBI rate hike + inflation fears again... GDP slumps, recession warning #macro $BA"
+news-0001,2026-09-28T04:12:00Z,Reuters,['HDFCBANK'],['banking'],0.8571,0.9286,earnings,0.9167,7.057,"HDFC Bank beats quarterly earnings, raises guidance on record profit"
+tw-0002,2026-09-28T04:35:00Z,Reddit,['TCS'],['it'],0.0,0.3,other,0.5,1.171,"$TCS AGM next month, nothing new #investing"
+news-0002,2026-09-28T04:52:00Z,Bloomberg,['WMT'],['retail'],0.8571,0.9286,earnings,0.9167,7.057,"Walmart beats quarterly earnings, raises guidance on record profit"
+tw-0003,2026-09-28T05:09:00Z,Twitter,['TCS'],['it'],-0.8333,0.9167,geopolitical,0.9,6.666,"$TCS 🚨 sanctions + border tensions = oil supply disruption, market crash incoming #war #markets"
+news-0003,2026-09-28T05:33:00Z,Reuters,['TATAMOTORS'],['auto'],-0.75,0.875,cyber_operational,0.9167,7.253,"Tata Motors hit by cyber breach, systems shutdown for hours"
+tw-0004,2026-09-28T05:39:00Z,Reddit,['XOM'],['energy'],0.6667,0.8333,product_launch,0.8333,3.612,"$XOM launches new product today, shares rally 📈 #launch"
+news-0004,2026-09-28T06:10:00Z,Reuters,['PFE'],['pharma'],-0.75,0.875,regulatory,0.9167,7.047,"Regulator opens probe into Pfizer, fine possible"
+tw-0005,2026-09-28T06:14:00Z,Twitter,['PFE'],['pharma'],-0.75,0.875,regulatory,0.9167,5.837,"regulator probe into $PFE, fine and ban risk #regulation"
+tw-0006,2026-09-28T06:47:00Z,Reddit,['HDFCBANK'],['banking'],0.6667,0.8333,product_launch,0.8333,3.612,"$HDFCBANK launches new product today, shares rally 📈 #launch"
+news-0005,2026-09-28T06:50:00Z,Reuters,[],[],-0.8,0.9,geopolitical,0.7639,7.334,Missile conflict and new sanctions threaten oil supply; markets slump
+tw-0007,2026-09-28T07:18:00Z,Twitter,['AAPL'],['it'],0.6667,0.8333,product_launch,0.8333,3.75,"$AAPL launches new product today, shares rally 📈 #launch"
+news-0006,2026-09-28T07:30:00Z,Economic Times,['TCS'],['it'],-0.8,0.9,macroeconomic,0.7959,6.861,RBI rate hike and inflation fears hit Tata Consultancy as GDP slumps
+tw-0008,2026-09-28T07:51:00Z,Reddit,['BA'],['industrials'],0.0,0.3,other,0.5,1.171,"$BA AGM next month, nothing new #investing"
+news-0007,2026-09-28T08:11:00Z,Economic Times,['AAPL'],['it'],0.8333,0.9167,product_launch,0.875,5.245,"Apple launches new product line, shares rally"
+tw-0009,2026-09-28T08:23:00Z,Reddit,['AAPL'],['it'],0.8,0.9,earnings,0.8333,5.172,"$AAPL beats earnings, record profit, analysts upgrade 🚀 #earnings"
+tw-0010,2026-09-28T08:53:00Z,Reddit,['AAPL'],['it'],0.8,0.9,earnings,0.8333,5.172,"$AAPL beats earnings, record profit, analysts upgrade 🚀 #earnings"
+news-0008,2026-09-28T08:54:00Z,Economic Times,['RELIANCE'],['energy'],-0.8,0.9,geopolitical,0.7639,7.08,Missile conflict and new sanctions threaten oil supply; markets slump
+tw-0011,2026-09-28T09:25:00Z,Twitter,['XOM'],['energy'],-0.75,0.875,regulatory,0.9167,5.837,"regulator probe into $XOM, fine and ban risk #regulation"
+news-0009,2026-09-28T09:35:00Z,Economic Times,['RELIANCE'],['energy'],-0.75,0.875,supply_chain,0.9375,6.67,"Port strike halts Reliance Industries shipments, supply chain disruption widens"
+tw-0012,2026-09-28T09:58:00Z,Twitter,['TATAMOTORS'],['auto'],0.8,0.9,earnings,0.8333,5.392,"$TATAMOTORS beats earnings, record profit, analysts upgrade 🚀 #earnings"
+news-0010,2026-09-28T10:11:00Z,Economic Times,['PFE'],['pharma'],0.8333,0.9167,product_launch,0.875,5.245,"Pfizer launches new product line, shares rally"
+tw-0013,2026-09-28T10:31:00Z,Twitter,['TCS'],['it'],0.0,0.3,other,0.5,1.18,"$TCS AGM next month, nothing new #investing"
+news-0011,2026-09-28T10:50:00Z,Reuters,['TCS'],['it'],-0.75,0.875,supply_chain,0.9375,6.906,"Port strike halts Tata Consultancy shipments, supply chain disruption widens"
+tw-0014,2026-09-28T10:58:00Z,Twitter,['JPM'],['banking'],0.6667,0.8333,product_launch,0.8333,3.75,"$JPM launches new product today, shares rally 📈 #launch"
+tw-0015,2026-09-28T11:31:00Z,Reddit,['BA'],['industrials'],0.0,0.3,other,0.5,1.171,"$BA AGM next month, nothing new #investing"
+news-0012,2026-09-28T11:34:00Z,Economic Times,['XOM'],['energy'],-0.4,0.9,earnings,0.7639,4.535,"Exxon Mobil misses quarterly earnings, issues profit warning"
+tw-0016,2026-09-28T12:05:00Z,Twitter,['RELIANCE'],['energy'],-0.8,0.9,cyber_operational,0.9167,6.232,"$RELIANCE hack confirmed, breach + shutdown. ransomware attack ugh #cyber"
+news-0013,2026-09-28T12:12:00Z,Bloomberg,['TCS'],['it'],0.8333,0.9167,product_launch,0.875,5.422,"Tata Consultancy launches new product line, shares rally"
+tw-0017,2026-09-28T12:38:00Z,Twitter,['XOM'],['energy'],0.8,0.9,earnings,0.8333,5.392,"$XOM beats earnings, record profit, analysts upgrade 🚀 #earnings"
+news-0014,2026-09-28T12:52:00Z,Bloomberg,['PFE'],['pharma'],-0.8,0.9,macroeconomic,0.7959,7.105,RBI rate hike and inflation fears hit Pfizer as GDP slumps
+tw-0018,2026-09-28T13:10:00Z,Reddit,['XOM'],['energy'],0.6667,0.8333,product_launch,0.8333,3.612,"$XOM launches new product today, shares rally 📈 #launch"
+news-0015,2026-09-28T13:34:00Z,Economic Times,['RELIANCE'],['energy'],0.0,0.3,other,0.5,1.216,Reliance Industries to hold annual general meeting next month
+tw-0019,2026-09-28T13:40:00Z,Twitter,['PFE'],['pharma'],0.6667,0.8333,merger_acquisition,0.8333,4.65,"$PFE acquisition approved, merger boosts growth"
+news-0016,2026-09-28T14:13:00Z,Economic Times,[],[],-0.8,0.9,geopolitical,0.7639,7.08,Missile conflict and new sanctions threaten oil supply; markets slump
+tw-0020,2026-09-28T14:15:00Z,Reddit,['AAPL'],['it'],-0.8,0.9,geopolitical,0.5556,5.172,"war escalating, sanctions everywhere. recession fears are real, sell-off day $AAPL"
+tw-0021,2026-09-28T14:46:00Z,Twitter,['TCS'],['it'],-0.75,0.875,credit_event,0.9,6.117,"$TCS credit rating downgraded!! default fears, debt restructuring talk #credit"
+news-0017,2026-09-28T14:51:00Z,Bloomberg,['HDFCBANK'],['banking'],-0.9,0.95,geopolitical,0.72,7.764,War escalates as sanctions and border tensions spark market crash fears
+tw-0022,2026-09-28T15:19:00Z,Twitter,['TCS'],['it'],-0.8333,0.9167,geopolitical,0.9,6.666,"$TCS 🚨 sanctions + border tensions = oil supply disruption, market crash incoming #war #markets"
+news-0018,2026-09-28T15:34:00Z,Bloomberg,['BA'],['industrials'],0.8571,0.9286,earnings,0.9167,7.057,"Boeing beats quarterly earnings, raises guidance on record profit"
+tw-0023,2026-09-28T15:47:00Z,Reddit,['TCS'],['it'],0.0,0.3,other,0.5,1.171,"$TCS AGM next month, nothing new #investing"
+news-0019,2026-09-28T16:13:00Z,Economic Times,['AAPL'],['it'],-0.75,0.875,cyber_operational,0.9167,7.003,"Apple hit by cyber breach, systems shutdown for hours"
+tw-0024,2026-09-28T16:22:00Z,Twitter,['HDFCBANK'],['banking'],-0.8,0.9,geopolitical,0.5556,5.392,"war escalating, sanctions everywhere. recession fears are real, sell-off day $HDFCBANK"
+news-0020,2026-09-28T16:54:00Z,Economic Times,['RELIANCE'],['energy'],0.8571,0.9286,earnings,0.9167,6.814,"Reliance Industries beats quarterly earnings, raises guidance on record profit"
+tw-0025,2026-09-28T16:54:00Z,Twitter,['AAPL'],['it'],-0.8,0.9,cyber_operational,0.9167,6.232,"$AAPL hack confirmed, breach + shutdown. ransomware attack ugh #cyber"
+tw-0026,2026-09-28T17:26:00Z,Twitter,['XOM'],['energy'],-0.8333,0.9167,macroeconomic,0.7639,5.95,"RBI rate hike + inflation fears again... GDP slumps, recession warning #macro $XOM"
+news-0021,2026-09-28T17:31:00Z,Reuters,['RELIANCE'],['energy'],-0.9,0.95,geopolitical,0.72,7.764,War escalates as sanctions and border tensions spark market crash fears
+tw-0027,2026-09-28T17:56:00Z,Twitter,['TCS'],['it'],0.6667,0.8333,merger_acquisition,0.8333,4.65,"$TCS acquisition approved, merger boosts growth"
+news-0022,2026-09-28T18:13:00Z,Bloomberg,['WMT'],['retail'],-0.75,0.875,regulatory,0.9167,7.047,"Regulator opens probe into Walmart, fine possible"
+tw-0028,2026-09-28T18:28:00Z,Twitter,['XOM'],['energy'],-0.75,0.875,credit_event,0.9,6.117,"$XOM credit rating downgraded!! default fears, debt restructuring talk #credit"
+news-0023,2026-09-28T18:51:00Z,Reuters,['XOM'],['energy'],0.0,0.3,other,0.5,1.225,Exxon Mobil to hold annual general meeting next month
+tw-0029,2026-09-28T19:03:00Z,Reddit,['HDFCBANK'],['banking'],0.0,0.3,other,0.5,1.171,"$HDFCBANK AGM next month, nothing new #investing"
+tw-0030,2026-09-28T19:33:00Z,Reddit,['HDFCBANK'],['banking'],-0.75,0.875,credit_event,0.875,5.788,"missed payment at $HDFCBANK?? bankruptcy rumours, downgrade incoming"
+news-0024,2026-09-28T19:35:00Z,Bloomberg,['TATAMOTORS'],['auto'],0.8571,0.9286,earnings,0.9167,7.057,"Tata Motors beats quarterly earnings, raises guidance on record profit"
+tw-0031,2026-09-28T20:06:00Z,Reddit,['TATAMOTORS'],['auto'],0.0,0.3,other,0.5,1.171,"$TATAMOTORS AGM next month, nothing new #investing"
+news-0025,2026-09-28T20:11:00Z,Reuters,['PFE'],['pharma'],0.8571,0.9286,earnings,0.9167,7.057,"Pfizer beats quarterly earnings, raises guidance on record profit"
+tw-0032,2026-09-28T20:35:00Z,Twitter,['JPM'],['banking'],0.6667,0.8333,product_launch,0.8333,3.75,"$JPM launches new product today, shares rally 📈 #launch"
+news-0026,2026-09-28T20:52:00Z,Economic Times,['JPM'],['banking'],-0.8333,0.9167,credit_event,0.9167,7.666,"JP Morgan credit rating downgraded after missed payment, default fears grow"
+tw-0033,2026-09-28T21:08:00Z,Twitter,['TCS'],['it'],0.8,0.9,earnings,0.8333,5.392,"$TCS beats earnings, record profit, analysts upgrade 🚀 #earnings"
+news-0027,2026-09-28T21:31:00Z,Bloomberg,['TATAMOTORS'],['auto'],-0.8333,0.9167,credit_event,0.9167,7.944,"Tata Motors credit rating downgraded after missed payment, default fears grow"
+tw-0034,2026-09-28T21:39:00Z,Reddit,['AAPL'],['it'],0.0,0.3,other,0.5,1.171,"$AAPL AGM next month, nothing new #investing"
+news-0028,2026-09-28T22:14:00Z,Bloomberg,[],[],-0.8,0.9,macroeconomic,0.7959,7.105,RBI rate hike and inflation fears hit Exxon Mobil as GDP slumps
+tw-0035,2026-09-28T22:14:00Z,Twitter,['TCS'],['it'],0.6667,0.8333,product_launch,0.8333,3.75,"$TCS launches new product today, shares rally 📈 #launch"
+tw-0036,2026-09-28T22:46:00Z,Twitter,['HDFCBANK'],['banking'],0.8,0.9,earnings,0.8333,5.392,"$HDFCBANK beats earnings, record profit, analysts upgrade 🚀 #earnings"
+news-0029,2026-09-28T22:51:00Z,Bloomberg,['RELIANCE'],['energy'],-0.8333,0.9167,credit_event,0.9167,7.944,"Reliance Industries credit rating downgraded after missed payment, default fears grow"
+tw-0037,2026-09-28T23:16:00Z,Twitter,['RELIANCE'],['energy'],-0.8,0.9,cyber_operational,0.9167,6.232,"$RELIANCE hack confirmed, breach + shutdown. ransomware attack ugh #cyber"
+news-0030,2026-09-28T23:35:00Z,Bloomberg,['HDFCBANK'],['banking'],0.8333,0.9167,product_launch,0.875,5.422,"HDFC Bank launches new product line, shares rally"
+tw-0038,2026-09-28T23:50:00Z,Twitter,['JPM'],['banking'],-0.8333,0.9167,macroeconomic,0.7639,5.95,"RBI rate hike + inflation fears again... GDP slumps, recession warning #macro $JPM"
+news-0031,2026-09-29T00:11:00Z,Economic Times,[],[],-0.8,0.9,macroeconomic,0.7959,6.861,RBI rate hike and inflation fears hit Tata Motors as GDP slumps
+tw-0039,2026-09-29T00:21:00Z,Twitter,['WMT'],['retail'],0.8,0.9,earnings,0.8333,5.392,"$WMT beats earnings, record profit, analysts upgrade 🚀 #earnings"
+news-0032,2026-09-29T00:51:00Z,Bloomberg,['XOM'],['energy'],-0.75,0.875,regulatory,0.9167,7.047,"Regulator opens probe into Exxon Mobil, fine possible"
+tw-0040,2026-09-29T00:51:00Z,Reddit,['PFE'],['pharma'],-0.75,0.875,credit_event,0.9,5.861,"$PFE credit rating downgraded!! default fears, debt restructuring talk #credit"
+tw-0041,2026-09-29T01:25:00Z,Reddit,['BA'],['industrials'],0.8,0.9,earnings,0.8333,5.172,"$BA beats earnings, record profit, analysts upgrade 🚀 #earnings"
+news-0033,2026-09-29T01:35:00Z,Reuters,['RELIANCE'],['energy'],-0.8,0.9,geopolitical,0.7639,7.334,Missile conflict and new sanctions threaten oil supply; markets slump
+tw-0042,2026-09-29T01:58:00Z,Reddit,['HDFCBANK'],['banking'],-0.8333,0.9167,geopolitical,0.9,6.383,"$HDFCBANK 🚨 sanctions + border tensions = oil supply disruption, market crash incoming #war #markets"
+news-0034,2026-09-29T02:15:00Z,Bloomberg,['JPM'],['banking'],0.8571,0.9286,earnings,0.9167,7.057,"JP Morgan beats quarterly earnings, raises guidance on record profit"
+tw-0043,2026-09-29T02:26:00Z,Reddit,['BA'],['industrials'],-0.8333,0.9167,macroeconomic,0.7639,5.702,"RBI rate hike + inflation fears again... GDP slumps, recession warning #macro $BA"
+news-0035,2026-09-29T02:54:00Z,Economic Times,['WMT'],['retail'],0.8571,0.9286,earnings,0.9167,6.814,"Walmart beats quarterly earnings, raises guidance on record profit"
+tw-0044,2026-09-29T03:02:00Z,Twitter,['BA'],['industrials'],0.6667,0.8333,product_launch,0.8333,3.75,"$BA launches new product today, shares rally 📈 #launch"
+tw-0045,2026-09-29T03:30:00Z,Twitter,['JPM'],['banking'],-0.6667,0.8333,macroeconomic,0.875,5.52,"inflation fears and rate hike hit $JPM hard, rupee weakens"
+news-0036,2026-09-29T03:31:00Z,Bloomberg,[],[],-0.9,0.95,geopolitical,0.72,7.764,War escalates as sanctions and border tensions spark market crash fears
+tw-0046,2026-09-29T04:06:00Z,Twitter,['WMT'],['retail'],0.0,0.3,other,0.5,1.18,"$WMT AGM next month, nothing new #investing"
+news-0037,2026-09-29T04:15:00Z,Reuters,['TCS'],['it'],-0.8,0.9,macroeconomic,0.7959,7.105,RBI rate hike and inflation fears hit Tata Consultancy as GDP slumps
+tw-0047,2026-09-29T04:37:00Z,Reddit,['HDFCBANK'],['banking'],0.6667,0.8333,product_launch,0.8333,3.612,"$HDFCBANK launches new product today, shares rally 📈 #launch"
+news-0038,2026-09-29T04:53:00Z,Reuters,['AAPL'],['it'],-0.75,0.875,credit_event,0.9167,7.459,Apple faces insolvency risk; lenders weigh bankruptcy filing
+tw-0048,2026-09-29T05:06:00Z,Twitter,['TCS'],['it'],-0.75,0.875,credit_event,0.875,6.04,"missed payment at $TCS?? bankruptcy rumours, downgrade incoming"
+news-0039,2026-09-29T05:33:00Z,Bloomberg,['TATAMOTORS'],['auto'],0.8571,0.9286,earnings,0.9167,7.057,"Tata Motors beats quarterly earnings, raises guidance on record profit"
+tw-0049,2026-09-29T05:42:00Z,Reddit,['PFE'],['pharma'],0.0,0.3,other,0.5,1.171,"$PFE AGM next month, nothing new #investing"
+tw-0050,2026-09-29T06:10:00Z,Twitter,['PFE'],['pharma'],-0.75,0.875,credit_event,0.875,6.04,"missed payment at $PFE?? bankruptcy rumours, downgrade incoming"
+news-0040,2026-09-29T06:14:00Z,Reuters,[],[],-0.8,0.9,geopolitical,0.7639,7.334,Missile conflict and new sanctions threaten oil supply; markets slump
+tw-0051,2026-09-29T06:46:00Z,Twitter,['WMT'],['retail'],-0.75,0.875,regulatory,0.9167,5.837,"regulator probe into $WMT, fine and ban risk #regulation"
+news-0041,2026-09-29T06:50:00Z,Economic Times,[],[],-0.8,0.9,geopolitical,0.7639,7.08,Missile conflict and new sanctions threaten oil supply; markets slump
+tw-0052,2026-09-29T07:17:00Z,Reddit,['PFE'],['pharma'],-0.75,0.875,supply_chain,0.9,5.399,"port strike halts $PFE shipments, supply chain disruption again"
+news-0042,2026-09-29T07:33:00Z,Economic Times,['TCS'],['it'],0.8571,0.9286,earnings,0.9167,6.814,"Tata Consultancy beats quarterly earnings, raises guidance on record profit"
+tw-0053,2026-09-29T07:50:00Z,Reddit,['JPM'],['banking'],0.8,0.9,earnings,0.8333,5.172,"$JPM beats earnings, record profit, analysts upgrade 🚀 #earnings"
+news-0043,2026-09-29T08:10:00Z,Economic Times,['HDFCBANK'],['banking'],0.0,0.3,other,0.5,1.216,HDFC Bank to hold annual general meeting next month
+tw-0054,2026-09-29T08:22:00Z,Reddit,['TATAMOTORS'],['auto'],-0.8333,0.9167,geopolitical,0.9,6.383,"$TATAMOTORS 🚨 sanctions + border tensions = oil supply disruption, market crash incoming #war #markets"
+news-0044,2026-09-29T08:50:00Z,Reuters,['PFE'],['pharma'],-0.6667,0.8333,legal,0.7639,5.906,Court fines Pfizer in fraud lawsuit
+tw-0055,2026-09-29T08:50:00Z,Reddit,['BA'],['industrials'],0.6667,0.8333,product_launch,0.8333,3.612,"$BA launches new product today, shares rally 📈 #launch"
+tw-0056,2026-09-29T09:25:00Z,Reddit,['XOM'],['energy'],-0.8,0.9,geopolitical,0.5556,5.172,"war escalating, sanctions everywhere. recession fears are real, sell-off day $XOM"
+news-0045,2026-09-29T09:30:00Z,Economic Times,['RELIANCE'],['energy'],0.8571,0.9286,earnings,0.9167,6.814,"Reliance Industries beats quarterly earnings, raises guidance on record profit"
+tw-0057,2026-09-29T09:54:00Z,Twitter,['XOM'],['energy'],-0.8333,0.9167,geopolitical,0.9,6.666,"$XOM 🚨 sanctions + border tensions = oil supply disruption, market crash incoming #war #markets"
+news-0046,2026-09-29T10:10:00Z,Bloomberg,['AAPL'],['it'],0.8571,0.9286,earnings,0.9167,7.057,"Apple beats quarterly earnings, raises guidance on record profit"
+tw-0058,2026-09-29T10:31:00Z,Twitter,['PFE'],['pharma'],0.0,0.3,other,0.5,1.18,"$PFE AGM next month, nothing new #investing"
+news-0047,2026-09-29T10:54:00Z,Economic Times,['TATAMOTORS'],['auto'],-0.75,0.875,supply_chain,0.9375,6.67,"Port strike halts Tata Motors shipments, supply chain disruption widens"
+tw-0059,2026-09-29T10:59:00Z,Reddit,['HDFCBANK'],['banking'],-0.8,0.9,geopolitical,0.5556,5.172,"war escalating, sanctions everywhere. recession fears are real, sell-off day $HDFCBANK"
+tw-0060,2026-09-29T11:30:00Z,Reddit,['TATAMOTORS'],['auto'],-0.75,0.875,credit_event,0.9,5.861,"$TATAMOTORS credit rating downgraded!! default fears, debt restructuring talk #credit"
+news-0048,2026-09-29T11:32:00Z,Reuters,['HDFCBANK'],['banking'],0.0,0.3,other,0.5,1.225,HDFC Bank to hold annual general meeting next month
+tw-0061,2026-09-29T12:06:00Z,Twitter,['BA'],['industrials'],-0.8333,0.9167,geopolitical,0.9,6.666,"$BA 🚨 sanctions + border tensions = oil supply disruption, market crash incoming #war #markets"
+news-0049,2026-09-29T12:11:00Z,Economic Times,['HDFCBANK'],['banking'],0.0,0.3,other,0.5,1.216,HDFC Bank to hold annual general meeting next month
+tw-0062,2026-09-29T12:37:00Z,Twitter,['RELIANCE'],['energy'],-0.8,0.9,cyber_operational,0.9167,6.232,"$RELIANCE hack confirmed, breach + shutdown. ransomware attack ugh #cyber"
+news-0050,2026-09-29T12:55:00Z,Economic Times,['XOM'],['energy'],0.0,0.3,other,0.5,1.216,Exxon Mobil to hold annual general meeting next month
+tw-0063,2026-09-29T13:09:00Z,Twitter,['PFE'],['pharma'],-0.75,0.875,credit_event,0.875,6.04,"missed payment at $PFE?? bankruptcy rumours, downgrade incoming"
+news-0051,2026-09-29T13:35:00Z,Reuters,['XOM'],['energy'],0.0,0.3,other,0.5,1.225,Exxon Mobil to hold annual general meeting next month
+tw-0064,2026-09-29T13:41:00Z,Reddit,['JPM'],['banking'],0.0,0.3,other,0.5,1.171,"$JPM AGM next month, nothing new #investing"
+tw-0065,2026-09-29T14:12:00Z,Twitter,['AAPL'],['it'],0.0,0.3,other,0.5,1.18,"$AAPL AGM next month, nothing new #investing"
+news-0052,2026-09-29T14:13:00Z,Bloomberg,['AAPL'],['it'],-0.4,0.9,earnings,0.7639,4.683,"Apple misses quarterly earnings, issues profit warning"
+tw-0066,2026-09-29T14:43:00Z,Twitter,['TATAMOTORS'],['auto'],0.6667,0.8333,product_launch,0.8333,3.75,"$TATAMOTORS launches new product today, shares rally 📈 #launch"
+news-0053,2026-09-29T14:52:00Z,Reuters,['RELIANCE'],['energy'],0.8571,0.9286,earnings,0.9167,7.057,"Reliance Industries beats quarterly earnings, raises guidance on record profit"
+tw-0067,2026-09-29T15:17:00Z,Reddit,['JPM'],['banking'],0.8,0.9,earnings,0.8333,5.172,"$JPM beats earnings, record profit, analysts upgrade 🚀 #earnings"
+news-0054,2026-09-29T15:33:00Z,Economic Times,['RELIANCE'],['energy'],-0.4,0.9,earnings,0.7639,4.535,"Reliance Industries misses quarterly earnings, issues profit warning"
+tw-0068,2026-09-29T15:49:00Z,Reddit,['WMT'],['retail'],-0.75,0.875,regulatory,0.9167,5.596,"regulator probe into $WMT, fine and ban risk #regulation"
+tw-0069,2026-09-29T16:19:00Z,Twitter,['TATAMOTORS'],['auto'],0.6667,0.8333,product_launch,0.8333,3.75,"$TATAMOTORS launches new product today, shares rally 📈 #launch"

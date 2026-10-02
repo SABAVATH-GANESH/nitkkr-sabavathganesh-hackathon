@@ -1,0 +1,30 @@
+{
+  "total_steps": 118,
+  "initial_nav": 1000.0,
+  "final_index_nav": 1031.0,
+  "final_benchmark_nav": 1016.7,
+  "cumulative_return_pct": 3.1,
+  "benchmark_return_pct": 1.67,
+  "excess_return_pct": 1.43,
+  "annualized_sharpe": 23.5,
+  "max_drawdown_pct": 0.02,
+  "total_turnover": 5.1128,
+  "total_cost_drag_bps": 25.99,
+  "current_weights": {
+    "AAPL": 0.062497,
+    "MSFT": 0.0652,
+    "NVDA": 0.0652,
+    "JPM": 0.084103,
+    "HDFCBANK": 0.065152,
+    "XOM": 0.065187,
+    "RELIANCE": 0.063518,
+    "BA": 0.06502,
+    "TATAMOTORS": 0.109419,
+    "PFE": 0.064298,
+    "WMT": 0.029605,
+    "TCS": 0.0652,
+    "GOOGL": 0.0652,
+    "AMZN": 0.0652,
+    "TSLA": 0.0652
+  }
+}
