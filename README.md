@@ -3,7 +3,7 @@
 **Candidate Name:** Sabavath Ganesh  
 **College Email ID:** sabavathganesh@nitkkr.ac.in  
 **College / Campus:** National Institute of Technology, Kurukshetra  
-**Demo Video Link:** [YouTube Unlisted Link: FinRisk AI Terminal Demo]  
+**Demo Video Link:** `https://youtu.be/YOUR_UNLISTED_VIDEO_ID` *(Paste your unlisted YouTube demo video URL here)*  
 **Slide Deck Link:** Included in repo: [docs/presentation.pdf](docs/presentation.pdf) | High-Res Architecture: [docs/architecture.png](docs/architecture.png)  
 
 ---
@@ -96,7 +96,7 @@ All demonstration data is **reproducible, self-contained, and synthetic**, gener
 ```bash
 # 1. Clone repository
 git clone https://github.com/sabavathganesh/nitkkr-sabavathganesh-hackathon.git
-cd yourcollege-yourname-hackathon
+cd nitkkr-sabavathganesh-hackathon
 
 # 2. Create and activate a clean virtual environment
 python -m venv venv
@@ -167,10 +167,31 @@ python scripts/make_docs.py
 
 ---
 
-## 7. Live Jury Pitch & Technical Q&A Prep
+## 7. Assumptions, Methodological Limitations & Future Roadmap
+
+To ensure institutional credibility and complete transparency during evaluation, we document our core design assumptions and known limitations:
+
+1. **Dual-Tier NLP Inference in Demonstration:**
+   - The codebase includes full PyTorch/Transformers integration for `ProsusAI/finbert` and `facebook/bart-large-mnli`.
+   - The default runnable demonstration intentionally uses our **deterministic financial lexicon and regex boundary engine**. This is a deliberate engineering choice to eliminate multi-gigabyte model downloads and ensure instant startup (<0.1ms per article) and zero crashes in offline or CPU-only evaluation environments.
+2. **Synthetic Simulation vs. Real-Market Alpha:**
+   - The reported **+1.43 percentage-point excess return** and **23.5 Sharpe ratio** are outputs of a controlled synthetic crisis backtest demonstrating the mathematical mechanics of the $\tanh$ sentiment tilt and turnover friction. They represent simulation validation, **not a claim of live-market trading performance**.
+3. **Module B Adverse Sentiment Gate:**
+   - In accordance with wholesale credit risk practices, Module B stress tests evaluate **adverse risk scenarios**. Therefore, triggering requires both high severity ($\text{Impact} > 7.0$) AND negative tone ($\text{Sentiment} \le -0.10$). A high-impact event with positive sentiment (e.g., an emergency peace accord or surprise rate cut) does not trigger capital-depleting stress revaluations.
+4. **Data Ingestion Reality:**
+   - The platform supports real live financial news via Yahoo Finance Live RSS and GDELT. Social media feeds are provided via realistic synthetic replay (`data/synthetic_social.csv`) because the official Twitter/X API v2 requires an enterprise commercial tier ($100+/month). Both feeds merge into a unified `MultiSource` to fulfill the two-source mandate across all modes.
+5. **Entity Linking & Valuation Scope:**
+   - Ticker extraction uses regex boundaries on 15 global bellwethers; production deployment would integrate full Financial Named Entity Recognition (NER).
+   - Asset valuation utilizes parametric sensitivities (Duration, Convexity, Delta, DV01, Merton PD expansion) rather than hours-long Monte Carlo path generation to enable instant real-time risk revaluation.
+
+---
+
+## 8. Live Jury Pitch & Technical Q&A Prep
 
 - **Q: Why implement both Module A and Module B when only one was required?**  
   *A:* In institutional finance, risk intelligence is not a silo. The exact same NLP signal stream serves both the **front office** (tactical sentiment tilt to capture alpha and manage factor weights) and the **middle/back office** (enterprise wholesale credit stress testing and capital adequacy under CCAR). Building both proves the unified architecture of our AI/NLP engine.
+- **Q: What happens if a geopolitical event has Impact 8.5 but positive sentiment?**  
+  *A:* Our stress testing engine (Module B) is explicitly gated for **adverse capital loss scenarios** ($\text{Sentiment} \le -0.10$). An Impact 8.5 announcement with positive sentiment (e.g., an unexpected peace accord or major sanctions lifting) is recognized as a major event by the NLP engine and increases equity weights in Module A, but does not trigger downside wholesale loss haircuts in Module B.
 - **Q: How does the system handle NLP model availability and inference latency?**  
   *A:* We designed an institutional **dual-tier NLP architecture**. Tier 1 provides deep transformer integration (`ProsusAI/finbert` and `facebook/bart-large-mnli`). Tier 2 provides an offline, deterministic financial lexicon and regex boundary engine with negation handling (`"not a loss"`). In environments where multi-gigabyte PyTorch weights are not pre-cached, the system executes deterministically with sub-millisecond latency (<0.1ms per article) and zero crash risk.
 - **Q: How do you prevent social media rumors from triggering false-alarm stress tests?**  

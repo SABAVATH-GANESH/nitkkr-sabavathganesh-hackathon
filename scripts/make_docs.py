@@ -180,13 +180,34 @@ def deck(signals, comb, evts, reb_summary):
         c.setFont("Helvetica-Bold", 24)
         c.drawString(40, H - 48, title)
 
-        # Content bullets
+        # Content bullets with automatic line wrapping
         c.setFillColor(HexColor("#1e293b"))
         y = H - 110
+        font_size = 15.0 if len(bullets) > 5 else 16.0
+        line_height = 21
+        max_w = W - 90
+
         for b in bullets:
-            c.setFont("Helvetica", 17)
-            c.drawString(45, y, b)
-            y -= 36
+            words = b.split(" ")
+            lines = []
+            curr = []
+            for w in words:
+                test_str = " ".join(curr + [w])
+                if c.stringWidth(test_str, "Helvetica", font_size) <= max_w:
+                    curr.append(w)
+                else:
+                    if curr:
+                        lines.append(" ".join(curr))
+                    curr = [w]
+            if curr:
+                lines.append(" ".join(curr))
+
+            for i, line_text in enumerate(lines):
+                indent = 45 if i == 0 else 62
+                c.setFont("Helvetica", font_size)
+                c.drawString(indent, y, line_text)
+                y -= line_height
+            y -= 6
 
         # Optional embedded image
         if img and Path(img).exists():
@@ -265,17 +286,17 @@ def deck(signals, comb, evts, reb_summary):
     # ---------------- SLIDE 5: KEY RESULTS ----------------
     slide("4. Key Results & Quantitative Demonstration", [
         f"• Signal Processing: Processed {len(signals)} signals ({n_news} news wires, {n_social} social posts).",
-        f"• Module A Performance: +{reb_summary.cumulative_return_pct:.2f}% Index Return (+{reb_summary.excess_return_pct:.2f}% net alpha vs benchmark), Sharpe: {reb_summary.annualized_sharpe:.2f}.",
-        f"• Module B Stress Impact: {len(evts)} stress events triggered (>7.0); worst-case loss of ${-comb.pnl/1e6:,.1f}M ({comb.pnl_pct:.1%}) on $602M book.",
+        f"• Module A Performance: +{reb_summary.cumulative_return_pct:.2f}% Dynamic Index vs +{reb_summary.benchmark_return_pct:.2f}% Benchmark (+{reb_summary.excess_return_pct:.2f}% excess return in simulation, Sharpe: {reb_summary.annualized_sharpe:.1f}, Drawdown: {reb_summary.max_drawdown_pct:.2f}%).",
+        f"• Module B Stress Impact: {len(evts)} adverse stress events triggered (>7.0 & adverse sentiment); worst-case loss of ${-comb.pnl/1e6:,.1f}M ({comb.pnl_pct:.2%}) on $602.35M wholesale book.",
         "• Source Credibility: Social media rumors discounted appropriately, avoiding false positive portfolio stress.",
     ], img=DOCS / "results.png")
 
     # ---------------- SLIDE 6: DOMAIN IMPACT ----------------
     slide("5. Domain Impact & Wholesale Banking Value", [
-        "• Quantitative Risk Automation: Compresses headline-to-stress analysis from manual scenario spreadsheet cycles to sub-second automated repricing.",
-        "• Front-Office & Asset Management (Module A): Dynamic sentiment alpha tilt captures price drift with bounded turnover.",
-        "• Enterprise Risk & Treasury (Module B): Automated regulatory stress testing under CCAR / Basel III frameworks.",
-        "• Capital Protection: Early detection of credit/geopolitical shocks allows treasury teams to hedge before market pricing.",
+        "• Quantitative Risk Automation: Compresses headline-to-stress turnaround from hours of manual spreadsheet cycles to sub-second automated scenario repricing.",
+        "• Front-Office & Asset Management (Module A): Dynamic sentiment tilt captures drift with bounded turnover and long-only box limits.",
+        "• Enterprise Risk & Treasury (Module B): Automated adverse event stress testing under CCAR and Basel III banking frameworks.",
+        "• Capital Protection: Early detection of credit/geopolitical shocks allows treasury teams to reprice exposures before market contagion.",
         "• Auditability & Compliance: Every signal, assumption, and revaluation step is logged in transparent JSON/CSV schemas.",
     ])
 
