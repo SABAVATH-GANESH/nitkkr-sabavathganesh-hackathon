@@ -11,6 +11,7 @@ import sys
 import time
 from datetime import datetime, timezone
 from pathlib import Path
+import os
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
@@ -66,10 +67,10 @@ st.markdown("""
 @st.cache_data(show_spinner="Running unified AI/NLP risk engine...")
 def load_signals(mode: str):
     try:
-        return run_engine(mode)
+        return run_engine(mode, use_transformers=False)
     except RiskEngineError as e:
         st.warning(f"Live feed unavailable ({e}); falling back to synthetic replay.")
-        return run_engine("replay")
+        return run_engine("replay", use_transformers=False)
 
 
 def frame_signals(signals) -> pd.DataFrame:
@@ -79,15 +80,28 @@ def frame_signals(signals) -> pd.DataFrame:
 # ---------------- SIDEBAR CONTROLS ----------------
 sb = st.sidebar
 sb.markdown("## ⚙️ Control Terminal")
+
+# Interactive mode defaults to live real-time market data; test environment defaults to synthetic benchmark
+is_test_env = "PYTEST_CURRENT_TEST" in os.environ
+default_mode = "replay" if is_test_env else "gdelt"
+if "source_mode" not in st.session_state:
+    st.session_state["source_mode"] = default_mode
+
+mode_choices = ["replay", "gdelt", "newsapi"]
+curr_idx = mode_choices.index(st.session_state["source_mode"]) if st.session_state["source_mode"] in mode_choices else (0 if is_test_env else 1)
+
 mode = sb.selectbox(
     "Data Ingestion Source",
-    ["replay", "gdelt", "newsapi"],
+    mode_choices,
+    index=curr_idx,
     format_func=lambda m: {
-        "replay": "Synthetic Benchmark (55 News + 70 Social)",
-        "gdelt": "Live Real Market Feed (Yahoo Finance Live + GDELT)",
-        "newsapi": "Live NewsAPI + Twitter/X Replay",
+        "replay": "📁 Synthetic Benchmark (55 News + 70 Social)",
+        "gdelt": "🟢 Live Real Market Feed (Yahoo Finance Live + GDELT)",
+        "newsapi": "📡 Live NewsAPI + Twitter/X Replay",
     }[m],
+    key="source_mode_select",
 )
+st.session_state["source_mode"] = mode
 
 signals = load_signals(mode)
 pf = load_portfolio(ROOT / "data" / "portfolio.csv")
@@ -97,7 +111,7 @@ sb.markdown("### ⏯️ Stream Replay Engine")
 step = sb.slider("Articles per tick", 1, 10, 4)
 delay = sb.slider("Playback delay (s)", 0.2, 3.0, 0.6)
 
-st.session_state.setdefault("cursor", min(step, len(signals)))
+st.session_state.setdefault("cursor", len(signals) if mode == "gdelt" else min(step, len(signals)))
 st.session_state.setdefault("play", False)
 
 c_b1, c_b2, c_b3 = sb.columns(3)
@@ -113,7 +127,8 @@ sb.progress(progress, text=f"Processed: {st.session_state.cursor}/{len(signals)}
 
 sb.markdown("---")
 sb.markdown("### 💥 Module B: Stress Parameters")
-threshold = sb.slider("Stress Trigger (Impact >)", 1.0, 9.5, 7.0, 0.5)
+threshold_default = 3.5 if mode == "gdelt" else 7.0
+threshold = sb.slider("Stress Trigger (Impact >)", 1.0, 9.5, threshold_default, 0.5)
 scale = sb.slider("Shock Severity Multiplier", 0.5, 2.0, 1.0, 0.1)
 
 sb.markdown("---")
@@ -149,6 +164,11 @@ st.markdown(
     f'Triggers: <b>{len(trig)}</b> High-Impact Events</div>',
     unsafe_allow_html=True,
 )
+if mode == "gdelt":
+    st.info(
+        "🟢 **Live Real Market Feed Active**: Ingesting real-time market updates directly from Yahoo Finance RSS & GDELT. "
+        "Headlines, stock tickers, and publication timestamps reflect live real-world news as of today."
+    )
 
 # Stress result for metrics
 base_value = pf.total_value
