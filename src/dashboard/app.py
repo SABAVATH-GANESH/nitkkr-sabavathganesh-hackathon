@@ -81,11 +81,11 @@ sb = st.sidebar
 sb.markdown("## ⚙️ Control Terminal")
 mode = sb.selectbox(
     "Data Ingestion Source",
-    ["replay", "newsapi", "gdelt"],
+    ["replay", "gdelt", "newsapi"],
     format_func=lambda m: {
-        "replay": "Synthetic News (55) + Twitter/X (70)",
+        "replay": "Synthetic Benchmark (55 News + 70 Social)",
+        "gdelt": "Live Real Market Feed (Yahoo Finance Live + GDELT)",
         "newsapi": "Live NewsAPI + Twitter/X Replay",
-        "gdelt": "Live GDELT RSS + Twitter/X Replay",
     }[m],
 )
 

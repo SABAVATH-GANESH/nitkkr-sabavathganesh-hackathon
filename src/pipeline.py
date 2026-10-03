@@ -20,8 +20,8 @@ def build_source(mode: str = "replay", query: str = "stock market OR sanctions O
     social = CSVReplaySource(DATA / "synthetic_social.csv")
     if mode == "newsapi":
         return MultiSource([NewsAPISource(query), social])
-    if mode == "gdelt":
-        return MultiSource([GDELTRSSSource(query), social])
+    if mode in ("gdelt", "live"):
+        return GDELTRSSSource(query)
     return MultiSource([news, social])
 
 
