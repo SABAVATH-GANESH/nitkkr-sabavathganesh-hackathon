@@ -30,7 +30,7 @@ class NewsAPISource(ArticleSource):
             url = a.get("url") or ""
             basis = url or a.get("title") or ""
             recs.append({
-                "article_id": hashlib.sha1(basis.encode()).hexdigest()[:16],
+                "article_id": hashlib.sha256(basis.encode()).hexdigest()[:16],
                 "published_at": a.get("publishedAt"),
                 "source": (a.get("source") or {}).get("name") or "newsapi",
                 "title": a.get("title") or "", "body": a.get("description") or "", "url": url or None,

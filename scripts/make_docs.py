@@ -22,7 +22,7 @@ from reportlab.pdfgen import canvas
 from src.downstream import PortfolioStressTester, TacticalIndexRebalancer, load_portfolio
 from src.pipeline import DATA, run_engine
 
-NAME, COLLEGE = "[Your Full Name]", "[Your College Name]"
+NAME, COLLEGE = "Sabavath Ganesh", "National Institute of Technology, Kurukshetra"
 DOCS = ROOT / "docs"
 NAVY, TEAL, RED, EMERALD = "#0b2545", "#13a89e", "#c0392b", "#10b981"
 
@@ -272,7 +272,7 @@ def deck(signals, comb, evts, reb_summary):
 
     # ---------------- SLIDE 6: DOMAIN IMPACT ----------------
     slide("5. Domain Impact & Wholesale Banking Value", [
-        "• Quantitative Risk Automation: Compresses headline-to-stress analysis from 48 hours to under 2 seconds.",
+        "• Quantitative Risk Automation: Compresses headline-to-stress analysis from manual scenario spreadsheet cycles to sub-second automated repricing.",
         "• Front-Office & Asset Management (Module A): Dynamic sentiment alpha tilt captures price drift with bounded turnover.",
         "• Enterprise Risk & Treasury (Module B): Automated regulatory stress testing under CCAR / Basel III frameworks.",
         "• Capital Protection: Early detection of credit/geopolitical shocks allows treasury teams to hedge before market pricing.",

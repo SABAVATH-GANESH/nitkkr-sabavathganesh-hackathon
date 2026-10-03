@@ -83,7 +83,7 @@ class GDELTRSSSource(ArticleSource):
                 src_name = "Yahoo Finance (Live)"
 
             recs.append({
-                "article_id": hashlib.sha1((link or title).encode()).hexdigest()[:16],
+                "article_id": hashlib.sha256((link or title).encode()).hexdigest()[:16],
                 "published_at": ts,
                 "source": src_name,
                 "title": title,

@@ -81,22 +81,21 @@ def frame_signals(signals) -> pd.DataFrame:
 sb = st.sidebar
 sb.markdown("## ⚙️ Control Terminal")
 
-# Interactive mode defaults to live real-time market data; test environment defaults to synthetic benchmark
-is_test_env = "PYTEST_CURRENT_TEST" in os.environ
-default_mode = "replay" if is_test_env else "gdelt"
+# Multi-Source Benchmark is default to satisfy the two-source (News + Social) case study mandate
+default_mode = "replay"
 if "source_mode" not in st.session_state:
     st.session_state["source_mode"] = default_mode
 
 mode_choices = ["replay", "gdelt", "newsapi"]
-curr_idx = mode_choices.index(st.session_state["source_mode"]) if st.session_state["source_mode"] in mode_choices else (0 if is_test_env else 1)
+curr_idx = mode_choices.index(st.session_state["source_mode"]) if st.session_state["source_mode"] in mode_choices else 0
 
 mode = sb.selectbox(
     "Data Ingestion Source",
     mode_choices,
     index=curr_idx,
     format_func=lambda m: {
-        "replay": "📁 Synthetic Benchmark (55 News + 70 Social)",
-        "gdelt": "🟢 Live Real Market Feed (Yahoo Finance Live + GDELT)",
+        "replay": "📁 Multi-Source Benchmark (News + Social: 125 Signals)",
+        "gdelt": "🟢 Live Real Market Feed + Social (Yahoo Finance Live RSS)",
         "newsapi": "📡 Live NewsAPI + Twitter/X Replay",
     }[m],
     key="source_mode_select",
