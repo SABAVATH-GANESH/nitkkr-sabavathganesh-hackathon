@@ -106,7 +106,7 @@ venv\Scripts\activate
 source venv/bin/activate
 
 # 3. Install dependencies
-pip install --upgrade pip
+python -m pip install --upgrade pip
 pip install -r requirements.txt
 
 # 4. Run full test suite (35 automated tests - 100% passing)
