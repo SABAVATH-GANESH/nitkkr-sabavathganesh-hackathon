@@ -1,7 +1,7 @@
 # Unified AI/NLP Financial Risk Engine & Dual Downstream Intelligence Platform - S&P Global & CRISIL Campus Hackathon 2026
 
 **Candidate Name:** Sabavath Ganesh  
-**College Email ID:** sabavathganesh@nitkkr.ac.in  
+**College Email ID:** 123103003@nitkkr.ac.in  
 **College / Campus:** National Institute of Technology, Kurukshetra  
 **Demo Video Link:** `https://youtu.be/YOUR_UNLISTED_VIDEO_ID` *(Paste your unlisted YouTube demo video URL here)*  
 **Slide Deck Link:** Included in repo: [docs/presentation.pdf](docs/presentation.pdf) | High-Res Architecture: [docs/architecture.png](docs/architecture.png)  
@@ -95,7 +95,7 @@ All demonstration data is **reproducible, self-contained, and synthetic**, gener
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/sabavathganesh/nitkkr-sabavathganesh-hackathon.git
+git clone https://github.com/SABAVATH-GANESH/nitkkr-sabavathganesh-hackathon.git
 cd nitkkr-sabavathganesh-hackathon
 
 # 2. Create and activate a clean virtual environment
