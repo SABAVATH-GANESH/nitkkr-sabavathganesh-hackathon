@@ -3,9 +3,9 @@
 **Candidate Name:** Sabavath Ganesh  
 **College Email ID:** 123103003@nitkkr.ac.in  
 **College / Campus:** National Institute of Technology, Kurukshetra  
-**Demo Video Link:** `https://youtu.be/YOUR_UNLISTED_VIDEO_ID` *(Paste your unlisted YouTube demo video URL here)*  
+**Demo Video Link:** https://youtu.be/K9gepevjtPQ 
 **Slide Deck Link:** https://www.dropbox.com/scl/fi/2jgd18m99hhoqjfsoa8pp/presentation.pdf?rlkey=tb515k9b3oog9y1v1ck4mlddv&st=9syo4bvt&dl=0
-**High-Res Architecture:** [docs/architecture.png](docs/architecture.png)  
+
 
 ---
 
