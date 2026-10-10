@@ -4,7 +4,8 @@
 **College Email ID:** 123103003@nitkkr.ac.in  
 **College / Campus:** National Institute of Technology, Kurukshetra  
 **Demo Video Link:** `https://youtu.be/YOUR_UNLISTED_VIDEO_ID` *(Paste your unlisted YouTube demo video URL here)*  
-**Slide Deck Link:** Included in repo: [docs/presentation.pdf](docs/presentation.pdf) | High-Res Architecture: [docs/architecture.png](docs/architecture.png)  
+**Slide Deck Link:** Included in repo: https://www.dropbox.com/scl/fi/2jgd18m99hhoqjfsoa8pp/presentation.pdf?rlkey=tb515k9b3oog9y1v1ck4mlddv&st=9syo4bvt&dl=0
+**High-Res Architecture: [docs/architecture.png](docs/architecture.png)  
 
 ---
 
@@ -153,50 +154,3 @@ python scripts/make_docs.py
 
 ---
 
-## 6. Demo Video Walkthrough Script (10 Minutes)
-
-| Segment | Timing | Action & Talking Points |
-|---|---|---|
-| **1. Executive Introduction** | 0:00 - 0:45 | • Introduce yourself (Sabavath Ganesh, National Institute of Technology Kurukshetra).<br>• Problem: Risk teams drown in text; manual shock pricing is too slow.<br>• Solution: Unified AI/NLP Risk Engine powering **both** Tactical Rebalancing (Module A) and Wholesale Stress Testing (Module B). |
-| **2. Setup & Code Verification** | 0:45 - 1:45 | • Open terminal: show clean repository structure and virtual environment.<br>• Run `pytest -v`: show **35 tests passing** in under 32 seconds.<br>• Run `python main.py`: show headless pipeline generating all JSON/CSV outputs in `data/output/`. |
-| **3. Global Risk Stream** | 1:45 - 3:30 | • Launch `streamlit run src/dashboard/app.py`.<br>• Tab 1: Tour the 2D Impact vs Time scatter plot and event distribution.<br>• Demonstrate Playback controls (Play, Step, Slider) and explain source credibility discount (News vs Social Media). |
-| **4. Module A: Tactical Index Rebalancer** | 3:30 - 5:30 | • Tab 2: Explain the 15-stock mock index and dynamic sentiment tilt formula.<br>• Highlight the live NAV performance curve: **+1.43% net excess alpha** over the static equal-weight benchmark.<br>• Show the constituent allocation bar chart, box boundaries (1%–22%), and turnover log. |
-| **5. Module B: Wholesale Stress Tester** | 5:30 - 7:30 | • Tab 3: Walk through the $602.35M wholesale book (loans, bonds, derivatives, equities).<br>• Select "Combined Worst-Case" to show the **-$71.1M loss (-11.81%)** across asset classes.<br>• Inspect an individual geopolitical event (e.g. missile sanctions) and explain the credit spread + PD shock transmission. |
-| **6. Interactive NLP Sandbox** | 7:30 - 9:00 | • Tab 4: Type a custom headline: *"Severe cyberattack paralyzes HDFC Bank core payment systems"*.<br>• Click "Analyze & Simulate": watch the engine extract Sentiment (-0.85), Event (`CYBER_OPS`), and Impact (8.2/10).<br>• Show instant downstream reaction: HDFCBANK weight drops in Module A, and wholesale loan/derivative stress loss is quantified in Module B! |
-| **7. Conclusion & Next Steps** | 9:00 - 10:00 | • Tab 5: Highlight Pydantic v2 data lineage, download buttons for CSV/JSON signals.<br>• Summarize future roadmap: event-study calibration, NER entity extraction, and correlated copula tail risk.<br>• Thank the S&P Global and CRISIL jury. |
-
----
-
-## 7. Assumptions, Methodological Limitations & Future Roadmap
-
-To ensure institutional credibility and complete transparency during evaluation, we document our core design assumptions and known limitations:
-
-1. **Dual-Tier NLP Inference in Demonstration:**
-   - The codebase includes full PyTorch/Transformers integration for `ProsusAI/finbert` and `facebook/bart-large-mnli`.
-   - The default runnable demonstration intentionally uses our **deterministic financial lexicon and regex boundary engine**. This is a deliberate engineering choice to eliminate multi-gigabyte model downloads and ensure instant startup (<0.1ms per article) and zero crashes in offline or CPU-only evaluation environments.
-2. **Synthetic Simulation vs. Real-Market Alpha:**
-   - The reported **+1.43 percentage-point excess return** and **23.5 Sharpe ratio** are outputs of a controlled synthetic crisis backtest demonstrating the mathematical mechanics of the $\tanh$ sentiment tilt and turnover friction. They represent simulation validation, **not a claim of live-market trading performance**.
-3. **Module B Adverse Sentiment Gate:**
-   - In accordance with wholesale credit risk practices, Module B stress tests evaluate **adverse risk scenarios**. Therefore, triggering requires both high severity ($\text{Impact} > 7.0$) AND negative tone ($\text{Sentiment} \le -0.10$). A high-impact event with positive sentiment (e.g., an emergency peace accord or surprise rate cut) does not trigger capital-depleting stress revaluations.
-4. **Data Ingestion Reality:**
-   - The platform supports real live financial news via Yahoo Finance Live RSS and GDELT. Social media feeds are provided via realistic synthetic replay (`data/synthetic_social.csv`) because the official Twitter/X API v2 requires an enterprise commercial tier ($100+/month). Both feeds merge into a unified `MultiSource` to fulfill the two-source mandate across all modes.
-5. **Entity Linking & Valuation Scope:**
-   - Ticker extraction uses regex boundaries on 15 global bellwethers; production deployment would integrate full Financial Named Entity Recognition (NER).
-   - Asset valuation utilizes parametric sensitivities (Duration, Convexity, Delta, DV01, Merton PD expansion) rather than hours-long Monte Carlo path generation to enable instant real-time risk revaluation.
-
----
-
-## 8. Live Jury Pitch & Technical Q&A Prep
-
-- **Q: Why implement both Module A and Module B when only one was required?**  
-  *A:* In institutional finance, risk intelligence is not a silo. The exact same NLP signal stream serves both the **front office** (tactical sentiment tilt to capture alpha and manage factor weights) and the **middle/back office** (enterprise wholesale credit stress testing and capital adequacy under CCAR). Building both proves the unified architecture of our AI/NLP engine.
-- **Q: What happens if a geopolitical event has Impact 8.5 but positive sentiment?**  
-  *A:* Our stress testing engine (Module B) is explicitly gated for **adverse capital loss scenarios** ($\text{Sentiment} \le -0.10$). An Impact 8.5 announcement with positive sentiment (e.g., an unexpected peace accord or major sanctions lifting) is recognized as a major event by the NLP engine and increases equity weights in Module A, but does not trigger downside wholesale loss haircuts in Module B.
-- **Q: How does the system handle NLP model availability and inference latency?**  
-  *A:* We designed an institutional **dual-tier NLP architecture**. Tier 1 provides deep transformer integration (`ProsusAI/finbert` and `facebook/bart-large-mnli`). Tier 2 provides an offline, deterministic financial lexicon and regex boundary engine with negation handling (`"not a loss"`). In environments where multi-gigabyte PyTorch weights are not pre-cached, the system executes deterministically with sub-millisecond latency (<0.1ms per article) and zero crash risk.
-- **Q: How do you prevent social media rumors from triggering false-alarm stress tests?**  
-  *A:* Our calibrated impact formula scales raw severity by source credibility (`Reuters/Bloomberg: 1.0`, `Twitter/X: 0.5`, `Reddit: 0.4`). An unverified social post with high sentiment magnitude alone cannot cross the 7.0 stress threshold unless corroborated by reputable news wires.
-- **Q: How does Module A prevent excessive portfolio turnover and trading costs?**  
-  *A:* We employ an exponential decay factor ($\lambda = 0.65$) on rolling sentiment to filter high-frequency noise, a hyperbolic tangent ($\tanh$) squashing function on weight tilts, long-only box constraints (1% floor, 22% ceiling), and full tracking of basis-point transaction fees.
-- **Q: How are derivatives valued under stress in Module B?**  
-  *A:* We use first-order equity delta ($\Delta V = \delta \cdot \text{Notional} \cdot \Delta \text{Equity}$) and dollar value of an 01 ($\Delta V = \text{DV01} \cdot \Delta \text{Rate}_{\text{bps}}$), combined with expected loss expansion for counterparty credit risk.
